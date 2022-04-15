@@ -1,0 +1,10 @@
+.DS_Store
+
+# pycharm
+.idea/
+.idea
+*.iml
+
+
+# VS Code
+.vscode
