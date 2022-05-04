@@ -1,0 +1,1001 @@
+unique_patient_id,first_name,last_name,gender,date,treatment,measurement,hospital,note
+513781412,Anson,Dodson,Male,1991-10-31,"Octinoxate, TITANIUM DIOXIDE, and ZINC OXIDE",21.12,San Jose,
+5702981510,Alexandros,Farragher,Male,1968-05-01,Fig,36.93,Valinhos,
+7027366231,Gris,Brimmell,Male,2017-03-11,Titanium dioxide,89.44,Iida,
+7209922377,Gabi,Redgate,Female,2019-02-11,Alcohol,62.65,Jiasi,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+2189125286,Wash,Old,Male,2006-08-19,Nifedipine,3.25,Obo,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+2781419443,Tull,Illesley,Male,1963-11-24,Triclosan,8.27,Nanzhen,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+9928839301,Agosto,Bagot,Male,2004-02-11,Prednisone,81.52,Wulingyuan,
+6739827788,Muriel,Cottesford,Female,2008-01-10,Alendronate Sodium,11.67,Zhangguanying,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+5449083025,Kerby,Lowndes,Male,1984-07-17,Methocarbamol,62.25,Punta Alta,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+9192866573,,Nuscha,,1966-12-04,SODIUM FLUORIDE,7.99,,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+2994024446,Wallace,Zecchinii,Male,2017-06-22,Loratadine and pseudoephedrine sulfate,36.08,Dalovice,
+2749835860,Rick,Corkhill,Male,1978-11-28,Cefuroxime,96.63,Cangchang,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+4441755686,Pip,Gaddie,Male,1995-12-12,Zinc oxide,55.34,Fuhai,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+8323946876,,Brambley,,2005-10-24,Pantoprazole Sodium,51.83,,
+7845238503,Mateo,Stannion,Male,1960-12-16,ETHYL ALCOHOL,74.38,Tingsryd,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+4271600547,Salvador,Reade,Male,1968-07-02,"Oxybenzone, Octinoxate, Petrolatum",78.36,Kiuteta,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+4875994532,Clemente,MattiCCI,Male,2017-05-03,eltrombopag olamine,10.45,Charlesland,
+9785116921,Rhonda,MacKettrick,Female,1982-01-16,Loratadine,8.34,Dūrā al Qar‘,
+9104768566,Mathian,Euler,Male,2004-05-01,Guaifenesin,73.63,Figueira dos Cavaleiros,
+5691410059,Ardath,Bard,Female,1991-03-30,methylprednisolone,27.69,Staraya Derevnya,
+2480327191,Merwin,Ellwood,Male,1998-01-15,White petroleum,66.82,Jiangtou,
+365743801,Mia,Corkhill,Female,1967-04-10,Lactulose,62.46,Ar Rass,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+8774489283,Doralin,Kyte,Female,1974-08-16,"Phenylephrine Hydrochloride, Acetaminophen, Dextromethorphan Hydrobromide, and Guaifenesin",8.25,Charlotte,
+9877064146,Desiree,Kisby,Female,1965-09-06,Shadscale,2.26,Söderhamn,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+5510849967,Allys,Ilyin,Female,2017-10-12,hydrocodone bitartrate and acetaminophen,33.87,Lancaster,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+8922566019,Haven,Hubbocks,Male,1965-07-06,"Bismuthum metallicum, Aloe, Angelica sinensis radix, Antimon. crud., Arg. nit., Arnica, Arsenicum alb., Baptisia, Bryonia, Cinchona, Graphites, Hydrastis, Ipecac., Lachesis, Lycopodium, Myrrha, Nat. carb., Nux vom., Phosphorus, Pulsatilla, Zingiber, Chamomilla, Echinacea, Iris versicolor, Ruta, Taraxacum",46.87,Digne-les-Bains,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+5557144099,Nickey,Gascard,Male,1967-11-05,"Menthol, zinc oxide",97.9,Lakha Nëvre,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+2832650988,Huberto,Habeshaw,Male,1993-12-27,ropinirole,27.75,Cipicung,
+3371046990,Pascal,Benezet,Male,2021-01-21,TRICLOSAN,49.35,Montalegre,
+5245932393,Brockie,Greenard,Male,1960-11-07,Potassium Citrate,49.26,Puunage,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+6291012715,Barclay,Maunsell,Male,1966-10-07,"Arsenicum Album, Berberis Vulgaris, Bryonia, Calcarea Carbonica, Carduus Marianus, Cinchona Officinalis, Kali Carbonicum",97.66,Kongsvinger,
+9086140033,Sandie,Pregel,Female,2015-07-16,Ash Mixture,74.22,Saño,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+2156815461,Hercule,Andreoletti,Male,1979-03-18,Plum,66.26,Konobeyevo,
+1216437408,Mohandis,Semarke,Male,1961-11-27,phentermine hydrochloride,48.87,Tuchów,
+7619496319,Farrel,Ocheltree,Male,2018-12-19,diphenhydramine hydrochloride and zinc acetate,52.88,Baoxing,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+1733121781,Petra,Mosten,Female,2018-05-13,ENALAPRIL MALEATE,35.57,Jinhua,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+280093691,Isa,Esslemont,Female,1995-09-11,Pecan Carya illinoensis,23.3,Pengwan,
+4037887304,Gene,Bevir,Male,2010-05-04,Penicillium Mixture,16.38,Şaḩneh,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+6845376085,,Dugall,,1997-09-10,"Folliculinum, Oophorinum,",43.8,,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+8089073565,Derrik,Bony,Male,1996-09-08,"ALLIUM CEPA, ARSENICUM ALBUM, NUX VOMICA, EUPHRASIA OFFICINALIS, SABADILLA, STICTA PULMONARIA, ARALIA RACEMOSA, CUPRUM METALLICUM",97.11,Sotteville-lès-Rouen,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+1052185835,Chauncey,McAloren,Male,1997-04-08,"Coccus cacti, Drosera (Rotundifolia), Scilla maritima, Stica pulmonaria, Arsenicum iodatum, Causticum, Cuprum aceticum, Carbo vegetabilis, Kali carbonicum, Lachesis mutus,",11.08,Gawanan,
+2217952781,Robena,Aharoni,Female,1972-12-23,CYTARABINE,5.83,Ciseuseupan,
+6142862911,Felic,Kibbel,Male,2012-04-21,benzocaine,59.57,Estelí,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+8786219790,Marlo,Brighouse,Male,1996-02-21,Iron Dextran,76.57,Sugiharjo,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+231711328,Deane,Thompkins,Male,1977-11-30,Sumatriptan Succinate,1.8,Lençóis Paulista,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+6895985409,Brittney,Folkerts,Female,1975-05-01,Dicyclomine Hydrochloride,33.29,Sukamulia,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+9502231201,Mal,Ransbury,Male,2017-03-06,Apis Bryonia Special Order,47.17,Maralal,
+916696782,Rafaello,Arbor,Male,2007-08-02,Betaxolol Hydrochloride,90.14,Pazarić,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+1742460941,Garvey,Perillo,Male,1971-10-18,Nystatin,59.27,San Lorenzo,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+513781412,Anson,Dodson,Male,2007-10-11,Trifluoperazine Hydrochloride,14.51,Mendi,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+5702981510,Alexandros,Farragher,Male,2008-12-13,Famotidine,73.42,Walce,
+7027366231,Gris,Brimmell,Male,1983-04-06,Oxygen,24.07,Jinluo,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+7209922377,Gabi,Redgate,Female,1969-11-07,azithromycin,15.98,Mizoch,
+2189125286,Wash,Old,Male,2021-10-29,filgrastim,44.77,Pondoktelo,
+2781419443,Tull,Illesley,Male,1962-02-08,BENZALKONIUM CHLORIDE,60.15,Kuala Terengganu,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+9928839301,Agosto,Bagot,Male,1961-05-05,Triclosan,97.84,Selebi-Phikwe,
+6739827788,Muriel,Cottesford,Female,1988-05-18,Orphenadrine Citrate,59.55,Liufang,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+5449083025,Kerby,Lowndes,Male,1960-11-21,Penicillin V Potassium,30.97,,
+9192866573,,Nuscha,,1962-01-07,dextroamphetamine saccharate and amphetamine aspartate and dextroamphetamine sulfate and amphetamine sulfate,62.32,Jiangkou,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+2994024446,Wallace,Zecchinii,Male,2007-07-03,CHLOROXYLENOL,85.68,Privlaka,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+2749835860,Rick,Corkhill,Male,1971-11-30,"octinoxate, octisalate, zinc oxide, oxybenzone,",57.19,Bhunya,
+4441755686,Pip,Gaddie,Male,1970-02-05,ALCOHOL,46.5,Alajuelita,
+8323946876,,Brambley,,2000-04-17,ALCOHOL,51.77,Obukhiv,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+7845238503,Mateo,Stannion,Male,1997-02-04,Clotrimazole,16.74,Pérama,
+4271600547,Salvador,Reade,Male,1991-03-29,PLUMBUM METALLICUM,79.33,Taizi,
+4875994532,Clemente,MattiCCI,Male,1989-02-15,TITANIUM DIOXIDE,55.58,Pokrovka,
+9785116921,Rhonda,MacKettrick,Female,1983-05-04,Zaleplon,43.45,Fulnek,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+9104768566,Mathian,Euler,Male,2020-09-15,bacitracin zinc,28.6,Salto de Pirapora,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+5691410059,Ardath,Bard,Female,1999-08-10,"Benzocaine, Resorcinol",58.52,Danchang,
+2480327191,Merwin,Ellwood,Male,1966-11-11,"BENZALKONIUM CHLORIDE, BENZALKONIUM CHLORIDE, LIDOCAINE, BACITRACIN ZINC, NEOMYCIN SULFATE, POLYMYXIN B",19.9,Puttalam,
+365743801,Mia,Corkhill,Female,1986-02-27,Diphenhydramine HCl,66.08,Stari Grad,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+8774489283,Doralin,Kyte,Female,2017-06-13,Sodium Sulfacetamide,87.6,Gamovo,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+9877064146,Desiree,Kisby,Female,1960-08-13,Levothyroxine Sodium,73.54,Maxu,In congue. Etiam justo. Etiam pretium iaculis justo.
+5510849967,Allys,Ilyin,Female,1978-01-06,Ibuprofen,33.68,Góra,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+8922566019,Haven,Hubbocks,Male,1996-05-09,Levothyroxine Sodium,21.97,Shuanghe,
+5557144099,Nickey,Gascard,Male,2015-04-19,Famotidine,11.37,Wałcz,In congue. Etiam justo. Etiam pretium iaculis justo.
+2832650988,Huberto,Habeshaw,Male,1993-04-26,LORAZEPAM,87.57,Carman,
+3371046990,Pascal,Benezet,Male,2016-01-16,RUMEX CRISPUS WHOLE,28.95,Limanowa,
+5245932393,Brockie,Greenard,Male,1997-05-11,Anastrozole,70.18,Fengping,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+6291012715,Barclay,Maunsell,Male,2010-05-21,Magnesium hydroxide,52.74,Penelas,
+9086140033,Sandie,Pregel,Female,2009-02-23,"Angelica sinensis, radix, Aralia quinquefolia, Arg. nit., Arsenicum alb., Berber. aqui., Capsicum, Cinchona, Digitalis, Gelsemium, Hypericum, Ignatia, Iodium, Kali brom., Kali carb., Mag. phos., Nat. carb., Nat. mur., Phosphorus, Salix nigra, Sanguinaria, Sepia, Stramonium, Echinacea, Ginkgo",67.05,Sudislavl’,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+2156815461,Hercule,Andreoletti,Male,1976-05-28,Ibuprofen,6.56,Błonie,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+1216437408,Mohandis,Semarke,Male,1979-12-29,"acetaminophen, dextromethorphan HBr, doxylamine succinate, phenylephrine HCl",57.85,Rio Negro,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+7619496319,Farrel,Ocheltree,Male,1968-08-21,Lodgepole Pine,22.97,Olutanga,
+1733121781,Petra,Mosten,Female,2022-03-31,Hydrocodone Bitartrate and Ibuprofen,88.78,Lovrenc na Pohorju,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+280093691,Isa,Esslemont,Female,1961-08-30,Titanium dioxide,92.12,Berlin,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+4037887304,Gene,Bevir,Male,2014-04-28,HELIUM,40.47,Jezerce,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+6845376085,,Dugall,,2003-03-01,Cefuroxime Axetil,10.5,Chugay,
+8089073565,Derrik,Bony,Male,1987-04-22,"OCTINOXATE, TITANIUM DIOXIDE",36.85,,
+1052185835,Chauncey,McAloren,Male,1994-03-08,METHOTREXATE SODIUM,64.13,Donghai,
+2217952781,Robena,Aharoni,Female,1983-04-20,proparacaine hydrochloride,97.93,Bondy,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+6142862911,Felic,Kibbel,Male,2005-01-09,Pyrithione Zinc,96.51,Shawnee Mission,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+8786219790,Marlo,Brighouse,Male,2012-06-01,Petrolatum,30.5,Totok,
+231711328,Deane,Thompkins,Male,1968-03-15,OCTINOXATE and TITANIUM DIOXIDE,5.16,Gaocang,Fusce consequat. Nulla nisl. Nunc nisl.
+6895985409,Brittney,Folkerts,Female,2019-03-27,simvastatin,38.13,La Azulita,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+9502231201,Mal,Ransbury,Male,1984-05-01,not applicable,82.66,Quận Bốn,
+916696782,Rafaello,Arbor,Male,1977-10-13,Oxygen,57.66,Aknoul,
+1742460941,Garvey,Perillo,Male,2008-11-01,Caffeine,1.33,Saint-Brieuc,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+513781412,Anson,Dodson,Male,1987-03-26,Triclosan,13.81,Rustāq,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+5702981510,Alexandros,Farragher,Male,1967-01-06,cevimeline hydrochloride,80.65,Bulakan,
+7027366231,Gris,Brimmell,Male,2016-02-15,Hydroquinone,13.42,Sveg,
+7209922377,Gabi,Redgate,Female,1980-11-16,rocuronium bromide,77.84,Banjar Batuaji Kaja,
+2189125286,Wash,Old,Male,1985-05-06,"Alumina, Bryonia Alba",93.53,Shreveport,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+2781419443,Tull,Illesley,Male,1993-02-03,oatmeal,48.82,Mondlo,Fusce consequat. Nulla nisl. Nunc nisl.
+9928839301,Agosto,Bagot,Male,2014-05-30,"dl-camphor, l-menthol, methyl salicylate",89.11,Tongda,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+6739827788,Muriel,Cottesford,Female,1987-03-15,Aspirin,52.08,Dolní Sloupnice,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+5449083025,Kerby,Lowndes,Male,1975-12-29,"Bacitracin Zinc, Neomycin Sulfate, Polymyxin B Sulfate, and Pramoxine Hydrochloride",86.56,Karlobag,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+9192866573,,Nuscha,,1980-02-07,DIPHENHYDRAMINE HYDROCHLORIDE,68.82,La Rochelle,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+2994024446,Wallace,Zecchinii,Male,2019-02-13,Ampicillin sodium,9.31,San Pedro,Fusce consequat. Nulla nisl. Nunc nisl.
+2749835860,Rick,Corkhill,Male,1976-08-05,INTERFERON ALFA-2A,37.6,Kota Bharu,
+4441755686,Pip,Gaddie,Male,2002-10-12,Chlorpromazine Hydrochloride,43.8,Bangad,
+8323946876,,Brambley,,1962-10-01,Famotidine,50.8,Belfast,
+7845238503,Mateo,Stannion,Male,1960-05-21,Isoxsuprine hydrochloride,56.51,Kukoboy,
+4271600547,Salvador,Reade,Male,1978-12-18,Imiquimod,86.99,,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+4875994532,Clemente,MattiCCI,Male,1968-10-21,Octinoxate and Titanium Dioxide,49.05,Tianxingchang,
+9785116921,Rhonda,MacKettrick,Female,1962-10-09,Fexofenadine HCl,57.63,Jieshou,
+9104768566,Mathian,Euler,Male,1999-12-28,Wormwook,45.75,Idi Iroko,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+5691410059,Ardath,Bard,Female,2020-10-31,dimethicone,39,Suocheng,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+2480327191,Merwin,Ellwood,Male,1997-01-13,Cefpodoxime Proxetil,23.05,Pundong,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+365743801,Mia,Corkhill,Female,1999-09-20,OXYMETAZOLINE HYDROCHLORIDE,26.91,,
+8774489283,Doralin,Kyte,Female,1986-09-01,California Mugwort,72.57,Sembakung,
+9877064146,Desiree,Kisby,Female,1990-01-23,TRICLOSAN,75.13,Hörby,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+5510849967,Allys,Ilyin,Female,1982-08-11,Fluoride and Potassium Nitrate,9.36,Hwacheon,
+8922566019,Haven,Hubbocks,Male,1967-04-07,Tolnaftate,25.13,Las Flores,
+5557144099,Nickey,Gascard,Male,2009-03-21,Erythromycin,1.11,Mashtūl as Sūq,
+2832650988,Huberto,Habeshaw,Male,1969-08-04,Fexofenadine Hydrochloride,66.99,Rodniki,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+3371046990,Pascal,Benezet,Male,1962-08-22,Acetaminophen and Diphenhydramine HCl,45.62,Santa Rita Aplaya,
+5245932393,Brockie,Greenard,Male,1993-09-19,"Avobenzone 2.5%, Octinoxate 6%, Oxybenzone 3%",19.96,,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+6291012715,Barclay,Maunsell,Male,1960-05-04,Miconazole Nitrate,65.2,Hengdong Chengguanzhen,
+9086140033,Sandie,Pregel,Female,1972-03-25,"Arsenicum album, Aurum metallicum, Belladonna, Cactus grandiflorus, Cinchona officinalis, Digitalis purpurea, Kali carbonicum, Lithium carbonicum, Lycopodium clavatum, Mercurius solubilis, Naja tripudians,",8.05,Bordeaux,
+2156815461,Hercule,Andreoletti,Male,1974-03-13,somatropin,61.09,Panyindangan,
+1216437408,Mohandis,Semarke,Male,1998-02-28,"OCTOCRYLENE, OXYBENZONE",31.95,,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+7619496319,Farrel,Ocheltree,Male,1973-12-09,Sodium Bicarbonate,89.34,Dudchany,
+1733121781,Petra,Mosten,Female,2001-12-17,LISINOPRIL,62.38,Nglengkong,
+280093691,Isa,Esslemont,Female,2015-08-11,Bupropion hydrochloride,35.06,Kalkara,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+4037887304,Gene,Bevir,Male,1981-09-07,Alcohol,62.73,Sandaohezi,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+6845376085,,Dugall,,1991-10-27,Acetaminophen,83.03,Mineralni Bani,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+8089073565,Derrik,Bony,Male,1991-11-20,Zinc Oxide,64.24,Cesson-Sévigné,
+1052185835,Chauncey,McAloren,Male,1992-11-16,Menthol,54.14,Sepolong Timur,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+2217952781,Robena,Aharoni,Female,1983-07-09,Metronidazole,23.22,Shiki,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+6142862911,Felic,Kibbel,Male,2012-03-28,aspirin and caffeine,77.82,Valença,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+8786219790,Marlo,Brighouse,Male,2016-12-27,Benzocaine,58.39,Zhongcun,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+231711328,Deane,Thompkins,Male,1999-05-28,Triclosan,29.56,Emiliano Zapata,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+6895985409,Brittney,Folkerts,Female,2013-08-27,"Octinoxate, Oxybenzone, Titanium Dioxide",33.88,Masḩah,
+9502231201,Mal,Ransbury,Male,1970-09-11,House Dust,87.22,Yeşilköy,
+916696782,Rafaello,Arbor,Male,2017-11-04,Crab Apple,12.47,,
+1742460941,Garvey,Perillo,Male,1977-03-10,Venlafaxine Hydrochloride,56.98,Kajiki,
+513781412,Anson,Dodson,Male,1978-03-09,Aspirin,31.93,Alqueidão,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+5702981510,Alexandros,Farragher,Male,2010-01-21,nimodipine,12.99,,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+7027366231,Gris,Brimmell,Male,2000-02-15,"Plantain, English Plantago lanceolata",33.66,Konstantinovskoye,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+7209922377,Gabi,Redgate,Female,1990-06-08,Atorvastatin Calcium,35.66,Kapakabisa,
+2189125286,Wash,Old,Male,1968-04-14,Pullularia pullulans,4.34,Altkirch,
+2781419443,Tull,Illesley,Male,1980-04-25,fexofenadine hydrochloride,82.32,Špišić-Bukovica,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+9928839301,Agosto,Bagot,Male,2004-01-19,Southern Ragweed,24.3,Afántou,
+6739827788,Muriel,Cottesford,Female,1985-08-22,Furosemide,89.98,Nao,
+5449083025,Kerby,Lowndes,Male,1980-07-06,CALCAREA PHOSPHORICA,69.77,Oslo,
+9192866573,,Nuscha,,2002-05-15,"Dimethicone, Avobenzone, Octinoxate",96.13,Plérin,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+2994024446,Wallace,Zecchinii,Male,2016-04-15,Anticavity Toothpaste,90.32,Dongjian,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+2749835860,Rick,Corkhill,Male,2011-06-09,Phenytoin,49.33,Ibusuki,
+4441755686,Pip,Gaddie,Male,1963-05-16,"Acetaminophen, Diphenhydramine hydrochloride, Phenylephrine hydrochloride",75.54,Gaoyan,
+8323946876,,Brambley,,2006-05-30,benztropine mesylate,36.08,Sestroretsk,
+7845238503,Mateo,Stannion,Male,1964-01-28,dextromethorphan polistirex,45.44,Srbinovo,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+4271600547,Salvador,Reade,Male,1989-05-08,Hydromorphone HCl,54.51,Qinhe,
+4875994532,Clemente,MattiCCI,Male,1973-08-21,A-D-D,57.16,Velyki Sorochyntsi,
+9785116921,Rhonda,MacKettrick,Female,1998-07-16,SIMETHICONE,95.98,Aswan,
+9104768566,Mathian,Euler,Male,2003-02-19,Aspirin,37.87,Sombor,
+5691410059,Ardath,Bard,Female,1964-11-02,"Ibuprofen, Pseudoephedrine Hydrochloride",70.02,Gialo,
+2480327191,Merwin,Ellwood,Male,2013-04-24,Allopurinol,40.28,Xinquansi,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+365743801,Mia,Corkhill,Female,1997-05-18,diphenhydramine hydrochloride,8.8,Quanjiang,
+8774489283,Doralin,Kyte,Female,2006-02-14,Omeprazole,44.5,Pesochnoye,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+9877064146,Desiree,Kisby,Female,1978-05-04,Labetalol hydrochloride,97.57,Kesheng,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+5510849967,Allys,Ilyin,Female,1969-02-17,KETOROLAC TROMETHAMINE,12.49,Kotauneng,
+8922566019,Haven,Hubbocks,Male,1967-10-23,silver sulfadiazine,85.08,Aragarças,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+5557144099,Nickey,Gascard,Male,1972-02-23,Penicillium Chrysogenum Var. Chrysogenum,74.28,Dolní Bečva,
+2832650988,Huberto,Habeshaw,Male,1972-11-16,Acetaminophen and Aspirin and Caffeine,26.57,Ulyanovsk,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+3371046990,Pascal,Benezet,Male,2011-08-11,PETROLATUM,22.58,Char Bhadrāsan,
+5245932393,Brockie,Greenard,Male,1982-09-07,TRICLOSAN,2.62,Chiguata,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+6291012715,Barclay,Maunsell,Male,2001-01-20,Fulvestrant,59.13,Bejsce,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+9086140033,Sandie,Pregel,Female,1969-11-24,Paclitaxel,32.68,Ludgeřovice,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+2156815461,Hercule,Andreoletti,Male,1986-12-03,PYRITHIONE ZINC,52.71,Krajan Timur Suger Kidul,
+1216437408,Mohandis,Semarke,Male,1965-08-15,Bisacodyl,4.19,Gyumri,
+7619496319,Farrel,Ocheltree,Male,1978-07-12,Meclizine HCl,72.84,Baiyin,
+1733121781,Petra,Mosten,Female,1981-08-20,ETHYL ALCOHOL,41.35,Huangbu,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+280093691,Isa,Esslemont,Female,1962-08-19,ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE,21.91,,
+4037887304,Gene,Bevir,Male,1988-05-27,Equisetum Silicea,33.65,Sigli,
+6845376085,,Dugall,,1975-12-21,Trichophyton Mixture,55.73,Canauay,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+8089073565,Derrik,Bony,Male,2009-10-19,MIDAZOLAM HYDROCHLORIDE,67.23,Brušperk,
+1052185835,Chauncey,McAloren,Male,2012-08-20,"Acetaminophen, Dextromethorphan HBr, Doxylamine succinate",12.47,Forestville,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+2217952781,Robena,Aharoni,Female,1971-07-11,Sodium Fluoride,28.56,,
+6142862911,Felic,Kibbel,Male,1990-10-06,Calcium polycarbophil,13.34,Río Campo,In congue. Etiam justo. Etiam pretium iaculis justo.
+8786219790,Marlo,Brighouse,Male,1977-12-07,Aspirin,61.88,Adigeni,
+231711328,Deane,Thompkins,Male,2009-01-11,"TITANIUM DIOXIDE, OCTINOXATE, AND ZINC OXIDE",60.63,Jiagao,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+6895985409,Brittney,Folkerts,Female,1974-09-03,Labetalol HCl,71.28,Izumi,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+9502231201,Mal,Ransbury,Male,1982-09-01,fexofenadine hydrochloride,11.8,Nanmo,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+916696782,Rafaello,Arbor,Male,1990-05-22,Arnica e pl. tota 6,63.54,Sujiatuo,
+1742460941,Garvey,Perillo,Male,2008-04-17,SIMETHICONE,10.21,Jardín América,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+513781412,Anson,Dodson,Male,1975-05-22,"OCTINOXATE, TITANIUM DIOXIDE, and ZINC OXIDE",6.42,Debar,In congue. Etiam justo. Etiam pretium iaculis justo.
+5702981510,Alexandros,Farragher,Male,1985-12-16,OLANZAPINE,72.91,Desa Wetan Ciakar,
+7027366231,Gris,Brimmell,Male,2009-11-09,Hydrocodone Bitartrate and Acetaminophen,71.07,,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+7209922377,Gabi,Redgate,Female,1978-07-12,metoprolol succinate,9.64,Konduga,
+2189125286,Wash,Old,Male,1977-07-26,SILICON DIOXIDE,97.83,Makoua,
+2781419443,Tull,Illesley,Male,1964-07-16,Benzoyl Peroxide,43.63,Imeni Tsyurupy,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+9928839301,Agosto,Bagot,Male,1993-07-13,Triclosan,52.47,Debrecen,
+6739827788,Muriel,Cottesford,Female,1975-07-21,Lansoprazole,83.9,Dingcheng,
+5449083025,Kerby,Lowndes,Male,2020-05-17,donepezil hydrochloride,19.05,Amsterdam Westpoort,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+9192866573,,Nuscha,,1984-09-18,Fluconazole,47.64,Makbon,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+2994024446,Wallace,Zecchinii,Male,2006-07-19,Yellow Dock,18.16,Paseh,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+2749835860,Rick,Corkhill,Male,1983-12-11,Amlodipine Besylate,68.06,Novosin’kovo,
+4441755686,Pip,Gaddie,Male,1974-02-16,HALCINONIDE,58.32,Echeng,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+8323946876,,Brambley,,1972-03-22,Loratadine,31.8,Cool űrhajó,
+7845238503,Mateo,Stannion,Male,1965-02-07,fluphenazine hydrochloride,59.21,Markaz-e Woluswalī-ye Āchīn,
+4271600547,Salvador,Reade,Male,2017-11-26,KETOROLAC TROMETHAMINE,77.17,Rio das Ostras,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+4875994532,Clemente,MattiCCI,Male,2001-06-17,Telmisartan and Hydrochlorothiazide,1.48,Valašská Polanka,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+9785116921,Rhonda,MacKettrick,Female,1998-10-22,nicardipine hydrochloride,58.12,Shuiyuan,
+9104768566,Mathian,Euler,Male,2020-10-31,Gabapentin,99.01,Segezha,
+5691410059,Ardath,Bard,Female,1978-09-14,Triamcinolone Acetonide,1.68,Mosquera,
+2480327191,Merwin,Ellwood,Male,2001-12-16,Benzocaine,52.41,Xiaojiezi,
+365743801,Mia,Corkhill,Female,1971-12-04,Petrolatum,37.7,Kuala Terengganu,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+8774489283,Doralin,Kyte,Female,2012-12-15,PHELLINUS LINTEUS MYCELIUM,52.26,Taokeng,
+9877064146,Desiree,Kisby,Female,1960-08-27,epirubicin hydrochloride,76.33,San Antonio del Monte,
+5510849967,Allys,Ilyin,Female,2014-12-31,Doxylamine succinate,84.05,Oslo,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+8922566019,Haven,Hubbocks,Male,1970-11-16,Sodium Fluoride,79.97,Bualu,
+5557144099,Nickey,Gascard,Male,1993-02-28,SALICYLIC ACID,76.87,Rauco,
+2832650988,Huberto,Habeshaw,Male,2010-03-27,HYDROCORTISONE ACETATE,19.19,,
+3371046990,Pascal,Benezet,Male,2000-03-27,Loratadine and Pseudoephedrine Sulfate,97.12,Chóra,
+5245932393,Brockie,Greenard,Male,2002-11-13,ALCOHOL,74.76,Mongu,
+6291012715,Barclay,Maunsell,Male,2013-01-30,Anti-bacterial Hand Wash,47.48,Zhengdun,
+9086140033,Sandie,Pregel,Female,2001-02-04,"Neomycin sulfate, Polymyxin B Sulfate and Dexamethasone",56.31,Shanlian,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+2156815461,Hercule,Andreoletti,Male,1977-08-08,OXCARBAZEPINE,99.79,Calheta,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+1216437408,Mohandis,Semarke,Male,2003-01-01,Pyrithione Zinc,64.61,Dzaoudzi,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+7619496319,Farrel,Ocheltree,Male,2004-12-07,"Apis 6X, Euphrasia 6X, Sabadilla 6X",42.43,Zhongguanyi,
+1733121781,Petra,Mosten,Female,1985-01-06,dimethicone,13.29,Buur Gaabo,
+280093691,Isa,Esslemont,Female,1994-01-13,venlafaxine hydrochloride,95.26,Novoanninskiy,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+4037887304,Gene,Bevir,Male,2004-03-07,Salicylic Acid,26.23,Penedo,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+6845376085,,Dugall,,1964-05-24,Titanium Dioxide and Zinc Oxide,83.85,Santo Domingo,
+8089073565,Derrik,Bony,Male,1975-05-18,Titanium Dioxide and Zinc Oxide,96.57,Manticao,
+1052185835,Chauncey,McAloren,Male,1989-03-06,Loratadine and Pseudoephedrine Sulfate,98.67,Yongfu,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+2217952781,Robena,Aharoni,Female,1961-04-04,"Ensulizole, Octinoxate",64.63,Lambton Shores,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+6142862911,Felic,Kibbel,Male,2015-10-19,DOCUSATE CALCIUM,80.55,Huitán,
+8786219790,Marlo,Brighouse,Male,1989-04-19,Etodolac,2.44,Tierra Blanca,
+231711328,Deane,Thompkins,Male,1991-05-13,"Berberis vulgaris, Calcarea carbonica, Carboneum sulphuratum, Causticum, Cimicifuga racemosa, Cuprum aceticum, Ferrum metallicum, Kali phosphoricum, Ruta graveolens, Silicea, Spigelia anthelmia, Spiraea ulmaria",65.17,Balungao,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+6895985409,Brittney,Folkerts,Female,1990-12-30,Fentanyl,69.32,Lingquan,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+9502231201,Mal,Ransbury,Male,1981-08-22,Salicylic Acid,90.64,Susiec,
+916696782,Rafaello,Arbor,Male,2013-08-23,"Acetaminophen, Dextromethorphan Hydrobromide, Phenylephrine Hydrochloride",77.5,Laugar,
+1742460941,Garvey,Perillo,Male,1976-05-04,Azathioprine,5.22,Zarqa,
+513781412,Anson,Dodson,Male,2015-01-21,"OYSTER SHELL CALCIUM CARBONATE, CRUDE, GOLDENSEAL, POTASSIUM DICHROMATE, and PULSATILLA VULGARIS",84.74,Oslo,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+5702981510,Alexandros,Farragher,Male,1964-12-18,"Octinoxate, Octisalate, Oxybenzone",17.12,Kiruna,
+7027366231,Gris,Brimmell,Male,2004-07-18,OCTINOXATE,83.83,Jinjiang,
+7209922377,Gabi,Redgate,Female,1967-04-16,BENZTROPINE MESYLATE,39.14,Jinling,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+2189125286,Wash,Old,Male,2002-06-27,Valacyclovir Hydrochloride,58.09,,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+2781419443,Tull,Illesley,Male,2010-03-06,"Aloe socotrine, Apis mellifica, Avena sativa, Carbo vegetabilis, Equisetum hyemale, Gelsemium sempervirens, Pulsatilla, Selenium metallicum, Taraxacum officinale",94.03,Lalukoen Dua,
+9928839301,Agosto,Bagot,Male,1999-05-17,Cefdinir,53.32,Burrel,
+6739827788,Muriel,Cottesford,Female,1997-04-11,"Octinoxate, Octisalate, Oxybenzone",25.03,,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+5449083025,Kerby,Lowndes,Male,1977-03-20,Amoxicillin,88.06,Zhongfeng,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+9192866573,,Nuscha,,2015-01-25,fenofibrate,4.85,Pangkalanbunut,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+2994024446,Wallace,Zecchinii,Male,1961-02-14,Cefuroxime,76.29,Itupeva,
+2749835860,Rick,Corkhill,Male,1965-05-05,Acetaminophen,52.26,Tānk,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+4441755686,Pip,Gaddie,Male,1993-05-08,cefditoren pivoxil,5.54,Girardot,
+8323946876,,Brambley,,1999-08-16,paroxetine hydrochloride,70.21,Zango,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+7845238503,Mateo,Stannion,Male,2004-11-20,Levofloxacin,50.2,Mostek,
+4271600547,Salvador,Reade,Male,1989-03-17,Natural Medicine,64.7,Liutao,
+4875994532,Clemente,MattiCCI,Male,2009-10-20,ARNICA MONTANA,11.52,Chilly-Mazarin,
+9785116921,Rhonda,MacKettrick,Female,2015-02-23,TRICLOSAN,20.55,Yopal,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+9104768566,Mathian,Euler,Male,2021-03-28,CATTLE EPITHELIA,67.56,Senglea,
+5691410059,Ardath,Bard,Female,2009-06-21,spironolactone,40.21,Haikoudajie,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+2480327191,Merwin,Ellwood,Male,1977-12-07,Metoclopramide Hydrochloride,71.16,s-Hertogenbosch,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+365743801,Mia,Corkhill,Female,1991-09-12,"Avobenzone, Ensulizole, Octisalate, Octocrylene",92.55,Ōtake,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+8774489283,Doralin,Kyte,Female,2011-11-23,diltiazem hydrochloride,29.48,Dartang,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+9877064146,Desiree,Kisby,Female,1994-10-16,Oxygen,27.39,Örebro,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+5510849967,Allys,Ilyin,Female,2012-11-23,Topical Analgesic,8.85,Yushan,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+8922566019,Haven,Hubbocks,Male,2010-06-17,Aluminum Zirconium Tetrachlorohydrex GLY,29.25,Magoúla,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+5557144099,Nickey,Gascard,Male,2011-02-17,Guaifenesin,59.98,Xunhe,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+2832650988,Huberto,Habeshaw,Male,1971-01-15,conjugated estrogens,20.04,Talabaan,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+3371046990,Pascal,Benezet,Male,1969-08-22,Salicylic Acid,20.1,Lipa City,
+5245932393,Brockie,Greenard,Male,1997-01-03,"Aethusa cynapium, Arsenicum album, Cocculus indicus, Ipecacuanha, Kreosotum, Petroleum, Pulsatilla, Sanguinaria canadensis, Tabacum,",47.89,Ciudad Bolívar,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+6291012715,Barclay,Maunsell,Male,1980-05-24,ISOPROPYL ALCOHOL,88.28,Parintins,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+9086140033,Sandie,Pregel,Female,1963-12-07,RISEDRONATE SODIUM,86.06,Candijay,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+2156815461,Hercule,Andreoletti,Male,2012-07-16,"Aconitum napellus, Allium cepa, Ambrosia artemisiaefolia, Apis mellifica, Arsenicum album, Belladonna, Cactus grandiflorus, Dulcamara, Euphrasia officinalis, Gelsemium sempervirens, Graphites, Hamamelis virginiana, Hepar sulphuris calcareum, Kali iodatum, Mercurius vivus, Natrum muriaticum, Pulsatilla, Rhus toxicodendron, Ruta graveolens,Sabadilla, Sulphur, Thuja occidentalis, Zincum metallicum",62.62,Tanahbeureum,
+1216437408,Mohandis,Semarke,Male,1995-08-21,diltiazem hydrochloride,47,Veiga,
+7619496319,Farrel,Ocheltree,Male,2019-05-26,loratadine,77.4,Château-Richer,
+1733121781,Petra,Mosten,Female,2018-02-27,Diltiazem Hydrochloride,88.18,Izumo,
+280093691,Isa,Esslemont,Female,1993-07-27,Methocarbamol,93.59,Frederiksberg,
+4037887304,Gene,Bevir,Male,1997-04-30,etodolac,10.53,Qianying,
+6845376085,,Dugall,,1985-05-11,Aspen,22.48,Lagos,
+8089073565,Derrik,Bony,Male,1974-04-04,Clonidine Hydrochloride,83.16,Edissiya,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+1052185835,Chauncey,McAloren,Male,1982-04-18,Octinoxate and Oxybenzone,37.58,Conceição das Alagoas,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+2217952781,Robena,Aharoni,Female,2019-03-22,METHYLPHENIDATE HYDROCHLORIDE,67.66,Futian,
+6142862911,Felic,Kibbel,Male,2021-03-11,Paricalcitol,26.74,Batan,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+8786219790,Marlo,Brighouse,Male,1988-05-30,Octinoxate and Oxybenzone,29.16,Itajaí,
+231711328,Deane,Thompkins,Male,1988-10-31,White Petroleum,95.2,Dongxing,
+6895985409,Brittney,Folkerts,Female,2013-03-17,Olanzapine,91.62,Pojan,
+9502231201,Mal,Ransbury,Male,2004-04-11,Diethylpropion hydrochloride,12.79,Wasquehal,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+916696782,Rafaello,Arbor,Male,1977-10-08,PROMETHAZINE HYDROCHLORIDE,55.73,Bulungu,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+1742460941,Garvey,Perillo,Male,1961-04-16,Sertraline Hydrochloride,56.86,Peoria,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+513781412,Anson,Dodson,Male,1988-08-23,Doxazosin,95.87,Acherítou,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+5702981510,Alexandros,Farragher,Male,1995-03-30,metformin hydrochloride,70.21,Vittel,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+7027366231,Gris,Brimmell,Male,1990-10-16,emtricitabine and tenofovir disoproxil fumarate,40.79,,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+7209922377,Gabi,Redgate,Female,1987-01-01,Hydrocodone Bitartrate And Acetaminophen,46.36,Hezhi,
+2189125286,Wash,Old,Male,2016-12-29,"Naproxen sodium, Pseudoephedrine HCl",8.89,Jatobá,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+2781419443,Tull,Illesley,Male,1964-11-10,Ipratropium Bromide,91.55,Heshui,
+9928839301,Agosto,Bagot,Male,2021-02-11,Psyllium Dietary Fiber Supplement,20,Nàng Mau,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+6739827788,Muriel,Cottesford,Female,1991-07-17,SULFUR IODIDE,10.87,Bernardo de Irigoyen,
+5449083025,Kerby,Lowndes,Male,2008-07-20,sodium polystyrene sulfonate,7.61,Sucre,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+9192866573,,Nuscha,,1977-04-06,rosiglitazone maleate and metformin hydrochloride,96.94,Cruces de Anorí,
+2994024446,Wallace,Zecchinii,Male,1994-09-13,"ENSULIZOLE, OCTINOXATE, and TITANIUM DIOXIDE",56.7,,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+2749835860,Rick,Corkhill,Male,1997-07-21,Benzocaine,71.19,Montego Bay,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+4441755686,Pip,Gaddie,Male,1996-07-31,gentamicin sulfate,28.04,Kerrobert,
+8323946876,,Brambley,,1980-09-24,"Methyl Salicylate, Menthol, capsaicin",97.16,Nanjing,
+7845238503,Mateo,Stannion,Male,2009-05-17,Silicea Belladonna,32.44,Sadovo,
+4271600547,Salvador,Reade,Male,2016-09-28,Helium,45.96,Šardice,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+4875994532,Clemente,MattiCCI,Male,2000-05-14,Octinoxate and Titanium Dioxide,75.88,Malainen Luma,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+9785116921,Rhonda,MacKettrick,Female,2012-01-18,cefotaxime sodium,61.17,Rio Grande,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+9104768566,Mathian,Euler,Male,2017-02-05,heparin sodium,78.07,Yeosu,
+5691410059,Ardath,Bard,Female,1965-02-08,"Cetirizine HCl, Pseudoephedrine HCl",23.74,Stockholm,
+2480327191,Merwin,Ellwood,Male,2003-11-11,Aluminum Chlorohydrate,86.88,Perrelos,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+365743801,Mia,Corkhill,Female,1987-08-31,ATORVASTATIN CALCIUM,12.35,Lyon,
+8774489283,Doralin,Kyte,Female,1971-05-18,Lisinopril,12.21,Kyrenia,
+9877064146,Desiree,Kisby,Female,1968-06-30,"TABACUM, STAPHYSAGRIA, THUJA OCCIDENTALIS, LOBELIA INFLATA, MAGNESIA PHOSPHORICA",16.98,Lipljan,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+5510849967,Allys,Ilyin,Female,1999-05-20,CETYLPYRIDINIUM CHLORIDE,79.35,Sena Madureira,
+8922566019,Haven,Hubbocks,Male,2015-07-27,Hydrochlorothiazide,46.41,Falënki,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+5557144099,Nickey,Gascard,Male,2012-06-16,ISOPROPYL ALCOHOL,21.08,Beltinci,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+2832650988,Huberto,Habeshaw,Male,2016-04-27,Hydrocodone Bitartrate and Acetaminophen,70.61,Cernache do Bonjardim,
+3371046990,Pascal,Benezet,Male,2011-01-22,Lidocaine,45.9,,
+5245932393,Brockie,Greenard,Male,2007-07-06,ACTIVATED CHARCOAL ARTEMISIA ABSINTHIUM FLOWERING TOP MATRICARIA RECUTITA GENTIANA LUTEA ROOT AVENS EXTRACT BLACK PEPPER GINGER ANTIMONY TRISULFIDE ARSENIC TRIOXIDE,40.46,Jalqamūs,
+6291012715,Barclay,Maunsell,Male,1961-01-23,RISPERIDONE,76.84,Guinticgan,
+9086140033,Sandie,Pregel,Female,2008-10-08,Botrytis cinerea,63.15,Getung,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+2156815461,Hercule,Andreoletti,Male,1999-12-08,Clonidine Hydrochloride,4.11,Urbano Noris,
+1216437408,Mohandis,Semarke,Male,2015-02-04,OCTINOXATE and TITANIUM DIOXIDE,48.18,Hengxi,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+7619496319,Farrel,Ocheltree,Male,1985-09-26,Fluoxetine Hydrochloride,60.67,Linjiang,
+1733121781,Petra,Mosten,Female,2001-11-14,Maximum Strength Cough Relief,58.52,Ciechanów,
+280093691,Isa,Esslemont,Female,1964-01-06,Trazodone Hydrochloride,71.41,Arbais,
+4037887304,Gene,Bevir,Male,1990-01-12,Russian Thistle,28.31,Lianjiangkou,
+6845376085,,Dugall,,1963-05-11,Wheat Smut,42.57,Temryuk,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+8089073565,Derrik,Bony,Male,2003-11-11,Menthol,44.17,Świebodzice,
+1052185835,Chauncey,McAloren,Male,1980-05-24,PENTOSTATIN,56.88,Eadestown,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+2217952781,Robena,Aharoni,Female,2011-12-20,Epicoccum nigrum,70.76,Ramaram,
+6142862911,Felic,Kibbel,Male,1997-01-12,"OCTINOXATE, TITANIUM DIOXIDE",41.67,Bedayu,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+8786219790,Marlo,Brighouse,Male,2013-04-22,metformin hydrochloride,46.04,Kurashiki,
+231711328,Deane,Thompkins,Male,1974-05-12,Bisacodyl,29.52,Gbawe,
+6895985409,Brittney,Folkerts,Female,2002-07-17,Minoxidil,78.03,Cape Town,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+9502231201,Mal,Ransbury,Male,2006-11-25,Water Hemp,10.49,Shiyan,
+916696782,Rafaello,Arbor,Male,1991-09-27,Acetaminophen,70.04,Meniko,
+1742460941,Garvey,Perillo,Male,1980-02-24,Digoxin,68.67,La Unión,
+513781412,Anson,Dodson,Male,1992-10-10,"candida albicans, candida parapsilosis and penicillium roqueforti",39.84,Zapod,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+5702981510,Alexandros,Farragher,Male,2016-08-06,Benzalkonium Chloride,78.63,Imus,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+7027366231,Gris,Brimmell,Male,1987-06-20,Naproxen Sodium,68.33,Saint-Julien-en-Genevois,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+7209922377,Gabi,Redgate,Female,1967-07-03,KETOROLAC TROMETHAMINE,29.21,Ciechanów,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+2189125286,Wash,Old,Male,1982-03-23,Midazolam HCl,91.44,Bente,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+2781419443,Tull,Illesley,Male,1986-12-05,Orange Pollen,46.65,Pabuaran,
+9928839301,Agosto,Bagot,Male,2007-12-18,HYDROQUINONE,8.2,Uga,
+6739827788,Muriel,Cottesford,Female,2014-08-04,Chamomilla and Mercurius solubilis and Sulphur,63.66,Ryczywół,
+5449083025,Kerby,Lowndes,Male,2021-01-11,MENTHOL CAMPHOR,54.75,Kuanchuan,Fusce consequat. Nulla nisl. Nunc nisl.
+9192866573,,Nuscha,,2015-02-01,BENZOYL PEROXIDE,80.13,Svobody,
+2994024446,Wallace,Zecchinii,Male,1962-07-07,Miconazole nitrate,80.66,Mora,
+2749835860,Rick,Corkhill,Male,2004-12-15,Glyburide and Metformin Hydrochloride,89.65,,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+4441755686,Pip,Gaddie,Male,1993-02-10,Duloxetine,42.4,Kittilä,
+8323946876,,Brambley,,1978-08-21,Octinoxate Octisalate,58.61,Sierakowice,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+7845238503,Mateo,Stannion,Male,1967-09-26,Pravastatin Sodium,9.42,Scarborough,
+4271600547,Salvador,Reade,Male,1962-09-07,"Acetaminophen, Diphenhydramine Hydrochloride, and Phenylephrine Hydrochloride",66.39,Krajan,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+4875994532,Clemente,MattiCCI,Male,1995-05-22,OCTINOXATE and TITANIUM DIOXIDE,62.83,Kaura Namoda,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+9785116921,Rhonda,MacKettrick,Female,1960-11-20,Acetaminophen,64.8,Arendal,
+9104768566,Mathian,Euler,Male,1973-11-13,Dicloxacillin Sodium,60.53,Garunggang,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+5691410059,Ardath,Bard,Female,1974-06-07,Hydrocodone Bitartrate and Acetaminophen,42,Staryy Oskol,
+2480327191,Merwin,Ellwood,Male,1968-04-01,labetalol hydrochloride,59.33,Abbottābād,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+365743801,Mia,Corkhill,Female,1993-01-23,Guaifenesin,87.07,Taihua,
+8774489283,Doralin,Kyte,Female,1962-01-19,Mulberry Mix,34.58,,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+9877064146,Desiree,Kisby,Female,1968-02-17,ESZOPICLONE,82.03,Naas,
+5510849967,Allys,Ilyin,Female,2006-07-12,Topiramate,41.77,Petrikov,
+8922566019,Haven,Hubbocks,Male,1991-04-10,OXYGEN,34.91,Nakuru,
+5557144099,Nickey,Gascard,Male,1983-05-23,PREGABALIN,96.89,Tilburg,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+2832650988,Huberto,Habeshaw,Male,2005-05-21,"BENZALKONIUM CHLORIDE, LIDOCAINE, WATER, BACITRACIN ZINC, NEOMYCIN SULFATE, POLYMYXIN B SULFATE, WATER, ISOPROPYL ALCOHOL, BENZOCAINE, ALCOHOL, ASPIRIN",5.32,Bayt Līd,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+3371046990,Pascal,Benezet,Male,1978-03-15,Epinephrine,53.23,Rulenge,
+5245932393,Brockie,Greenard,Male,1974-10-03,Alprazolam,79.27,Stopnica,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+6291012715,Barclay,Maunsell,Male,1977-12-17,TRETINOIN,56.18,Delaware,
+9086140033,Sandie,Pregel,Female,2021-12-01,ESZOPICLONE,20.73,Tenri,
+2156815461,Hercule,Andreoletti,Male,1991-04-17,Hydrocortisone,67.27,,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+1216437408,Mohandis,Semarke,Male,2021-05-26,Colloidal Oatmeal,89.83,Halinów,
+7619496319,Farrel,Ocheltree,Male,2003-03-29,Oyster Shell Calcium with Vitamin D,10.72,Kovdor,
+1733121781,Petra,Mosten,Female,1991-03-30,SIMETHICONE,31.15,Shiye,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+280093691,Isa,Esslemont,Female,1969-12-22,trifluoperazine hydrochloride,48.39,Längelmäki,
+4037887304,Gene,Bevir,Male,1965-02-04,"Boricum gluconicum, Calcarea gluconica, Chromium gluconicum, Cobaltum gluconicum, Cuprum gluconicum, Ferrum gluconicum, Kali gluconicum,",9.02,Duofudu,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+6845376085,,Dugall,,2013-03-08,"Guaifenesin, Dextromethorphan HBR",76.72,Stockholm,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+8089073565,Derrik,Bony,Male,1961-10-12,Cisplatin,94.99,Luna,
+1052185835,Chauncey,McAloren,Male,2001-11-03,Terazosin Hydrochloride,32.62,Camachile,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+2217952781,Robena,Aharoni,Female,1984-09-27,"Betula (Pendula), cortex, Caltha palustris, Clematis erecta, Galium aparine, Hedera helix, Juniperus comminis, Sedum acre, Sempervivum tectorum, Thuja occidentalis,",12.24,Rukungiri,
+6142862911,Felic,Kibbel,Male,2007-11-14,"Polyethylene glycol 400, Propylene glycol",71.77,Fier-Çifçi,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+8786219790,Marlo,Brighouse,Male,2005-11-15,Lovastatin,47.66,Rejasa Kaja,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+231711328,Deane,Thompkins,Male,2010-10-17,Ethyl Alcohol,73.38,Lukićevo,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+6895985409,Brittney,Folkerts,Female,2001-04-27,Hackberry,25.81,,
+9502231201,Mal,Ransbury,Male,2003-03-17,Povidone-iodine,78.48,Jiangkou,
+916696782,Rafaello,Arbor,Male,2020-07-16,Nortriptyline Hydrochloride,23.89,Shapaja,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+1742460941,Garvey,Perillo,Male,1970-05-25,"ACETAMINOPHEN, PAMABROM, PYRILAMINE MALEATE",91.01,Troyes,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+513781412,Anson,Dodson,Male,1982-06-04,Duloxetine Hydrochloride,93.88,Kota Kinabalu,
+5702981510,Alexandros,Farragher,Male,1976-11-03,Nigrospora,66.31,Bweyogerere,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+7027366231,Gris,Brimmell,Male,1995-10-05,"Agnus C. 30c, Borax 30c, Condurango 30c, Graphites 30c, Iodium 30c, Medorrhinum 30c, Nat Mur 30c, Platina 30c",35.13,Krajan Tengah,
+7209922377,Gabi,Redgate,Female,1973-12-24,"Octinoxate, Octisalate, Zinc Oxide, Titanium Dioxide",89,Igcocolo,
+2189125286,Wash,Old,Male,2001-05-13,GABAPENTIN,82.29,Sovetsk,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+2781419443,Tull,Illesley,Male,1975-04-06,clobetasol propionate,12.23,Kilju,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+9928839301,Agosto,Bagot,Male,1982-09-03,Epinephrine,77.01,Shimokizukuri,
+6739827788,Muriel,Cottesford,Female,1967-03-26,Ibuprofen,75.16,Dobrica,
+5449083025,Kerby,Lowndes,Male,1982-06-08,Wheat Stem Rust,72.65,Pecka,
+9192866573,,Nuscha,,1989-09-08,Aluminum Zirconium Tricholorohydrex GLY,1.5,Cañaveral,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+2994024446,Wallace,Zecchinii,Male,2012-01-23,Gentamicin Sulfate,33.66,San Francisco,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+2749835860,Rick,Corkhill,Male,1992-03-12,Hydroxyzine Hydrochloride,19.79,Concepcion,
+4441755686,Pip,Gaddie,Male,1980-04-19,Metformin Hydrochloride,28.24,Nantes,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+8323946876,,Brambley,,2004-06-24,Acetaminophen,46.92,Marne-la-Vallée,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+7845238503,Mateo,Stannion,Male,1977-07-31,Treatment Set TS341451,70.05,Tamanar,
+4271600547,Salvador,Reade,Male,2018-06-12,Caffeine,15.22,Xixia,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+4875994532,Clemente,MattiCCI,Male,1992-06-21,MERCURY,31.1,Gubat,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+9785116921,Rhonda,MacKettrick,Female,1984-06-28,Titanium Dioxide and Zinc Oxide,9.45,Khlong Luang,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+9104768566,Mathian,Euler,Male,2010-11-27,Metronidazole,20.04,Ji’an,
+5691410059,Ardath,Bard,Female,2000-05-26,"Aesculus carnea, flos, allium sativum, Ambra grisea, Baryta carbonica, Ceratostigma willmottianum, flos, Conium maculatum, Graphites, Helianthus annuus, Juglans regia, flos, Kali phosphoricum, Larix decidua, flos, Mancinella, Pulsatilla, Viola odorata, Xanthoxylum fraxineum",55.62,Peterhof,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+2480327191,Merwin,Ellwood,Male,2020-11-23,OCTINOXATE and Oxybenzone,91.21,Linares,
+365743801,Mia,Corkhill,Female,1990-07-21,Clarithromycin,5.63,Kalāt,
+8774489283,Doralin,Kyte,Female,1963-08-15,Lamotrigine,81.4,Losino-Petrovskiy,
+9877064146,Desiree,Kisby,Female,2002-05-05,LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE,64.86,Karangan,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+5510849967,Allys,Ilyin,Female,1978-12-23,"Aluminum hydroxide, Magnesium hydroxide, Simethicone",8.48,Bantul,
+8922566019,Haven,Hubbocks,Male,2018-06-14,hydrocortisone acetate and pramoxine hydrochloride,94.89,Pustá Polom,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+5557144099,Nickey,Gascard,Male,2018-09-16,Cephalexin,7.26,Horní Cerekev,
+2832650988,Huberto,Habeshaw,Male,1984-11-20,estradiol,60.32,Lyon,
+3371046990,Pascal,Benezet,Male,2014-02-01,Loratadine and pseudoephedrine sulfate,94.8,Albi,In congue. Etiam justo. Etiam pretium iaculis justo.
+5245932393,Brockie,Greenard,Male,1965-05-03,ACONITUM NAPELLUS - BRYONIA ALBA ROOT - SANGUINARIA CANADENSIS ROOT,51.99,Binguang,In congue. Etiam justo. Etiam pretium iaculis justo.
+6291012715,Barclay,Maunsell,Male,2021-02-04,"bacitracin, neomycin, polymyxin B",23.78,Sanski Most,
+9086140033,Sandie,Pregel,Female,1988-02-04,SCHOENOCAULON OFFICINALE SEED,89.53,Loureiro,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+2156815461,Hercule,Andreoletti,Male,1976-02-18,Diltiazem Hydrochloride,12.98,Weifen,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+1216437408,Mohandis,Semarke,Male,2002-01-12,PETROLATUM,72.25,München,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+7619496319,Farrel,Ocheltree,Male,1981-11-01,Lamotrigine,83.6,Mataquescuintla,
+1733121781,Petra,Mosten,Female,2008-12-05,"Acetaminophen, Chlorpheniramine maleate, Phenylephrine HCl",10.83,Béziers,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+280093691,Isa,Esslemont,Female,1993-06-01,telmisartan,84.38,Reforma,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+4037887304,Gene,Bevir,Male,1996-11-02,Privet,26.63,Mjamaoué,
+6845376085,,Dugall,,2012-03-02,cauliflower,53.8,Përmet,
+8089073565,Derrik,Bony,Male,1998-08-21,Acetaminophen,21.45,Jam,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+1052185835,Chauncey,McAloren,Male,1970-03-28,Hydrocodone Bitartrate and Acetaminophen,4.15,Wołomin,
+2217952781,Robena,Aharoni,Female,1990-01-02,"Bacitracin Zinc, Neomycin Sulfate, and Polymyxin B Sulfate",55.28,Dongtai,
+6142862911,Felic,Kibbel,Male,2004-10-20,Quinapril,12.8,Phanom Sarakham,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+8786219790,Marlo,Brighouse,Male,2015-10-28,Alprazolam,92.75,Gaoyang,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+231711328,Deane,Thompkins,Male,1977-11-18,Aspirin,44.22,Fulu,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+6895985409,Brittney,Folkerts,Female,1986-01-20,Triamcinolone Acetonide,69.01,Kuala Lumpur,
+9502231201,Mal,Ransbury,Male,1976-07-24,Losartan Potassium,82.63,Jangdam,
+916696782,Rafaello,Arbor,Male,1990-09-01,ATORVASTATIN CALCIUM,3.7,Xiangyanglu,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+1742460941,Garvey,Perillo,Male,2002-02-27,Pyrithione zinc,97.95,Horrom,
+513781412,Anson,Dodson,Male,1982-09-03,"Animal Allergens, Dog Dander Canis spp",91.78,Gushui,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+5702981510,Alexandros,Farragher,Male,1995-07-27,Influenza Virus Vaccine,57.56,Sātkania,
+7027366231,Gris,Brimmell,Male,1978-03-27,Enalapril Maleate,92.11,Moita,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+7209922377,Gabi,Redgate,Female,1985-02-23,Metformin Hydrochloride,22.21,Harderwijk,
+2189125286,Wash,Old,Male,2010-08-18,DEXTROSE and POTASSIUM CHLORIDE,20.35,Danxia,
+2781419443,Tull,Illesley,Male,2004-09-06,Hydrocodone Bitartrate and Acetaminophen,22.04,Shamboyacu,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+9928839301,Agosto,Bagot,Male,2021-04-25,Nefazodone Hydrochloride,20.82,Guyang,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+6739827788,Muriel,Cottesford,Female,2019-11-27,Salicylic Acid,12.06,Palermo,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+5449083025,Kerby,Lowndes,Male,2002-10-23,Octocrylene,91.87,Wenchi,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+9192866573,,Nuscha,,2019-10-31,zinc oxide,67.7,San Miguel,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+2994024446,Wallace,Zecchinii,Male,1978-11-15,Allergenic Extracts Alum Precipitated,47.13,Juazeiro do Norte,
+2749835860,Rick,Corkhill,Male,1975-06-17,KETOROLAC TROMETHAMINE,28.3,Carcassonne,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+4441755686,Pip,Gaddie,Male,1998-05-14,Gentian Violet,98.64,Kuantan,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+8323946876,,Brambley,,1963-06-22,Losartan Potassium and Hydrochlorothiazide,3.42,Yong’an,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+7845238503,Mateo,Stannion,Male,1986-06-09,"TITANIUM DIOXIDE, ZINC OXIDE",24.56,Erling,
+4271600547,Salvador,Reade,Male,2018-02-21,Salsalate,47.82,São Paio de Gramaços,
+4875994532,Clemente,MattiCCI,Male,1976-10-26,LISINOPRIL AND HYDROCHLOROTHIAZIDE,62.59,Yangmingbu,
+9785116921,Rhonda,MacKettrick,Female,1966-11-07,Hepatitis A Vaccine,66.96,Cinco Saltos,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+9104768566,Mathian,Euler,Male,1989-08-21,"diphenhydramine HCl, ibuprofen",10.87,Dijon,
+5691410059,Ardath,Bard,Female,1960-06-18,"Homosalate, Octinoxate, Octisalate, Oxybenzone, Avobenzone",60.97,Dalmeny,
+2480327191,Merwin,Ellwood,Male,1991-03-09,Testosterone Cypionate,91.1,San Agustín Acasaguastlán,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+365743801,Mia,Corkhill,Female,2005-11-18,"Adenosinum cyclophosphoricum, Adrenalinum, Adrenocorticotrophin, Alfalfa, Allium cepa, Bellis perennis, Conium maculatum, Cortisone aceticum, Equisetum hyemale, Euphrasia officinalis, Fogopyrum esculentum, Galphimia glauca, Histaminum hydrochloricum, kali muriaticum, Millefolium, Mucosa nasalis suis, Natrum muriaticum, Prunus spinosa, RNA, Sabadilla, Solidago virgaurea",72.87,Ostrožská Nová Ves,
+8774489283,Doralin,Kyte,Female,1979-07-27,Loratadine,20.75,Alcaldedíaz,
+9877064146,Desiree,Kisby,Female,2017-10-26,Topiramate,48.47,Orvault,
+5510849967,Allys,Ilyin,Female,1984-08-04,cyclobenzaprine hydrochloride,58.79,Langqi,
+8922566019,Haven,Hubbocks,Male,1974-03-10,GLYCOPYRROLATE,58.92,Grygov,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+5557144099,Nickey,Gascard,Male,2003-06-21,Tramadol Hydrochloride,62.42,Stříbro,
+2832650988,Huberto,Habeshaw,Male,2010-02-01,nitrofurantoin (macrocrystals),88.2,Chulabhorn,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+3371046990,Pascal,Benezet,Male,2004-02-25,clindamycin phosphate,53.68,Daxbet,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+5245932393,Brockie,Greenard,Male,1989-03-08,cultivated mushroom,65.47,,
+6291012715,Barclay,Maunsell,Male,1984-01-26,telmisartan/amlodipine,48.49,Shchelkovo,
+9086140033,Sandie,Pregel,Female,2017-03-31,Midazolam Hydrochloride,93.6,Harbutowice,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+2156815461,Hercule,Andreoletti,Male,1980-04-02,Benzocaine 7.5%,81.38,Leipzig,
+1216437408,Mohandis,Semarke,Male,1967-08-22,Hydrocortisone Acetate,10.2,Fenglin,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+7619496319,Farrel,Ocheltree,Male,1988-08-24,Dextromethorphan Hydrobromide,77.31,Pochuta,
+1733121781,Petra,Mosten,Female,2015-01-10,Promethazine Hydrochloride,55.6,Posse,
+280093691,Isa,Esslemont,Female,1999-09-24,ACREMONIUM STRICTUM,58.59,Chahe,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+4037887304,Gene,Bevir,Male,2020-10-05,"Zinc Oxide, Titanium Dioxide",19.67,Arauco,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+6845376085,,Dugall,,1964-06-16,TRIAMCINOLONE ACETONIDE,47.35,Thoen,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+8089073565,Derrik,Bony,Male,1981-12-23,Ethanol,27.21,Cockburn Town,
+1052185835,Chauncey,McAloren,Male,2013-11-28,Ibuprofen,18.15,Stryków,
+2217952781,Robena,Aharoni,Female,2003-06-08,Acetaminophen,39.61,Stockholm,
+6142862911,Felic,Kibbel,Male,1977-01-07,Fentanyl Citrate,72.83,Shtip,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+8786219790,Marlo,Brighouse,Male,2003-10-04,ondansetron hydrochloride,14.31,Raszczyce,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+231711328,Deane,Thompkins,Male,1992-06-28,FERRIC OXIDE RED,58.12,Grenoble,
+6895985409,Brittney,Folkerts,Female,1993-07-21,TITANIUM DIOXIDE,50.67,Al Mukallā,
+9502231201,Mal,Ransbury,Male,2020-08-24,Cyclosporine,89.16,,
+916696782,Rafaello,Arbor,Male,1962-10-18,Hamster Epithelium,57.86,Changtu,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+1742460941,Garvey,Perillo,Male,1981-01-09,Venlafaxine Hydrochloride,96.55,Qarqīn,
+513781412,Anson,Dodson,Male,1972-10-07,captopril,51.91,Labuhanlalar,
+5702981510,Alexandros,Farragher,Male,1986-08-29,"ACONITUM NAPELLUS,APIS MELLIFERA,ATROPA BELLADONNA,SOLANUM DULCAMARA TOP,MERCURIUS SOLUBILIS,PHYTOLACCA AMERICANA ROOT.",55.49,Svalyava,
+7027366231,Gris,Brimmell,Male,1961-09-20,Risperidone,38,Puerto Madryn,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+7209922377,Gabi,Redgate,Female,1981-12-25,phenobarbital elixir,55.81,Araci,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+2189125286,Wash,Old,Male,2011-11-30,Hydroquinone,53.22,Popayán,
+2781419443,Tull,Illesley,Male,2007-03-17,TENOFOVIR DISOPROXIL FUMARATE,85.85,Xin’an,
+9928839301,Agosto,Bagot,Male,2019-06-21,Queen Palm,39.57,Tian’an,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+6739827788,Muriel,Cottesford,Female,1996-12-02,Propoxyphene Hydrochloride,69.22,Gardutanjak,
+5449083025,Kerby,Lowndes,Male,2012-03-15,Promethazine Hydrochloride,92.52,Dumalneg,
+9192866573,,Nuscha,,1963-07-27,MERCURIC SULFATE,18.26,Sanchahe,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+2994024446,Wallace,Zecchinii,Male,1990-03-31,LANOLIN,89.62,,
+2749835860,Rick,Corkhill,Male,2010-08-30,ergocalciferol,85.18,Békéscsaba,
+4441755686,Pip,Gaddie,Male,2020-01-06,Atenolol,27.43,Antiguo Cuscatlán,
+8323946876,,Brambley,,1985-11-01,"Calcarea carbonica, Calcarea fluorica, Calcarea phosphorica, Equisetum hyemale, Hekla lava, Phosphorus, and silicea",59.26,Gubeikou,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+7845238503,Mateo,Stannion,Male,2000-07-02,Eprosartan Mesylate,82.35,Tyrawa Wołoska,
+4271600547,Salvador,Reade,Male,1987-06-04,Triclosan,76.8,Qal‘at al Andalus,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+4875994532,Clemente,MattiCCI,Male,2006-08-04,METOPROLOL TARTRATE,5.43,Langxi,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+9785116921,Rhonda,MacKettrick,Female,1965-09-13,Aluminum Chlorohydrate,2.67,Culasian,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+9104768566,Mathian,Euler,Male,1985-06-30,Ondansetron,39.56,,
+5691410059,Ardath,Bard,Female,1963-10-18,Guaifenesin,30.12,Beaufort West,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+2480327191,Merwin,Ellwood,Male,1997-08-02,Bupropion Hydrochloride,63.87,,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+365743801,Mia,Corkhill,Female,1977-09-03,"Neomycin Sulfate, Polymyxin B Sulfate, and Pramoxine Hydrochloride",53.31,Dongkeng,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+8774489283,Doralin,Kyte,Female,1994-10-03,OCTINOXATE and TITANIUM DIOXIDE,33.99,,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+9877064146,Desiree,Kisby,Female,1960-08-05,"AVOBENZONE, OCTINOXATE",18.32,Tawau,
+5510849967,Allys,Ilyin,Female,2009-06-19,IMIPRAMINE PAMOATE,58.83,Fatuhilik,
+8922566019,Haven,Hubbocks,Male,1984-10-06,HEPARIN SODIUM,43.41,Weekaka,
+5557144099,Nickey,Gascard,Male,1961-02-15,oxymetazoline hydrochloride,7.14,Alexandria,
+2832650988,Huberto,Habeshaw,Male,1977-05-11,epoprostenol sodium,20.72,Tulsa,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+3371046990,Pascal,Benezet,Male,2020-05-08,"OXYBENZONE, OCTINOXATE, ZINC OXIDE",19.85,Lumbac,
+5245932393,Brockie,Greenard,Male,1970-01-08,Chlorpromazine Hydrochloride,14.36,Ţubarjal,
+6291012715,Barclay,Maunsell,Male,1979-08-11,"GUAIFENESIN, DEXTROMETHORPHAN HYDROBROMIDE, PHENYLEPHRINE HYDROCHLORIDE",28.75,,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+9086140033,Sandie,Pregel,Female,2010-07-23,Hydrochlorothiazide,32.96,Florencia,
+2156815461,Hercule,Andreoletti,Male,1971-08-14,Budesonide,91.75,Gazli,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+1216437408,Mohandis,Semarke,Male,2008-01-17,CARBAMAZEPINE,44.65,Madison,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+7619496319,Farrel,Ocheltree,Male,1966-03-14,ampicillin sodium,89.93,Kara,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+1733121781,Petra,Mosten,Female,1995-04-28,Fluocinolone Acetonide,42.62,Nice,
+280093691,Isa,Esslemont,Female,1970-08-06,Bisacodyl,22.06,Philadelphia,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+4037887304,Gene,Bevir,Male,1978-12-19,"Elaps corallinus, Aconitum nap.,Aur. met., Baryta carb., Belladonna, Crotalus horridus, Gelsemium, Hamamelis, Lachesis, Merc. viv.,Phosphorus, Picricum ac., Plumbum met., Pulsatilla,Rhus toxicodendron, Stramonium, Theridion, Euphrasia",32.5,Beopwon,Fusce consequat. Nulla nisl. Nunc nisl.
+6845376085,,Dugall,,2017-08-14,imipramine hydrochloride,26.19,Reno,
+8089073565,Derrik,Bony,Male,2001-07-19,"acetaminophen, chlorpheniramine maleate, and phenylephrine HCl",96.45,Elele,
+1052185835,Chauncey,McAloren,Male,2020-03-02,Nifedipine,62.82,Liběšice,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+2217952781,Robena,Aharoni,Female,2009-09-22,zinc acetate and zinc gluconate,49.69,Punkalaidun,
+6142862911,Felic,Kibbel,Male,2001-01-25,Amoxicillin,60.9,Sadao,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+8786219790,Marlo,Brighouse,Male,2021-12-09,Treatment Set TS348563,22.06,Mshinskaya,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+231711328,Deane,Thompkins,Male,1983-10-13,PREGABALIN,16.32,Mandala,
+6895985409,Brittney,Folkerts,Female,2022-04-01,fluocinolone acetonide,32.41,Babasakhib,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+9502231201,Mal,Ransbury,Male,1979-04-18,GLYCERIN,58.34,Meijiang,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+916696782,Rafaello,Arbor,Male,2011-08-09,Ibuprofen,30.99,Soritor,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+1742460941,Garvey,Perillo,Male,1974-10-06,Lithium Carbonate,96.89,,
+513781412,Anson,Dodson,Male,2007-01-20,Nortriptyline Hydrochloride,15.48,Mekarjaya Satu,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+5702981510,Alexandros,Farragher,Male,1985-08-17,"Ensulizole, Octinoxate, and Oxybenzone",9.31,Quyangqiao,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+7027366231,Gris,Brimmell,Male,2020-08-30,diphenhydramine hydrochloride,10.73,Qiryat Yam,
+7209922377,Gabi,Redgate,Female,2014-07-06,Alternaria alternata,76.23,Salimbalan,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+2189125286,Wash,Old,Male,1977-03-19,Isopropyl Alcohol,4.06,Suicheng,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+2781419443,Tull,Illesley,Male,2015-06-18,doxazosin mesylate,80.73,Xiaozhen,
+9928839301,Agosto,Bagot,Male,1963-05-04,"Avobenzone, Homosalate, Octisalate, Octocrylene and Oxybenzone",10.46,Novokhovrino,
+6739827788,Muriel,Cottesford,Female,1989-04-23,CEFOXITIN,71.66,Mamponteng,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+5449083025,Kerby,Lowndes,Male,1990-11-17,Alcohol,56.06,Stockholm,
+9192866573,,Nuscha,,2001-07-29,diltiazem hydrochloride,1.46,Beigucheng,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+2994024446,Wallace,Zecchinii,Male,2014-11-13,Undecylenic Acid,93.09,Çepan,
+2749835860,Rick,Corkhill,Male,2019-01-30,Potassium Chloride Solution,27.72,La’ershan,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+4441755686,Pip,Gaddie,Male,2020-06-19,ALCOHOL,84.72,Waco,
+8323946876,,Brambley,,1968-04-11,Tramadol Hydrochloride,91.07,Bela Vista do Paraíso,
+7845238503,Mateo,Stannion,Male,2002-12-17,"Uricum acidum, Benzoicum acidum, Berber. vulg., Bryonia, Cantharis, Carduus benedictus, Ceanothus, Chelidonium majus, Chionanthus virginica, Cinchona, Dioscorea, Dolichos, Iris versicolor, Juniperus com., Nux vom.,Ptelea,Taraxacum, Carduus mar., Cynara scolymus, Solidago",39.69,Nizhniye Achaluki,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+4271600547,Salvador,Reade,Male,1972-11-30,TITANIUM DIOXIDE,23.42,Insrom,
+4875994532,Clemente,MattiCCI,Male,2017-10-04,EXTENDED PHENYTOIN SODIUM,38.24,Genzi,
+9785116921,Rhonda,MacKettrick,Female,1977-08-11,Geotrichum candidum,68.57,Shangde,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+9104768566,Mathian,Euler,Male,1974-04-13,"Arnica Montana, Bryonia Alba Root, Quinine Sulfate, Anamirta Cocculus Seed, Conium Maculatum Flowering Top, Strychnos Ignatii Seed, Ipecac, Potassium Carbonate, Strychnos Nux-Vomica Seed, Sepia Officinalis Juice, Tobacco Leaf, Veratrum Album Root",12.41,Minian,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+5691410059,Ardath,Bard,Female,1971-06-21,CETYLPYRIDINIUM CHLORIDE,40.28,Shalang,
+2480327191,Merwin,Ellwood,Male,1964-11-11,Sodium Fluoride,90.98,Porecatu,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+365743801,Mia,Corkhill,Female,1968-01-17,Finasteride,67.09,Semarang,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+8774489283,Doralin,Kyte,Female,1996-04-01,Hydralazine Hydrochloride,42.96,Amurzet,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+9877064146,Desiree,Kisby,Female,1993-06-03,HYDROGEN PEROXIDE,3.81,Bykhaw,
+5510849967,Allys,Ilyin,Female,1961-05-03,hydrocodone bitartrate and acetaminophen,35.05,Jovellar,
+8922566019,Haven,Hubbocks,Male,1991-04-04,POLYETHYLENE GLYCOL 3350,82.09,Liudu,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+5557144099,Nickey,Gascard,Male,2014-01-29,Halobetasol Propionate,13.21,Illéla,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+2832650988,Huberto,Habeshaw,Male,1995-05-20,penicillium glabrum,23.01,Yisuhe,
+3371046990,Pascal,Benezet,Male,2000-02-04,Sodium Fluoride,36.31,Fontenay-sous-Bois,
+5245932393,Brockie,Greenard,Male,1963-08-02,Chaetomium globosum,61.07,Promissão,
+6291012715,Barclay,Maunsell,Male,2016-03-11,ATORVASTATIN CALCIUM,17.66,Obiaruku Quarters,
+9086140033,Sandie,Pregel,Female,2014-03-02,"cocoa butter, phenylephrine hydrochloride",2.78,Suva Reka,
+2156815461,Hercule,Andreoletti,Male,1968-08-21,Sulfamethoxazole and Trimethoprim,14.51,Sergelen,
+1216437408,Mohandis,Semarke,Male,2001-03-04,"Standardized Grass Pollen, Fescue, Meadow",85.22,Yanwan,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+7619496319,Farrel,Ocheltree,Male,1981-10-18,Loratadine,9.27,,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+1733121781,Petra,Mosten,Female,1963-06-18,black-eyed pea,46.94,Lubowidz,
+280093691,Isa,Esslemont,Female,1995-11-21,METFORMIN HYDROCHLORIDE,35.1,Malitbog,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+4037887304,Gene,Bevir,Male,1978-02-18,"Titanium Dioxide, Octinoxate/EthylhexylMehtoxycinnamate",4.21,Xiabaishi,
+6845376085,,Dugall,,1968-06-18,CAFFEINE CITRATE,51.43,Jiachuan,
+8089073565,Derrik,Bony,Male,1970-04-17,Salicylic Acid,83.15,Puerto Barrios,
+1052185835,Chauncey,McAloren,Male,1984-08-19,"Antimonium tartaricum, Carbo vegetabilis, Mercurius corrosivus, Mucosa nasalis suis, Quebracho, Sticta pulmonaria, Teucrium marum",2.69,Xidianzi,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+2217952781,Robena,Aharoni,Female,1971-01-19,Kit for the Preparation of Technetium Tc 99m Mebrofenin,59.51,Songjiang,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+6142862911,Felic,Kibbel,Male,2011-08-12,"LIDOCAINE HYDROCHLORIDE,EPINEPHRINE BITARTRATE",23.07,Uchaly,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+8786219790,Marlo,Brighouse,Male,2021-05-06,Periodontium Quartz Special Order,38.81,Viana,
+231711328,Deane,Thompkins,Male,1979-09-29,"avobenzone, homosalate, octisalate, octocrylene",69.08,Pacaraos,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+6895985409,Brittney,Folkerts,Female,1960-06-27,ethyl alcohol,24.8,Yinjiang,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+9502231201,Mal,Ransbury,Male,1986-05-05,Acetaminophen,70.14,Séguéla,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+916696782,Rafaello,Arbor,Male,1963-08-17,Lovastatin,68.45,Jungkat Selatan,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+1742460941,Garvey,Perillo,Male,2022-02-18,ALCOHOL,18.83,Lapachito,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+513781412,Anson,Dodson,Male,2021-03-05,Lisinopril,45.09,Huya,
+5702981510,Alexandros,Farragher,Male,1981-03-21,valsartan,9.6,Kuzhu,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+7027366231,Gris,Brimmell,Male,2009-02-26,"Acetaminophen, Dextromethorphan HBr, Doxylamine succinate, Phenylephrine HCl",47.81,,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+7209922377,Gabi,Redgate,Female,2013-08-01,buspirone hydrochloride,48.78,Nāṟay,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+2189125286,Wash,Old,Male,1998-04-15,OCTINOXATE,61.47,Ulricehamn,
+2781419443,Tull,Illesley,Male,1981-06-28,Cefprozil,74.15,Sosnovka,
+9928839301,Agosto,Bagot,Male,1961-04-21,PENICILLIUM GLABRUM,2.14,Bofuer,
+6739827788,Muriel,Cottesford,Female,2018-07-05,diphenhydramine hydrochloride,80.93,Bala Murghab,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+5449083025,Kerby,Lowndes,Male,1991-04-07,Fexofenadine Hydrochloride,2.53,Honolulu,
+9192866573,,Nuscha,,1998-01-19,Tadalafil,89.21,Karanganyar,
+2994024446,Wallace,Zecchinii,Male,1972-10-02,benzalkonium chloride,14.5,Thị Trấn Cao Lộc,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+2749835860,Rick,Corkhill,Male,2019-04-10,POTASSIUM CHLORIDE,86.58,Langenburg,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+4441755686,Pip,Gaddie,Male,1988-04-10,Ondansetron,15.5,Gaoqiaolou,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+8323946876,,Brambley,,1960-06-12,Oxcarbazepine,76.11,Banī Mazār,
+7845238503,Mateo,Stannion,Male,2001-03-28,Ketoprofen,64.63,Caicedonia,
+4271600547,Salvador,Reade,Male,1988-06-14,Oxaliplatin,77.71,Krojo,
+4875994532,Clemente,MattiCCI,Male,2000-11-01,"Avobenzone, Homosalate, Octisalate, Octocrylene, and Oxybenzone",6.91,Fizuli,
+9785116921,Rhonda,MacKettrick,Female,1968-07-02,Clindamycin Palmitate Hydrochloride (Pediatric),96.76,Huanghu,
+9104768566,Mathian,Euler,Male,1987-05-16,Sodium Fluoride and Potassium Nitrate,27.16,Sakura,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+5691410059,Ardath,Bard,Female,1969-07-17,Etodolac,29.99,Umm Şalāl ‘Alī,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+2480327191,Merwin,Ellwood,Male,2008-03-31,Amlodipine Besylate,88.2,Candoni,
+365743801,Mia,Corkhill,Female,1960-08-26,"Avobenzone, Octisalate and Octocrylene",14.77,Alung,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+8774489283,Doralin,Kyte,Female,1990-01-19,CHLOROXYLENOL,42.5,Yongfeng,
+9877064146,Desiree,Kisby,Female,2008-01-27,Chloroxylenol,97.88,Zarszyn,
+5510849967,Allys,Ilyin,Female,1975-02-24,Guaifenesin,59.92,Zaragoza,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+8922566019,Haven,Hubbocks,Male,1975-12-23,Colloidal Silver,17.41,Linamon,
+5557144099,Nickey,Gascard,Male,2010-08-20,Aureobasidium Pullularia Pullulans,58.33,Vrilissia,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+2832650988,Huberto,Habeshaw,Male,1990-07-08,Ibuprofen,72.93,Fagatogo,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+3371046990,Pascal,Benezet,Male,1988-12-16,topiramate,32.87,Tongyangdao,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+5245932393,Brockie,Greenard,Male,1999-12-21,hydrocortisone,18.19,Budy,
+6291012715,Barclay,Maunsell,Male,1977-02-23,Zinc Oxide and Titanium Dioxide,73.14,Sakhnīn,
+9086140033,Sandie,Pregel,Female,1975-09-25,CLADOSPORIUM CLADOSPORIOIDES,93.84,Victoriaville,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+2156815461,Hercule,Andreoletti,Male,1970-10-07,methazolamide,54.43,Sosnovka,
+1216437408,Mohandis,Semarke,Male,1973-06-23,"llium cepa, Ambrosia artemisiaefolia, Arum triphyllum, Arundo mauritanica, Cortisone aceticum, Euphrasia officinalis, Galphimia glauca, Histaminum hydrochloricum, Kali muriaticum, Natrum muriaticum, RNA, Sabadilla and Wyethia helenioides",98.19,Zhaobaoshan,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+7619496319,Farrel,Ocheltree,Male,1961-12-14,ropinirole,84.71,Cuihuangkou,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+1733121781,Petra,Mosten,Female,1973-04-06,"Chamomilla, Coffea cruda, Arsenicum album, Ignatia amara, Lycopodium clavatum, Natrum muriaticum, Nux vomica, Gelsemium sempervirens, Valeriana officinalis,",9.4,Liudong,
+280093691,Isa,Esslemont,Female,1978-04-30,Benzalkonium Chloride,20.04,Damasak,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+4037887304,Gene,Bevir,Male,2000-05-29,Radish,38.3,Vodyane,
+6845376085,,Dugall,,1985-01-15,Octinoxate and Oxybenzone,9.96,Ape,
+8089073565,Derrik,Bony,Male,1991-01-03,Carboplatin,21.05,Ning’an,
+1052185835,Chauncey,McAloren,Male,1973-07-09,diphenhydramine hydrochloride,96.76,Kalí Vrýsi,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+2217952781,Robena,Aharoni,Female,2014-04-20,"OCTINOXATE, TITANIUM DIOXIDE",9.89,,
+6142862911,Felic,Kibbel,Male,2014-09-25,AMLODIPINE BESYLATE,16.27,,
+8786219790,Marlo,Brighouse,Male,1962-03-01,etodolac,8.8,San Carlos,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+231711328,Deane,Thompkins,Male,2012-07-24,"Acetaminophen, Dextromethorphan HBr, Doxylamine succinate",40.74,Jatake,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+6895985409,Brittney,Folkerts,Female,1964-04-15,Triclosan,27.19,Gobojango,
+9502231201,Mal,Ransbury,Male,2015-10-24,"Octinoxate, Octisalate, Oxybenzone, Titanium Dioxide",65.31,Wolfsberg,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+916696782,Rafaello,Arbor,Male,1989-03-24,SULFUR,59.97,Nijmegen,
+1742460941,Garvey,Perillo,Male,1985-08-02,"CALCIUM FLUORIDE, TRIBASIC CALCIUM PHOSPHATE, CALCIUM SULFATE ANHYDROUS, FERROSOFERRIC PHOSPHATE, POTASSIUM CHLORIDE, POTASSIUM PHOSPHATE, DIBASIC, MAGNESIUM PHOSPHATE, DIBASIC TRIHYDRATE, SODIUM CHLORIDE, SODIUM PHOSPHATE, DIBASIC, HEPTAHYDRATE, SODIUM SULFATE, and SILICON DIOXIDE",24.28,Oleszyce,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+513781412,Anson,Dodson,Male,2020-12-18,lovastatin,90.89,Gorzów Wielkopolski,
+5702981510,Alexandros,Farragher,Male,1978-10-05,Magnesium Sulfate crystal,19.74,Burujul,
+7027366231,Gris,Brimmell,Male,2000-01-22,"Dextromethorphan Hydrobromide, Guaifenesin, Phenylephrine Hydrochloride",63.25,Kangalassy,
+7209922377,Gabi,Redgate,Female,2008-11-22,Lamotrigine,23.6,Gwangju,
+2189125286,Wash,Old,Male,1970-11-22,ciclopirox,31.44,Krasnaya Gorka,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+2781419443,Tull,Illesley,Male,1991-05-12,ASPERGILLUS NIGER,77.43,Zhutian,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+9928839301,Agosto,Bagot,Male,2019-08-17,Etodolac,40.38,Kwangju,
+6739827788,Muriel,Cottesford,Female,1986-12-01,sertraline hydrochloride,58.73,Soroti,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+5449083025,Kerby,Lowndes,Male,1966-01-18,"AVOBENZONE, OCTINOXATE",57.23,Dongpu,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+9192866573,,Nuscha,,2000-06-09,Pinus Sylvestris,8.01,Dula’er Ewenke Minzu,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+2994024446,Wallace,Zecchinii,Male,1983-08-16,"Dolichos pruriens, Rhus toxicodendron, Urtica urens",40.89,Bomadi,
+2749835860,Rick,Corkhill,Male,1970-06-05,Ibuprofen,11.37,Nashville,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+4441755686,Pip,Gaddie,Male,1988-04-27,Potassium Chloride,64.05,Taishang,In congue. Etiam justo. Etiam pretium iaculis justo.
+8323946876,,Brambley,,1973-10-31,"Aesculus hippocastanum, Arnica montana, Berberis vulgaris, Carbo vegetabilis, Echinacea angustifolia, Hamamelis virginiana, Hydrofluoricum acidum, Lycopodium clavatum, Secale cornutum, Sulfur",61.86,Gusang,
+7845238503,Mateo,Stannion,Male,2004-05-12,EPICOCCUM NIGRUM,65.8,Prislonica,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+4271600547,Salvador,Reade,Male,1984-05-14,CARBOplatin,56.79,Summerland,
+4875994532,Clemente,MattiCCI,Male,1992-05-10,Aluminum zirconium tetrachlorohydrex gly,25.8,,
+9785116921,Rhonda,MacKettrick,Female,1982-11-13,Clonazepam,56.82,Sibayo,
+9104768566,Mathian,Euler,Male,2009-04-02,Ioversol,48.77,Tash-Kumyr,
+5691410059,Ardath,Bard,Female,1973-12-07,Acetaminophen,59.92,Batudulang,
+2480327191,Merwin,Ellwood,Male,1974-11-24,basiliximab,3.41,København,
+365743801,Mia,Corkhill,Female,1981-10-28,"OCTISALATE, OCTINOXATE, ZINC OXIDE",58.73,Cipari,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+8774489283,Doralin,Kyte,Female,1972-01-05,amlodipine besylate and benazepril hydrochloride,59.28,Blyznyuky,
+9877064146,Desiree,Kisby,Female,1997-05-17,Magnesium Oxide,62.02,Kabalo,
+5510849967,Allys,Ilyin,Female,1999-08-28,Poverty Weed,47.81,Tallahassee,
+8922566019,Haven,Hubbocks,Male,1990-06-25,Acetaminophen,38.83,Muzayri‘,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+5557144099,Nickey,Gascard,Male,1960-05-22,cyclobenzaprine hydrochloride,81.6,Lebak,
+2832650988,Huberto,Habeshaw,Male,2014-06-11,Acetaminophen and Diphenhydramine HCl,53.36,Матејче,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+3371046990,Pascal,Benezet,Male,1972-02-28,Cefuroxime axetil,95.14,Siao,
+5245932393,Brockie,Greenard,Male,1992-11-04,Salicylic Acid,50.16,Otyń,
+6291012715,Barclay,Maunsell,Male,1962-02-06,Nystatin,35.05,Capitán Solari,
+9086140033,Sandie,Pregel,Female,1987-11-06,CHLORPROMAZINE HYDROCHLORIDE,85.58,Krechevitsy,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+2156815461,Hercule,Andreoletti,Male,2006-11-26,Prednisone,55.79,Longjie,
+1216437408,Mohandis,Semarke,Male,2003-02-24,Titanium dioxide,49.06,Lefkoniko,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+7619496319,Farrel,Ocheltree,Male,1960-10-29,"Apis 30c, Aurum Nat Mur 30c, Calc Fluor 30c, Nat Sulph 30c, Palladium 30c, Silicea 30c, Sabal 30c, Thuja 30c, Ustillago 30c",62.59,,
+1733121781,Petra,Mosten,Female,2021-07-14,potassium citrate,46.37,Senhor do Bonfim,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+280093691,Isa,Esslemont,Female,1981-07-24,benzonatate,43.14,Al ‘Azīzīyah,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+4037887304,Gene,Bevir,Male,1962-12-27,cetirizine hydrochloride,70.21,Yumbo,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+6845376085,,Dugall,,1969-03-10,OCTINOXATE,51.85,Moss,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+8089073565,Derrik,Bony,Male,1993-07-05,benzocaine and benzethonium chloride,92.36,Sóc Sơn,
+1052185835,Chauncey,McAloren,Male,2007-11-05,Aluminum Zirconium Tetrachlorohydrex GLY,32.82,Stepove,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+2217952781,Robena,Aharoni,Female,1965-12-18,Glyburide,73.57,Burauen,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+6142862911,Felic,Kibbel,Male,1962-04-09,dimethicone,35.6,Jadów,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+8786219790,Marlo,Brighouse,Male,2019-06-20,"Avobenzone, Homosalate, Octisalate, Octocrylene, and Oxybenzone",87.18,Mongar,
+231711328,Deane,Thompkins,Male,1999-08-17,"Titanium Dioxide, OCTINOXATE, Zinc Oxide",28.29,Pando,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+6895985409,Brittney,Folkerts,Female,1977-04-12,Sodium Fluoride,29.26,,
+9502231201,Mal,Ransbury,Male,2015-09-30,Amlodipine Besylate,83.04,Laval,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+916696782,Rafaello,Arbor,Male,2011-03-23,HYDROCORTISONE,78.56,Toluviejo,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+1742460941,Garvey,Perillo,Male,2011-02-24,Diclofenac Sodium,86.15,Jabłonica Polska,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+513781412,Anson,Dodson,Male,1967-02-28,ziprasidone hydrochloride,5.41,Pétange,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+5702981510,Alexandros,Farragher,Male,1975-11-26,Aspirin,2.24,Chrást,
+7027366231,Gris,Brimmell,Male,1963-11-14,Cyclobenzaprine Hydrochloride,81.67,Derhachi,
+7209922377,Gabi,Redgate,Female,1960-11-01,Lidocaine,20.43,,
+2189125286,Wash,Old,Male,1976-11-10,"OCTINOXATE, OCTISALATE, TITANIUM DIOXIDE",44.94,La Foa,
+2781419443,Tull,Illesley,Male,1960-07-11,acetaminophen,11.71,Xilong,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+9928839301,Agosto,Bagot,Male,2008-11-21,ALDESLEUKIN - EVERLASTING EXTRACT - FOMITOPSIS PINICOLA FRUITING BODY - INTERFERON GAMMA-1B - MELATONIN - METENKEFALIN - REISHI - RICE - SEROTONIN - SOYBEAN - SUS SCROFA BLOOD - SUS SCROFA SMALL INTES,94.92,Nagareyama,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+6739827788,Muriel,Cottesford,Female,1991-05-02,cinacalcet hydrochloride,9.86,Lesogorsk,
+5449083025,Kerby,Lowndes,Male,1962-10-22,Yeast Saccharomyces cerevisiae,76.45,,
+9192866573,,Nuscha,,1989-03-27,Loperamide Hydrochloride,1.96,Francisco I Madero,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+2994024446,Wallace,Zecchinii,Male,1988-05-01,Nitrofurantion Macrocrystals,64.9,,
+2749835860,Rick,Corkhill,Male,2021-09-10,MANNITOL,93.6,Lefengzhen,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+4441755686,Pip,Gaddie,Male,1977-01-17,Cetylpyridinium chloride,92.85,Liboran,
+8323946876,,Brambley,,1995-10-30,Mirtazapine,84.93,Muleng,
+7845238503,Mateo,Stannion,Male,2000-09-24,"AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE",22.31,,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+4271600547,Salvador,Reade,Male,1973-05-09,Terazosin Hydrochloride,15.69,Criciúma,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+4875994532,Clemente,MattiCCI,Male,1988-10-17,Ethyl Alcohol,25.86,Uberlândia,
+9785116921,Rhonda,MacKettrick,Female,1979-02-18,Triclosan,61.71,Narita,
+9104768566,Mathian,Euler,Male,1988-09-04,Bacitracin Zinc,60.45,Pražmo,
+5691410059,Ardath,Bard,Female,2009-06-21,Topiramate,26.21,Pas Pul,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+2480327191,Merwin,Ellwood,Male,2019-03-05,Brome Grass,81.35,Des Moines,
+365743801,Mia,Corkhill,Female,2005-12-14,"Ammonium carbonicum, Antimonium arsenicicum, Antimonium tartaricum, Arsenicum album, Bromium, Carbo vegetabilis, Chlorinum, Kali carbonicum, Lobelia inflata, Stannum metallicum, Sulphuricum acidum",80.91,Paderne,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+8774489283,Doralin,Kyte,Female,1998-10-24,HORSE EPITHELIA,12.65,Beiping,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+9877064146,Desiree,Kisby,Female,2004-02-15,Diphenhydramine HCl,7.43,Maru,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+5510849967,Allys,Ilyin,Female,2020-11-27,CEFAZOLIN SODIUM,91.04,Ouani,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+8922566019,Haven,Hubbocks,Male,1966-09-08,"OCTINOXATE, TITANIUM DIOXIDE",34.3,Koua,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+5557144099,Nickey,Gascard,Male,2018-01-19,"Acetaminophen, Dextromethorphan Hydrobromide, Doxylamine Succinate",56.68,Lapachito,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+2832650988,Huberto,Habeshaw,Male,1995-05-15,UNDECYLENIC ACID,1.9,Leeuwarden,
+3371046990,Pascal,Benezet,Male,1985-04-04,Nadolol,22.44,La Guacamaya,
+5245932393,Brockie,Greenard,Male,1963-09-15,Pheniramine Maleate and Naphazoline Hydrochloride,89.66,,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+6291012715,Barclay,Maunsell,Male,1979-12-04,Phentermine Hydrochloride,57.25,Norfolk,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+9086140033,Sandie,Pregel,Female,2013-09-28,Standardized Kentucky (June) Bluegrass Pollen,44.34,Mudian,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+2156815461,Hercule,Andreoletti,Male,2006-04-08,Hydroxocobalamin,55.45,Sanjie,
+1216437408,Mohandis,Semarke,Male,1997-06-15,clobetasol propionate,74.97,Qinling Jieban,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+7619496319,Farrel,Ocheltree,Male,2013-05-19,ARIPIPRAZOLE,65.21,Sterling,
+1733121781,Petra,Mosten,Female,2011-06-26,omeprazole,49.77,Skoki,
+280093691,Isa,Esslemont,Female,1985-08-21,Triclosan,58.02,San Martín,
+4037887304,Gene,Bevir,Male,1983-05-12,OCTINOXATE and TITANIUM DIOXIDE,98.96,Yishi,
+6845376085,,Dugall,,1983-03-12,"ESSENTIAL FATTY ACIDS, MULTIVITAMINS, MINERALS",20.53,Koniaków,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+8089073565,Derrik,Bony,Male,1969-02-20,Tadalafil,6.82,Cuyotenango,
+1052185835,Chauncey,McAloren,Male,1989-04-10,"Citrus limonum, Echinacea, Scrophularia nodosa, Teucrium Scorodonia, Baptisia tinctoria, Lobelia inflata, Phytolacca decandra, Pinus sylvestris, Zincum gluconicum, Thuja occidentalis, Capsicum annuum,",54.8,Paulo Afonso,
+2217952781,Robena,Aharoni,Female,2008-12-02,Ibuprofen,99.01,Świdwin,
+6142862911,Felic,Kibbel,Male,1977-03-07,Calcium Acetate,39.39,Azua,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+8786219790,Marlo,Brighouse,Male,1995-02-10,rosiglitazone maleate and glimepiride,60.36,Mikhnëvo,
+231711328,Deane,Thompkins,Male,1984-11-14,Hydrochlorothiazide,6.74,Linoan,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+6895985409,Brittney,Folkerts,Female,2002-04-11,oxcarbazepine,23.98,Pasian,
+9502231201,Mal,Ransbury,Male,2016-12-23,chlorothiazide sodium,30.99,Urrô,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+916696782,Rafaello,Arbor,Male,1997-03-05,Hydralazine Hydrochloride,43.07,Kuczbork-Osada,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+1742460941,Garvey,Perillo,Male,1982-07-16,Palmers Amaranth,40.06,Ratchathewi,
+513781412,Anson,Dodson,Male,2006-05-22,acitretin,56.79,Starcevica,
+5702981510,Alexandros,Farragher,Male,2020-01-04,Pyrithione Zinc,5.59,San Jose,
+7027366231,Gris,Brimmell,Male,1998-06-26,Dock Yellow,5.79,,
+7209922377,Gabi,Redgate,Female,2019-04-03,ETHYL ALCOHOL,66.44,Vaggeryd,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+2189125286,Wash,Old,Male,1994-10-24,Acetazolamide,44.6,,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+2781419443,Tull,Illesley,Male,1963-08-08,"Cholecalciferol, Ascorbic Acid, Folic Acid, Thiamin, Riboflavin, Niacin, Pantothenic Acid, Pyridoxine HCl, Biotin, Cyanocobalamin",9.88,Kuroishi,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+9928839301,Agosto,Bagot,Male,1978-11-14,Aluminum Zirconium Tetrachlorohydrex GLY,57.09,Zborište,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+6739827788,Muriel,Cottesford,Female,1963-10-15,cetirizine hydrochloride,19.37,Philadelphia,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+5449083025,Kerby,Lowndes,Male,2022-01-16,Metronidazole,2.54,Zhengchang,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+9192866573,,Nuscha,,1997-07-04,VINORELBINE TARTRATE,55.4,Taiqing,
+2994024446,Wallace,Zecchinii,Male,2013-12-22,"Echinacea purpurea, Plantago major, Baptisia tinctoria",15.26,Nikolo-Pavlovskoye,
+2749835860,Rick,Corkhill,Male,1993-06-12,Octinoxate and Avobenzone,67.44,Veguitas,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+4441755686,Pip,Gaddie,Male,2004-07-04,gabapentin,99.13,Tobi Village,
+8323946876,,Brambley,,1965-11-08,"Octinoxate, Titanium Dioxide",9.9,Lazaro Cardenas,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+7845238503,Mateo,Stannion,Male,1997-12-31,fibrinogen human and thrombin human,61.1,,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+4271600547,Salvador,Reade,Male,1969-05-13,Magesium Citrate,46.1,La Esperanza,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+4875994532,Clemente,MattiCCI,Male,1996-01-10,aluminum hydroxide and magnesium carbonate,85.74,San Antonio Suchitepéquez,
+9785116921,Rhonda,MacKettrick,Female,1984-02-01,Prunus,13.64,Anak,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+9104768566,Mathian,Euler,Male,1995-04-11,Warfarin Sodium,76.98,Fagersta,
+5691410059,Ardath,Bard,Female,1990-08-04,"Arsenicum album, Berberis vulgaris, Bryonia alba, Calcarea carbonica, Carduus marianus, Cinchona officinalis, Kali Carbonicum, Lycopodium clavatum, Natrum sulphuricum, Nux vomica, Phosphorus,",88.27,Yakovlevo,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+2480327191,Merwin,Ellwood,Male,2019-12-11,Ketoprofen,60.85,Caramay,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+365743801,Mia,Corkhill,Female,1967-01-24,sodium fluoride,54.21,"Hospitalet De Llobregat, L'",
+8774489283,Doralin,Kyte,Female,1978-07-13,Haddock,39.01,Nakhodka,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+9877064146,Desiree,Kisby,Female,1983-05-18,Betamethasone Valerate,72.81,Chengmen,
+5510849967,Allys,Ilyin,Female,1972-09-12,Rimantadine Hydrochloride,11.87,Emmen,
+8922566019,Haven,Hubbocks,Male,1981-03-23,amlodipine besylate and benazepril hydrochloride,62.48,Taipinghu,
+5557144099,Nickey,Gascard,Male,1976-09-28,"Avobenzone, Homosalate, Octisalate, Octocrylene, and Oxybenzone",43.2,Dahua,
+2832650988,Huberto,Habeshaw,Male,1983-09-07,GABAPENTIN,4.02,Alebtong,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+3371046990,Pascal,Benezet,Male,1976-09-16,Potassium Citrate and Citric Acid,4.05,La Rioja,
+5245932393,Brockie,Greenard,Male,2010-10-31,"Ensulizole, Octinoxate, and Titanium dioxide",94.69,Chynadiyovo,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+6291012715,Barclay,Maunsell,Male,2021-08-08,not applicable,62.36,Gambo,
+9086140033,Sandie,Pregel,Female,1999-12-18,Titanium Dioxide,84.63,Tenggina Daya,
+2156815461,Hercule,Andreoletti,Male,1963-08-12,Nisoldipine,71.75,Vrtojba,
+1216437408,Mohandis,Semarke,Male,1969-03-21,Eastern White Pine,45.84,Louisville,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+7619496319,Farrel,Ocheltree,Male,1999-06-28,vecuronium bromide,24.99,Wanju,
+1733121781,Petra,Mosten,Female,2012-11-28,Ibuprofen,66.52,Ōzu,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+280093691,Isa,Esslemont,Female,1996-08-11,Cartilago Betula,35.78,Junzhuang,
+4037887304,Gene,Bevir,Male,2009-04-06,"TITANIUM DIOXIDE, ZINC OXIDE",53.91,Ebebiyin,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+6845376085,,Dugall,,1993-12-31,CAFFEINE CITRATE,43.73,Magdalena,
+8089073565,Derrik,Bony,Male,2014-11-05,TRICLOSAN,39.78,Yishi,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+1052185835,Chauncey,McAloren,Male,2011-11-01,dalteparin sodium,65.99,Karakol,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+2217952781,Robena,Aharoni,Female,1984-12-22,Standardized Cat Hair,22.27,Tysmenytsya,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+6142862911,Felic,Kibbel,Male,1997-06-18,diclofenac potassium,94.18,Dapo,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+8786219790,Marlo,Brighouse,Male,1974-08-10,albuterol sulfate,73.1,Yantian,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+231711328,Deane,Thompkins,Male,1991-12-06,Propranolol,88.27,Xiaotao,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+6895985409,Brittney,Folkerts,Female,1987-11-29,Nadolol,16.02,Gijon,
+9502231201,Mal,Ransbury,Male,1992-03-22,mucor racemosus,23.4,Danbury,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+916696782,Rafaello,Arbor,Male,1991-07-30,Isopropyl Alcohol,33.6,Xishui,
+1742460941,Garvey,Perillo,Male,2017-05-13,Diphenhydramine Hydrochloride,40.96,Hallstahammar,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+1041524234,Josselyn,Gonnin,Female,1969-04-18,Aluminum Zirconium Trichlorohydrex Gly,87.97,Balete,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+2192557051,Pinchas,Bricknell,Male,1961-07-31,ethyl alcohol,58.52,La Paz,
+9752427308,Aidan,Leyfield,Female,1965-08-26,MENTHOL,16.06,Pekalongan,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+6533388177,Susanetta,Dictus,Female,1973-08-21,OXYGEN,52.82,Port Saint John’s,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+9696055781,Zelma,Fontenot,Female,2009-11-05,dantrolene sodium,45.26,Huantuo,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+5581850003,Genny,Ivic,Female,1979-02-17,".beta.-carotene, ascorbic acid, cholecalciferol, thiamine mononitrate, riboflavin, niacinamide, pyridoxine hydrochloride, folic acid, cyanocobalamin, biotin, calcium pantothenate, calcium formate, ferrous asparto glycinate, potassium iodide, magnesium oxide, zinc oxide and cupric oxide",20.68,Boca Chica,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+7802487641,Maxwell,Waddington,Male,1964-10-03,Losartan Potassium,37.1,Gulod,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+8672582861,Sigfrid,Pottage,Male,1981-06-15,Triamterene and Hydrochlorothiazide,18.16,Riosucio,
+8260992647,Xylina,Leadbitter,Female,1981-11-22,"Homosalate, Octinoxate, Octisalate, and Oxybenzone",53.38,Qianwei,
+5205899360,Davey,Latchford,Male,1962-06-19,methazolamide,41.49,Gibsons,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+8596396802,Perla,Gilardone,Female,1991-02-24,Simvastatin,95.58,Pallanchacra,
+1060551713,Lindsy,Headford,Female,2017-08-18,Esomeprazole strontium,5.95,Tánh Linh,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+629611548,Mirabella,Friatt,Female,2019-10-17,TITANIUM DIOXIDE,46.58,Itapagé,
+3901407111,Jordan,O'Keaveny,Male,1981-10-17,Triclosan,23.67,Cầu Giấy,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+2436140871,Orrin,Yakolev,Male,1995-04-18,mometasone furoate and formoterol fumarate dihydrate,96.32,Peimei,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+5577958881,Dorelle,Tevelov,Female,2021-09-01,Treatment Set TS344420,60.54,Septfontaines,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+3735117740,Hasheem,Fieldgate,Male,2018-01-31,TRICLOSAN,57.83,Barrio San Luis,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+9581591583,Meridith,Lipmann,Female,1983-01-24,Divalproex Sodium,13.3,Orsay,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+2864146967,Allie,Workman,Male,1981-03-21,Pantoprazole Sodium,9.59,Peza e Madhe,
+215697154,Ibby,Duny,Female,2017-12-18,Baclofen,45.29,Jammāl,
+5590389690,Wallis,Ruberti,Female,1969-10-29,"Acetaminophen, Dextromethorphan Hydrobromide, Doxylamine Succinate, Pseudoephedrine Hydrochloride",39.36,Lingbei,
+1242503781,Mike,Bandt,Male,2000-11-04,oxygen,39.24,Karano,
+5495714199,Eada,Cossom,Female,1983-05-05,Lenalidomide,25.56,Las Cruces,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+9025901921,Caron,Wettern,Female,1984-11-09,paroxetine hydrochloride,45.5,Wotan,
+2239121181,Elli,Ambrosio,Female,2015-06-11,Common Sagebrush,35,Jiaqu,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+4906224954,Ag,Goodfellowe,Female,1980-10-25,APIS MELLIFICA,96.29,Rantaupanjangkiri,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+3810222631,Glenn,Andrault,Male,1982-11-01,Titanium dioxide and Zinc oxide,30.12,Tiwi,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+7817124078,Standford,Lawie,Male,1990-07-29,Acetaminophen and Phenylephrine HCl,40.59,Dengjiang,
+6061522002,Julieta,Rawet,Female,1992-11-03,Propranolol Hydrochloride,12.79,Shiojiri,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+1887128301,Shannan,MacShirie,Male,1990-01-14,Acetaminophen,1.21,Changtan,
+9001628567,Tamarah,Balfe,Female,2016-03-29,Pyrithione Zinc,90.08,Bherāmāra,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+803166702,Archambault,Bridgement,Male,1984-03-18,simethicone,70.44,Wadusari,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+4042956556,Frans,Colaco,Male,2006-07-24,Acetaminophen,38.74,Pesnica pri Mariboru,
+3977573519,Ursula,Brooksby,Female,1999-03-26,Amoxicillin,43.68,Genet,
+5135799451,Ethelind,Sievewright,Female,1999-09-03,"CAMPHOR (NATURAL), MENTHOL, METHYL SALICYLATE",55.51,Veliko Tŭrnovo,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+8391211452,,Capstake,,1995-12-02,Lisinopril,85.94,,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+9881416361,Sterne,Bayman,Male,1981-09-14,Mepivacaine Hydrochloride,42.32,Ciketak,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+3708593715,Shae,Breming,Male,1995-08-22,LIDOCAINE MENTHOL,52.44,Safakulevo,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+807742708,Ros,Crowth,Female,1990-04-26,Diltiazem Hydrochloride,47.92,Fazhan,
+2963031157,Cassandre,Kibbye,Female,1962-12-26,Meperidine Hydrochloride,45.63,Obsza,
+4092109695,Quincy,Phant,Male,1973-12-17,Chlorpheniramine maleate and Phenylephrine HCl,4.29,Ponyri Vtoryye,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+3959737394,Beau,Doodney,Male,1982-11-20,Phenylephrine Hydrochloride,78.44,Loket,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+7292216889,Nertie,Jillett,Female,1981-05-26,Ampicillin Sodium and Sulbactam Sodium,10.72,Malumfashi,
+4745382367,Patience,Scrafton,Female,1984-06-24,Fenofibric Acid,21.37,Mtwango,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+6177830501,Taddeo,Piddlehinton,Male,1997-04-20,Malt,35.45,La Broquerie,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+1041524234,Josselyn,Gonnin,Female,2018-06-08,Hydroxyzine,90.36,,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+2192557051,Pinchas,Bricknell,Male,2004-08-06,Hydrochlorothiazide,92.3,Bzenec,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+9752427308,Aidan,Leyfield,Female,1991-02-06,Ropinirole,34.9,Tsiombe,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+6533388177,Susanetta,Dictus,Female,1968-12-28,Benzonatate,45.2,Sucre,
+9696055781,Zelma,Fontenot,Female,1964-07-11,psyllium husk,87.06,Kuznechikha,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+5581850003,Genny,Ivic,Female,1985-10-05,CHLOROXYLENOL,80.4,Qi’an,
+7802487641,Maxwell,Waddington,Male,2015-06-30,dextroamphetamine sulfate,43.81,Keffi,
+8672582861,Sigfrid,Pottage,Male,1975-04-07,Rhizopus nigricans,34.76,Corozal,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+8260992647,Xylina,Leadbitter,Female,1980-09-25,desloratadine,93.69,Elías,
+5205899360,Davey,Latchford,Male,1998-06-21,"CALENDULA OFFICINALIS, ECHINACEA ANGUSTIFOLIA, HYPERICUM PERFORATUM, PHYTOLACCA DECANDRA, CANTHARIS, SULPHUR",85.2,Esquina,
+8596396802,Perla,Gilardone,Female,2001-04-08,"Vervain,",64.27,Liandu,Fusce consequat. Nulla nisl. Nunc nisl.
+1060551713,Lindsy,Headford,Female,1985-11-03,Benzocaine,52.03,Boundiali,
+629611548,Mirabella,Friatt,Female,1975-05-31,dextromethorphan polistirex,89.24,Świecie,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+3901407111,Jordan,O'Keaveny,Male,2008-03-09,Triamterene hydrochlorothiazide,7.97,Malainen Luma,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+2436140871,Orrin,Yakolev,Male,2008-06-23,Ibuprofen,30.34,Dulce Nombre,
+5577958881,Dorelle,Tevelov,Female,1976-12-02,Psyllium Husks,57.81,Umeå,
+3735117740,Hasheem,Fieldgate,Male,2005-12-23,Topiramate,94.79,,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+9581591583,Meridith,Lipmann,Female,1989-01-09,Minoxidil,44.29,Mapiripán,
+2864146967,Allie,Workman,Male,2019-10-20,risperidone,95.71,Johor Bahru,
+215697154,Ibby,Duny,Female,1981-05-28,Hormodendrum cladosporioides,84.14,Lianyi,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+5590389690,Wallis,Ruberti,Female,1992-03-18,"Titanium Dioxide, Octinoxate",77.27,Xinglong,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+1242503781,Mike,Bandt,Male,1980-11-08,Octinoxate and Titanium dioxide,29.21,Mandala,
+5495714199,Eada,Cossom,Female,2012-01-11,Acetaminophen,58.21,Letpandan,
+9025901921,Caron,Wettern,Female,1973-11-09,"Piperonyl Butoxide, Pyrethrum Extract",44.72,Youzha,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+2239121181,Elli,Ambrosio,Female,1964-01-24,Haloperidol Decanoate,16.04,Tanda,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+4906224954,Ag,Goodfellowe,Female,1968-11-07,DOCUSATE CALCIUM,60.92,Baga Borihe,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+3810222631,Glenn,Andrault,Male,1992-02-19,valsartan,44.68,Stockholm,
+7817124078,Standford,Lawie,Male,1979-07-03,Strawberry,58.74,Al Marj,
+6061522002,Julieta,Rawet,Female,1994-02-24,Olanzapine,62.55,Nîmes,In congue. Etiam justo. Etiam pretium iaculis justo.
+1887128301,Shannan,MacShirie,Male,1987-06-02,POTASSIUM CHLORIDE,93.82,Léchovo,
+9001628567,Tamarah,Balfe,Female,2005-09-12,"Octinoxate, Octisalate, Oxybenzone, and Titanium Dioxide",11.26,Bubullimë,
+803166702,Archambault,Bridgement,Male,1964-09-14,SODIUM FLUORIDE,82.78,Zeleneč,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+4042956556,Frans,Colaco,Male,2001-12-22,Gabapentin,75.88,Vélizy-Villacoublay,
+3977573519,Ursula,Brooksby,Female,1981-02-03,Mirtazapine,76.95,Grande Rivière Noire,
+5135799451,Ethelind,Sievewright,Female,1993-07-13,SENNOSIDES,24.46,Fort Worth,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+8391211452,,Capstake,,1981-05-20,OCTINOXATE,20.16,Połomia,
+9881416361,Sterne,Bayman,Male,1965-12-10,Aluminum Zirconium Trichlorohydrex Gly,5.5,Veltruby,
+3708593715,Shae,Breming,Male,2008-09-06,"Acetaminophen, Dextromethorphan HBr, Doxylamine succinate",99.15,,
+807742708,Ros,Crowth,Female,1979-03-24,Fluvastatin,12.14,Liushui,
+2963031157,Cassandre,Kibbye,Female,1976-06-13,Cetirizine Hydrochloride,89.05,Plateliai,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+4092109695,Quincy,Phant,Male,2018-12-01,Pyrithione Zinc,14.33,Philadelphia,
+3959737394,Beau,Doodney,Male,2015-12-24,"Ibuprofen, Pseudoephedrine Hydrochloride",63.78,Gaoua,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+7292216889,Nertie,Jillett,Female,2003-11-03,Diclofenac Sodium,59.21,Palma De Mallorca,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+4745382367,Patience,Scrafton,Female,1981-02-20,Famotidine,42.68,Danauparis,
+6177830501,Taddeo,Piddlehinton,Male,2004-06-30,Glimepiride,36.6,Rangxi,
+1041524234,Josselyn,Gonnin,Female,2016-01-04,Pseudoephedrine HCl,27.82,Vasylkiv,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+2192557051,Pinchas,Bricknell,Male,1967-09-13,"Candida albicans, Sanicula, Tellurium metallicum, Torula cerevisiae, Antimon. crud., Arsenicum alb., Baryta carb., Bryonia, Calc. carb., Carbo veg., Cuprum met., Dulcamara, Graphites, Kali carb., Lachesis, Lycopodium, Mezereum, Nitricum ac., Phosphorus, Phytolacca, Sepia, Silicea, Sulphur, Sulphuricum ac., Zinc. met., Apis mel., Thuja.",84.56,Sanshui,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+9752427308,Aidan,Leyfield,Female,1987-12-22,"Dextromethorphan Hydrobromide, Pseudoephedrine Hydrochloride, and Brompheniramine Maleate",81.92,Eišiškės,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+6533388177,Susanetta,Dictus,Female,1986-01-30,DICAPRYLYL CARBONATE,50.26,Pampamarca,
+9696055781,Zelma,Fontenot,Female,2000-04-25,Tetanus Immune Globulin (Human),50.13,,
+5581850003,Genny,Ivic,Female,2018-09-03,"Progesterone,",22.93,Bilalang,
+7802487641,Maxwell,Waddington,Male,1996-07-15,Skin Protectant,83.37,El Rancho,
+8672582861,Sigfrid,Pottage,Male,2006-11-23,iloperidone,94.68,Eybens,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+8260992647,Xylina,Leadbitter,Female,1977-04-28,Metoprolol Tartrate,52.87,Reutov,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+5205899360,Davey,Latchford,Male,1972-03-16,OXYGEN,97.86,Chiang Mai,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+8596396802,Perla,Gilardone,Female,1998-03-24,Simvastatin,71.43,Strömsund,
+1060551713,Lindsy,Headford,Female,1968-11-01,Acyclovir,37.17,Sewon,
+629611548,Mirabella,Friatt,Female,1980-06-21,donepezil hydrochloride,49.45,Aldeia,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+3901407111,Jordan,O'Keaveny,Male,1971-06-16,"GLYCERIN, ALLANTOIN",30.5,Cisarap,
+2436140871,Orrin,Yakolev,Male,1997-11-19,Ropinirole Hydrochloride,94.43,Annecy,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+5577958881,Dorelle,Tevelov,Female,2013-10-23,glipizide,29.24,Salto de Pirapora,
+3735117740,Hasheem,Fieldgate,Male,1984-03-20,Doxycycline,40.48,Gandzak,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+9581591583,Meridith,Lipmann,Female,1982-06-08,Salicylic Acid,22.35,Wuxue Shi,
+2864146967,Allie,Workman,Male,2004-08-24,"Brompheniramine Maleate, Pseudoephedrine Hydrochloride, Dextromethorphan Hydrobromide",22.44,Lunel,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+215697154,Ibby,Duny,Female,2019-01-08,OCTINOXATE,2.8,New York City,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+5590389690,Wallis,Ruberti,Female,2000-06-10,propofol,32.11,København,
+1242503781,Mike,Bandt,Male,1977-04-25,Octinoxate,71.82,Biscoitos,
+5495714199,Eada,Cossom,Female,1960-09-20,Nirtogen,92.32,Teslić,
+9025901921,Caron,Wettern,Female,1980-06-13,Cetirizine Hydrochloride,19.73,Burgas,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+2239121181,Elli,Ambrosio,Female,1993-03-23,Quetiapine fumarate,57.68,Tajur,
+4906224954,Ag,Goodfellowe,Female,2016-10-13,"Dextroamphetamine Sulfate, Dextroamphetamine Saccharate, Amphetamine Sulfate and Amphetamine Aspartate",48.44,Chimbote,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+3810222631,Glenn,Andrault,Male,1961-04-15,Tamsulosin Hydrochloride,5.73,Tolstoy-Yurt,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+7817124078,Standford,Lawie,Male,2002-02-16,somatropin,79.78,San Lucas Tolimán,
+6061522002,Julieta,Rawet,Female,1986-10-28,"sodium chloride, sodium lactate, calcium chloride, magnesium chloride and dextrose",15.47,La Rochelle,
+1887128301,Shannan,MacShirie,Male,2014-10-31,Oxygen,25.59,Abaeté,
+9001628567,Tamarah,Balfe,Female,1984-02-12,"DEXTROMETHORPHAN HYDROBROMIDE, CHLORPHENIRAMINE MALEATE",17.45,Zhangzhishan,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+803166702,Archambault,Bridgement,Male,1990-09-29,Alcohol,75.05,Jiangwan,
+4042956556,Frans,Colaco,Male,1975-02-06,levocarnitine,59.9,Pecoro,
+3977573519,Ursula,Brooksby,Female,2000-04-10,"calcium carbonate, cholecalciferol, magnesium oxide, boron, folic acid, pyridoxine hydrochloride, cyanocobalamin, biotin and bilberry",63.3,Liangkou,
+5135799451,Ethelind,Sievewright,Female,2014-03-23,fexofenadine hydrochloride,85.11,Shiquanhe,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+8391211452,,Capstake,,2008-01-02,Ciprofloxacin,97.54,Älvsjö,
+9881416361,Sterne,Bayman,Male,1975-09-27,Hydrocortisone,32.15,Kertabumi,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+3708593715,Shae,Breming,Male,2021-12-25,Iodixanol,4.39,Piastów,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+807742708,Ros,Crowth,Female,2011-09-17,Potassium Chloride,49.42,Kamifukuoka,
+2963031157,Cassandre,Kibbye,Female,1984-10-19,Efavirenz,31.16,Cielmice,
+4092109695,Quincy,Phant,Male,2006-09-21,Fludeoxyglucose F-18,77.37,Pomar,
+3959737394,Beau,Doodney,Male,2007-10-12,METFORMIN HYDROCHLORIDE,77.72,Pazarić,Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+7292216889,Nertie,Jillett,Female,1977-04-28,Fluocinolone Acetonide,47.68,Nakło nad Notecią,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+4745382367,Patience,Scrafton,Female,1973-04-17,sodium fluoride,17.28,Singkup,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+6177830501,Taddeo,Piddlehinton,Male,1970-09-14,Zolpidem Tartrate,60.58,Chikeng,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+1041524234,Josselyn,Gonnin,Female,1963-06-12,"Dextromethorphan Hydrobromide, Guaifenesin, Phenylephrine Hydrochloride",98.1,Caieiras,
+2192557051,Pinchas,Bricknell,Male,2019-09-17,Aureobasidium pullulans,84.1,Buzdyak,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+9752427308,Aidan,Leyfield,Female,2013-07-28,Nux Vomica,54.73,Az Zuwaytīnah,
+6533388177,Susanetta,Dictus,Female,1961-11-20,Pseudoephedrine Hydrochloride,68.65,Cansolungon,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+9696055781,Zelma,Fontenot,Female,2018-10-20,Ofloxacin,57.94,Pital,
+5581850003,Genny,Ivic,Female,1962-02-16,prednisolone acetate,87.15,Mesopotamía,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+7802487641,Maxwell,Waddington,Male,1988-02-27,dexlansoprazole,24.69,,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+8672582861,Sigfrid,Pottage,Male,2013-05-22,Trolamine Salicylate,57.39,Stobreč,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+8260992647,Xylina,Leadbitter,Female,1992-04-24,Alcohol,36.27,Wanga,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+5205899360,Davey,Latchford,Male,1960-07-30,Levothyroxine Sodium,61.71,Bunisari,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+8596396802,Perla,Gilardone,Female,2010-01-08,Omeprazole,87.89,Clichy,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+1060551713,Lindsy,Headford,Female,1993-02-24,diclofenac sodium and misoprostol,84.44,Czarnożyły,
+629611548,Mirabella,Friatt,Female,2003-01-14,Sodium Chloride,12.22,Jose Maria Morelos,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+3901407111,Jordan,O'Keaveny,Male,2006-06-01,"Arsenicum album, Baptisia tinctoria, Carbo vegetabilis, Chininum sulphuricum, Cinchona officinalis, Conium maculatum, Echinacea purpurea, Ferrum metallicum, Hydrastis canadensis, Kali chloricum, Mercurius corrosivus and Serum anguillae",56.94,Meipu,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+2436140871,Orrin,Yakolev,Male,1974-06-03,ISOPROPYL ALCOHOL,39.77,Muzhou,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+5577958881,Dorelle,Tevelov,Female,1999-02-24,Hydrocodone Bitartrate and Acetaminophen,56.73,Iporá,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+3735117740,Hasheem,Fieldgate,Male,2009-10-24,Homeopathic Liquid,41.08,Pančevo,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+9581591583,Meridith,Lipmann,Female,2015-01-22,Haddock,83.06,Arauca,
+2864146967,Allie,Workman,Male,1997-11-20,Proparacaine Hydrochloride,40.94,Murygino,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+215697154,Ibby,Duny,Female,1964-10-07,Acetaminophen,67.99,,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+5590389690,Wallis,Ruberti,Female,2002-01-07,Bisacodyl,22.6,Cerquilho,
+1242503781,Mike,Bandt,Male,2003-07-15,Methocarbamol,53.74,Carmo do Cajuru,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+5495714199,Eada,Cossom,Female,1988-08-12,calcium carbonate,84.64,Jinchang,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+9025901921,Caron,Wettern,Female,1997-01-21,"Octinoxate, Octisalate, Oxybenzone",62.27,Tampa,
+2239121181,Elli,Ambrosio,Female,2015-05-31,DIMERCAPROL,62.74,Nagosela,
+4906224954,Ag,Goodfellowe,Female,1990-10-01,simvastatin,86.63,Petrovice u Karviné,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+3810222631,Glenn,Andrault,Male,2004-10-12,CP2D/AS-3 Anticoagulant and Additive System,5.49,Citeureup,
+7817124078,Standford,Lawie,Male,1981-09-03,Vitamin A and D,60.97,,
+6061522002,Julieta,Rawet,Female,1997-05-08,"Homosalate, Octocrylene, Ethylhexyl Salicilate, Titanium Dioxide",1.17,,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+1887128301,Shannan,MacShirie,Male,1975-07-23,lorazepam,92.01,Zoushi,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+9001628567,Tamarah,Balfe,Female,1971-02-23,Oxygen,34.69,Lampa,
+803166702,Archambault,Bridgement,Male,1996-10-26,Alcohol,69.39,Banyuresmi,
+4042956556,Frans,Colaco,Male,1982-10-23,Carboplatin,26.98,Taldykorgan,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+3977573519,Ursula,Brooksby,Female,1989-12-23,ropinirole,76.87,Petaling Jaya,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+5135799451,Ethelind,Sievewright,Female,1968-03-02,nicotine polacrilex,27.61,Ranilug,
+8391211452,,Capstake,,1968-08-21,fexofenadine hydrochloride and pseudoephedrine hydrochloride,33.56,,
+9881416361,Sterne,Bayman,Male,1972-09-29,"Coccus cacti, Drosera (Rotundifolia), Scilla maritima, Stica pulmonaria, Arsenicum iodatum, Causticum, Cuprum aceticum, Carbo vegetabilis, Kali carbonicum, Lachesis mutus,",61.75,Kōnan,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+3708593715,Shae,Breming,Male,1986-11-19,Glyburide,11.46,,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+807742708,Ros,Crowth,Female,1994-11-08,Minocycline Hydrochloride,37.47,Cimuncang,
+2963031157,Cassandre,Kibbye,Female,1968-04-25,primidone,64.4,Pescara,
+4092109695,Quincy,Phant,Male,2021-12-16,QUETIAPINE FUMARATE,88.96,Tayu,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+3959737394,Beau,Doodney,Male,1993-12-07,Digoxin,83.24,Chhāgalnāiya,
+7292216889,Nertie,Jillett,Female,2013-08-06,Ondansetron Hydrochloride,32.41,Yawata,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+4745382367,Patience,Scrafton,Female,1965-05-13,Folic Acid,46.41,Wiskitki,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+6177830501,Taddeo,Piddlehinton,Male,1983-09-25,Betamethasone Dipropionate,17.66,Sala,
+1041524234,Josselyn,Gonnin,Female,2004-12-09,Trihexyphenidyl Hydrochloride,43.77,Flushing,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+2192557051,Pinchas,Bricknell,Male,2022-03-23,LORAZEPAM,26.17,Huangsha,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+9752427308,Aidan,Leyfield,Female,1961-02-27,Camphor Menthol Methyl Salicylate,61.65,Oro Verde,
+6533388177,Susanetta,Dictus,Female,2001-03-29,alcohol,28.97,Himensulan,
+9696055781,Zelma,Fontenot,Female,1988-02-17,"Aloe socotrina, Bromium, Carboneum sulphuratum, Colchicum autumnale, Elaterium, Gelsemium sempervirens, Hamamelis virginiana, Hypothalamus, Iodium, Ipecacuanha, Natrum sulphuricum, Piper nigrum, Thyroidinum",9.53,Hebu,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+5581850003,Genny,Ivic,Female,1979-02-08,HEPARIN SODIUM,84.84,Łeba,
+7802487641,Maxwell,Waddington,Male,2016-11-21,levofloxacin,21.09,Ubud,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+8672582861,Sigfrid,Pottage,Male,1995-08-29,Sodium monofluorophosphate,44.71,Itaperuna,
+8260992647,Xylina,Leadbitter,Female,2020-01-23,Cephalexin,38.61,Nueva Guinea,
+5205899360,Davey,Latchford,Male,1993-03-20,Cantaloupe,78.34,Poá,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+8596396802,Perla,Gilardone,Female,2005-11-09,Triclosan,40.2,,
+1060551713,Lindsy,Headford,Female,1995-10-08,Cetirizine Hydrochloride,90.69,Gryaznovskoye,
+629611548,Mirabella,Friatt,Female,1978-05-12,Propranolol Hydrochloride,4.34,La Rioja,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+3901407111,Jordan,O'Keaveny,Male,1965-04-20,Trazodone hydrochloride,15.37,Buôn Ma Thuột,
+2436140871,Orrin,Yakolev,Male,1997-03-21,"Octinoxate, Octocrylene, Octisalate, Oxybenzone, Avobenzone and Homosalate.",56.62,,
+5577958881,Dorelle,Tevelov,Female,1961-03-16,hydromorphone hydrochloride,84.15,Peskovka,
+3735117740,Hasheem,Fieldgate,Male,1983-08-07,SALICYLIC ACID,60.5,Nickby,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+9581591583,Meridith,Lipmann,Female,1983-04-02,Acetaminophen 500mg Diphenhydramine HCl 25mg,53.39,Osiek,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+2864146967,Allie,Workman,Male,2020-08-31,Caffeine,57.87,Otorohanga,
+215697154,Ibby,Duny,Female,1978-10-25,Barley Grain,94.61,Puerto Asís,
+5590389690,Wallis,Ruberti,Female,2006-02-03,lactulose,87.99,Ängelholm,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+1242503781,Mike,Bandt,Male,2002-12-28,pantoprazole sodium,94.5,Várzea Alegre,
+5495714199,Eada,Cossom,Female,2001-02-12,Weed mix 2630,98.26,Loudi,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+9025901921,Caron,Wettern,Female,2012-10-01,Cerebellum Thalamus B,30.14,Xinlin,
+2239121181,Elli,Ambrosio,Female,1963-02-06,diphenhydramine hydrochloride,13.36,Beishan,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+4906224954,Ag,Goodfellowe,Female,1968-07-05,conjugated estrogens and medroxyprogesterone acetate,83.86,Siheyuan,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+3810222631,Glenn,Andrault,Male,1997-08-10,"octinoxate, octocrylene, oxybenzone, zinc oxide",11.48,Shuitianhe,
+7817124078,Standford,Lawie,Male,1983-06-27,water,19.64,Ciakar,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+6061522002,Julieta,Rawet,Female,1992-02-10,Cladosporium herbarum,47.75,Sparwood,In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+1887128301,Shannan,MacShirie,Male,1988-05-08,oxycodone hydrochloride,51.82,Duri,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+9001628567,Tamarah,Balfe,Female,2015-09-08,Arnica Montana,41.46,Peristerá,
+803166702,Archambault,Bridgement,Male,1999-02-11,Standardized Mite D. pteronyssinus,55.53,Zangbawa,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+4042956556,Frans,Colaco,Male,1974-07-16,PYRITHIONE ZINC,97.65,Pervomayskiy,
+3977573519,Ursula,Brooksby,Female,1986-11-22,estradiol/norgestimate,52.86,Chemerivtsi,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+5135799451,Ethelind,Sievewright,Female,1967-04-10,Loratadine,6.05,Tulyushka,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+8391211452,,Capstake,,1987-02-24,Divalproex Sodium,91.08,Shanghe,
