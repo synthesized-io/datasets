@@ -6,5 +6,10 @@
 *.iml
 
 
+# python
+*.pyc
+**/__pycache__
+version.py
+
 # VS Code
 .vscode

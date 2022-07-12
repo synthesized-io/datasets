@@ -1,0 +1,84 @@
+[build-system]
+requires = [
+    "setuptools>=61",
+    "wheel",
+    "setuptools_scm>=6.2"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthesized-datasets"
+description = "Publically available datasets for benchmarking and evaluation."
+readme = "README.md"
+requires-python = ">= 3.7"
+authors = [
+  { name = "Synthesized Ltd.", email = "sdk-team@synthesized.io" },
+]
+keywords = [
+  "datasets",
+  "data",
+  "evaluation",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "License :: OSI Approved :: BSD License",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Operating System :: MacOS",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: POSIX",
+  "Operating System :: Unix",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Topic :: Scientific/Engineering",
+]
+
+dynamic = ["version"]
+
+dependencies = [
+    "pandas >= 1.2",
+]
+
+  [project.optional-dependencies]
+  dev = [
+    "pre-commit",
+    "black",
+    "mypy",
+    "pylint",
+  ]
+
+  [project.license]
+  file = "LICENSE.md"
+
+  [project.urls]
+  homepage = "https://synthesized.io"
+  documentation = "https://docs.synthesized.io/"
+  repository = "https://github.com/synthesized-io/datasets"
+
+[tool]
+  [tool.setuptools]
+  platforms = [
+    "MacOS",
+    "Windows",
+    "Linux",
+  ]
+
+  [tool.setuptools.dynamic]
+  version = {attr = "synthesized_datasets.version.version"}
+
+  [tool.setuptools.packages.find]
+  where = ["src"]
+
+  [tool.setuptools_scm]
+  write_to = "src/synthesized_datasets/version.py"
+
+  [tool.isort]
+  multi_line_output = 3
+  include_trailing_comma = true
+  force_grid_wrap = 0
+  use_parentheses = true
+  ensure_newline_before_comments = true
+  line_length = 100
