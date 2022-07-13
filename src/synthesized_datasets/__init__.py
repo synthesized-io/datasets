@@ -7,6 +7,6 @@ _Dataset("churn_prediction", "tabular/templates/churn_prediction.csv", [_Tag.CHU
 _Dataset("claim_prediction", "tabular/templates/claim_prediction.csv", [_Tag.INSURANCE, _Tag.BINARY_CLASSIFICATION])
 _Dataset("segmentation_analysis", "tabular/templates/segmentation_analysis.csv", [_Tag.BINARY_CLASSIFICATION])
 _Dataset("boston_housing_prices", "tabular/templates/boston_housing_prices.csv", [_Tag.REGRESSION])
-_Dataset("simple_fraud", "tabular/templates/simple_fraud.csv", [_Tag.FRAUD, _Tag.BINARY_CLASSIFICATION])
+_Dataset("simple_fraud", "time-series/fraud-time-series.csv", [_Tag.FRAUD, _Tag.BINARY_CLASSIFICATION])
 
 from ._datasets import *
