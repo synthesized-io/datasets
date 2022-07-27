@@ -71,6 +71,9 @@ dependencies = [
 
   [tool.setuptools.packages.find]
   where = ["src"]
+  include = ["synthesized_datasets*"] 
+  exclude = ["*.csv"]
+  namespaces = false 
 
   [tool.setuptools_scm]
   write_to = "src/synthesized_datasets/version.py"
