@@ -65,16 +65,12 @@ dependencies = [
     "Windows",
     "Linux",
   ]
+  [tool.setuptools.package-dir]
+  synthesized_datasets = "src/synthesized_datasets"
 
   [tool.setuptools.dynamic]
   version = {attr = "synthesized_datasets.version.version"}
-
-  [tool.setuptools.packages.find]
-  where = ["src"]
-  include = ["synthesized_datasets*"] 
-  exclude = ["*.csv"]
-  namespaces = false 
-
+  
   [tool.setuptools_scm]
   write_to = "src/synthesized_datasets/version.py"
 
