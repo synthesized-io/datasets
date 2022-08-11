@@ -11,6 +11,7 @@ class _Tag(_Enum):
     CREDIT = "credit"
     INSURANCE = "insurance"
     FRAUD = "fraud"
+    HEALTHCARE = "healthcare"
     BINARY_CLASSIFICATION = "binary_classification"
     CHURN = "churn"
     REGRESSION = "regression"
