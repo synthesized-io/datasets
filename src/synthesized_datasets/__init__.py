@@ -13,4 +13,10 @@ _Dataset("simple_fraud", "time-series/fraud-time-series.csv", [_Tag.FRAUD, _Tag.
 _Dataset("telecom_churn", "tabular/templates/telecom-churn.csv", [_Tag.CHURN, _Tag.BINARY_CLASSIFICATION])
 _Dataset("vehicle_insurance", "tabular/templates/vehicle-insurance.csv", [_Tag.INSURANCE])
 
+_Dataset("air_quality", "time-series/air-quality.csv", [_Tag.TIME_SERIES])
+_Dataset("bitcoin_price", "time-series/bitcoin_price.csv", [_Tag.FINANCE, _Tag.TIME_SERIES])
+_Dataset("brent_oil_prices", "time-series/brent-oil-prices.csv", [_Tag.FINANCE, _Tag.TIME_SERIES])
+_Dataset("occupancy_data", "time-series/occupancy-data.csv", [_Tag.TIME_SERIES])
+_Dataset("s&p500_5yr", "time-series/sandp500_5yr.csv", [_Tag.FINANCE, _Tag.TIME_SERIES])
+
 from ._datasets import *

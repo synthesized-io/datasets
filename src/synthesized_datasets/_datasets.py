@@ -15,6 +15,8 @@ class _Tag(_Enum):
     BINARY_CLASSIFICATION = "binary_classification"
     CHURN = "churn"
     REGRESSION = "regression"
+    TIME_SERIES = "time_series"
+    FINANCE = "finance"
 
     def __repr__(self):
         return f"<{self.value}>"
