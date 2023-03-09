@@ -19,4 +19,9 @@ _Dataset("brent_oil_prices", "time-series/brent-oil-prices.csv", [_Tag.FINANCE, 
 _Dataset("occupancy_data", "time-series/occupancy-data.csv", [_Tag.TIME_SERIES])
 _Dataset("s&p500_5yr", "time-series/sandp500_5yr.csv", [_Tag.FINANCE, _Tag.TIME_SERIES])
 
+_Dataset("noaa_isd_weather_additional_dtypes_small",
+         "time-series/NoaaIsdWeather_added_dtypes_small.csv", [_Tag.TIME_SERIES])
+_Dataset("noaa_isd_weather_additional_dtypes_medium",
+         "time-series/NoaaIsdWeather_added_dtypes_medium.csv", [_Tag.TIME_SERIES])
+
 from ._datasets import *

@@ -12,4 +12,5 @@
 | S&P 500 - 5yr |
 | Time Series (Basic) |
 | Transactions (Clean) |
+| [NoaaIsdWeather - 2019-4-2 with additional columns to cover all dtypes](https://learn.microsoft.com/en-us/python/api/azureml-opendatasets/azureml.opendatasets.noaaisdweather?view=azure-ml-py) |
 | [Synthetic Time Series Datasets](./synthetic) |
