@@ -17,6 +17,7 @@ class _Tag(_Enum):
     REGRESSION = "regression"
     TIME_SERIES = "time_series"
     FINANCE = "finance"
+    GEOSPATIAL = "geospatial"
 
     def __repr__(self):
         return f"<{self.value}>"
