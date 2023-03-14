@@ -8,6 +8,7 @@ _ROOT_URL = "https://raw.githubusercontent.com/synthesized-io/datasets/master/"
 
 
 class _Tag(_Enum):
+    ALL = "all"
     CREDIT = "credit"
     INSURANCE = "insurance"
     FRAUD = "fraud"
@@ -24,10 +25,11 @@ class _Tag(_Enum):
 
 
 class _Dataset:
-    def __init__(self, name: str, url: str, tags: _typing.List[_Tag] = None):
+    def __init__(self, name: str, url: str, tags: _typing.Optional[_typing.List[_Tag]] = None):
         self._name = name
         self._url = _ROOT_URL + url
         self._tags: _typing.List[_Tag] = tags if tags is not None else []
+        _REGISTRIES[_Tag.ALL]._register(self)
         for tag in self._tags:
             _REGISTRIES[tag]._register(self)
 
@@ -59,7 +61,7 @@ class _Registry:
         self._datasets: _typing.MutableMapping[str, _Dataset] = {}
 
     def _register(self, dataset: _Dataset):
-        if self._tag not in dataset.tags:
+        if self._tag not in dataset.tags and self._tag != _Tag.ALL:
             raise ValueError(f"_Dataset {dataset.name} is not tagged with {self._tag}")
 
         if dataset.name not in self._datasets:
