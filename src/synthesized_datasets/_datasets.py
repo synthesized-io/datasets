@@ -1,8 +1,12 @@
 import sys as _sys
 import typing as _typing
 from enum import Enum as _Enum
+import os
 
 import pandas as _pd
+import pyspark.sql as _ps
+from pyspark import SparkFiles
+
 
 _ROOT_URL = "https://raw.githubusercontent.com/synthesized-io/datasets/master/"
 
@@ -49,6 +53,14 @@ class _Dataset:
         """Loads the dataset."""
         df = _pd.read_csv(self.url)
         df.attrs["name"] = self.name
+        return df
+
+    def load_spark(self, spark: _ps.SparkSession) -> _ps.DataFrame:
+        """Loads the dataset as a Spark DataFrame."""
+        spark.sparkContext.addFile(self.url)
+        _, ext = os.path.splitext(self.url)
+        df = spark.read.csv(SparkFiles.get("".join([self.name, ext])), header=True, inferSchema=True)
+        df.name = self.name
         return df
 
     def __repr__(self):
