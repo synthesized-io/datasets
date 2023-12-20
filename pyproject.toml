@@ -40,7 +40,7 @@ dynamic = ["version"]
 
 dependencies = [
     "pandas >= 1.2",
-    "pyspark>=3.0",
+    "pyspark>=0.7.0",
 ]
 
   [project.optional-dependencies]
