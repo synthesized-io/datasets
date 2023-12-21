@@ -55,8 +55,12 @@ class _Dataset:
         df.attrs["name"] = self.name
         return df
 
-    def load_spark(self, spark: _ps.SparkSession) -> _ps.DataFrame:
+    def load_spark(self, spark: _typing.Optional[_ps.SparkSession] = None) -> _ps.DataFrame:
         """Loads the dataset as a Spark DataFrame."""
+
+        if spark is None:
+            spark = _ps.SparkSession.builder.getOrCreate()
+
         spark.sparkContext.addFile(self.url)
         _, ext = _os.path.splitext(self.url)
         df = spark.read.csv(_SparkFiles.get("".join([self.name, ext])), header=True, inferSchema=True)
