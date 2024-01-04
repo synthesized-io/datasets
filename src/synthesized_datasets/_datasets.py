@@ -62,8 +62,8 @@ class _Dataset:
             spark = _ps.SparkSession.builder.getOrCreate()
 
         spark.sparkContext.addFile(self.url)
-        _, ext = _os.path.splitext(self.url)
-        df = spark.read.csv(_SparkFiles.get("".join([self.name, ext])), header=True, inferSchema=True)
+        _, filename = _os.path.split(self.url)
+        df = spark.read.csv(_SparkFiles.get(filename), header=True, inferSchema=True)
         df.name = self.name
         return df
 
