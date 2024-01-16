@@ -8,7 +8,7 @@ import pyspark.sql as _ps
 from pyspark import SparkFiles as _SparkFiles
 
 
-_ROOT_URL = "https://raw.githubusercontent.com/synthesized-io/datasets/master/"
+_ROOT_GITHUB_URL = "https://raw.githubusercontent.com/synthesized-io/datasets/master/"
 
 
 class _Tag(_Enum):
@@ -31,7 +31,7 @@ class _Tag(_Enum):
 class _Dataset:
     def __init__(self, name: str, url: str, tags: _typing.Optional[_typing.List[_Tag]] = None):
         self._name = name
-        self._url = _ROOT_URL + url
+        self._url = url if url.startswith("https://storage.googleapis.com") else _ROOT_GITHUB_URL + url
         self._tags: _typing.List[_Tag] = tags if tags is not None else []
         _REGISTRIES[_Tag.ALL]._register(self)
         for tag in self._tags:
@@ -51,7 +51,11 @@ class _Dataset:
 
     def load(self) -> _pd.DataFrame:
         """Loads the dataset."""
-        df = _pd.read_csv(self.url)
+        if self.url.endswith("parquet"):
+            df = _pd.read_parquet(self.url)
+        else:
+            # CSV load is the default
+            df = _pd.read_csv(self.url)
         df.attrs["name"] = self.name
         return df
 
@@ -63,7 +67,11 @@ class _Dataset:
 
         spark.sparkContext.addFile(self.url)
         _, filename = _os.path.split(self.url)
-        df = spark.read.csv(_SparkFiles.get(filename), header=True, inferSchema=True)
+        if self.url.endswith("parquet"):
+            df = spark.read.parquet(_SparkFiles.get(filename))
+        else:
+            # CSV load is the default
+            df = spark.read.csv(_SparkFiles.get(filename), header=True, inferSchema=True)
         df.name = self.name
         return df
 
