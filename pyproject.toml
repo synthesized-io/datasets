@@ -41,6 +41,7 @@ dynamic = ["version"]
 dependencies = [
     "pandas >= 1.2",
     "pyspark>=0.7.0",
+    "fastparquet"
 ]
 
   [project.optional-dependencies]
