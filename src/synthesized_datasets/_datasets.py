@@ -1,14 +1,17 @@
-import sys as _sys
-import typing as _typing
-from enum import Enum as _Enum
 import os as _os
+import sys as _sys
+import typing as _ty
+from enum import Enum as _Enum
 
 import pandas as _pd
 import pyspark.sql as _ps
+import yaml as _yaml
 from pyspark import SparkFiles as _SparkFiles
 
+from ._dtypes import DType as _DType
 
-_ROOT_GITHUB_URL = "https://raw.githubusercontent.com/synthesized-io/datasets/master/"
+# _ROOT_GITHUB_URL = "https://raw.githubusercontent.com/synthesized-io/datasets/master/"
+_ROOT_GITHUB_URL = ""
 
 
 class _Tag(_Enum):
@@ -29,10 +32,21 @@ class _Tag(_Enum):
 
 
 class _Dataset:
-    def __init__(self, name: str, url: str, tags: _typing.Optional[_typing.List[_Tag]] = None):
+    def __init__(
+        self,
+        name: str,
+        url: str,
+        schema: _ty.Mapping[str, _DType],
+        tags: _ty.Optional[_ty.List[_Tag]] = None,
+    ):
         self._name = name
-        self._url = url if url.startswith("https://storage.googleapis.com") else _ROOT_GITHUB_URL + url
-        self._tags: _typing.List[_Tag] = tags if tags is not None else []
+        self._url = (
+            url
+            if url.startswith("https://storage.googleapis.com")
+            else _ROOT_GITHUB_URL + url
+        )
+        self._tags: _ty.List[_Tag] = tags if tags is not None else []
+        self._schema = schema
         _REGISTRIES[_Tag.ALL]._register(self)
         for tag in self._tags:
             _REGISTRIES[tag]._register(self)
@@ -46,7 +60,7 @@ class _Dataset:
         return self._url
 
     @property
-    def tags(self) -> _typing.List[_Tag]:
+    def tags(self) -> _ty.List[_Tag]:
         return self._tags
 
     def load(self) -> _pd.DataFrame:
@@ -55,11 +69,24 @@ class _Dataset:
             df = _pd.read_parquet(self.url)
         else:
             # CSV load is the default
-            df = _pd.read_csv(self.url)
+            dtypes = {
+                col: (
+                    dtype.value
+                    if dtype not in [_DType.DATETIME, _DType.TIMEDELTA]
+                    else "string"
+                )
+                for col, dtype in self._schema.items()
+            }
+            df = _pd.read_csv(self.url, dtype=dtypes)
+            for col, dtype in self._schema.items():
+                if dtype is _DType.DATETIME:
+                    df[col] = _pd.to_datetime(df[col], dayfirst=True)
+                if dtype is _DType.TIMEDELTA:
+                    df[col] = _pd.to_timedelta(df[col])
         df.attrs["name"] = self.name
         return df
 
-    def load_spark(self, spark: _typing.Optional[_ps.SparkSession] = None) -> _ps.DataFrame:
+    def load_spark(self, spark: _ty.Optional[_ps.SparkSession] = None) -> _ps.DataFrame:
         """Loads the dataset as a Spark DataFrame."""
 
         if spark is None:
@@ -71,18 +98,44 @@ class _Dataset:
             df = spark.read.parquet(_SparkFiles.get(filename))
         else:
             # CSV load is the default
-            df = spark.read.csv(_SparkFiles.get(filename), header=True, inferSchema=True)
+            df = spark.read.csv(
+                _SparkFiles.get(filename), header=True, inferSchema=True
+            )
         df.name = self.name
         return df
 
     def __repr__(self):
         return f"<Dataset: {self.url}>"
 
+    def _to_dict(self):
+        return {
+            "name": self.name,
+            "url": (
+                self.url[len(_ROOT_GITHUB_URL) :]
+                if self.url.startswith(_ROOT_GITHUB_URL)
+                else self.url
+            ),
+            "schema": self._schema,
+            "tags": [tag.value for tag in self.tags],
+        }
+
+    @classmethod
+    def _from_dict(cls, d):
+        return _Dataset(
+            name=d["name"],
+            url=d["url"],
+            schema={col: _DType(dtype) for col, dtype in d["schema"].items()},
+            tags=[_Tag(tag) for tag in d["tags"]],
+        )
+
+    def _to_yaml(self):
+        return _yaml.dump(self._to_dict(), indent=2)
+
 
 class _Registry:
     def __init__(self, tag: _Tag):
         self._tag = tag
-        self._datasets: _typing.MutableMapping[str, _Dataset] = {}
+        self._datasets: _ty.MutableMapping[str, _Dataset] = {}
 
     def _register(self, dataset: _Dataset):
         if self._tag not in dataset.tags and self._tag != _Tag.ALL:
@@ -93,7 +146,7 @@ class _Registry:
             setattr(self, dataset.name, dataset)
 
 
-_REGISTRIES: _typing.MutableMapping[_Tag, _Registry] = {}
+_REGISTRIES: _ty.MutableMapping[_Tag, _Registry] = {}
 
 for _tag in _Tag:
     _registry = _Registry(_tag)

@@ -69,6 +69,11 @@ dependencies = [
   ]
   [tool.setuptools.package-dir]
   synthesized_datasets = "src/synthesized_datasets"
+  
+  [tool.setuptools.package-data]
+  synthesized_datasets = [
+    "datasets.yaml"
+  ]
 
   [tool.setuptools.dynamic]
   version = {attr = "synthesized_datasets.version.version"}
