@@ -97,10 +97,15 @@ class _Dataset:
         spark.sparkContext.addFile(self.url)
         _, filename = _os.path.split(self.url)
         if self.url.endswith("parquet"):
-            df = spark.read.parquet(_SparkFiles.get(filename), schema=schema)
+            df = spark.read.parquet(_SparkFiles.get(filename))
         else:
             # CSV load is the default
-            df = spark.read.csv(_SparkFiles.get(filename), header=True, schema=schema)
+            df = spark.read.csv(
+                _SparkFiles.get(filename),
+                header=True,
+                schema=schema,
+                enforceSchema=False,
+            )
         df.name = self.name
         return df
 

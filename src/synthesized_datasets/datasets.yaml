@@ -92,14 +92,14 @@ schema:
 - A8_Score: int64
 - A9_Score: int64
 - A10_Score: int64
-- age: Int64
+- age: float64
 - gender: string
 - ethnicity: string
 - jundice: string
 - austim: string
 - contry_of_res: string
 - used_app_before: string
-- result: int64
+- result: float64
 - age_desc: string
 - relation: string
 - Class/ASD: int64
@@ -665,7 +665,7 @@ schema:
 - datetime: string
 - latitude: float64
 - longitude: float64
-- elevation: int64
+- elevation: float64
 - windAngle: Int64
 - windSpeed: float64
 - temperature: float64
@@ -681,7 +681,7 @@ schema:
 - p_k: string
 - year: int64
 - day: int64
-- version: int64
+- version: string
 - version_bool: bool
 - timedelta: string
 - version_bool2: boolean
@@ -698,8 +698,8 @@ schema:
 - datetime: string
 - latitude: float64
 - longitude: float64
-- elevation: int64
-- windAngle: Int64
+- elevation: float64
+- windAngle: float64
 - windSpeed: float64
 - temperature: float64
 - seaLvlPressure: float64
@@ -714,7 +714,7 @@ schema:
 - p_k: string
 - year: int64
 - day: int64
-- version: int64
+- version: string
 - version_bool: bool
 - timedelta: string
 - version_bool2: boolean
@@ -747,7 +747,7 @@ url: tabular/templates/noshowappointments.csv
 ---
 name: occupancy_data
 schema:
-- date: string
+- date: datetime64[ns]
 - Temperature: float64
 - Humidity: float64
 - Light: float64
@@ -761,9 +761,9 @@ url: time-series/occupancy-data.csv
 name: onlinenews_popularity
 schema:
 - url: string
-- timedelta: int64
-- n_tokens_title: int64
-- n_tokens_content: int64
+- timedelta: float64
+- n_tokens_title: float64
+- n_tokens_content: float64
 - n_unique_tokens: float64
 - n_non_stop_words: float64
 - n_non_stop_unique_tokens: float64
@@ -779,11 +779,11 @@ schema:
 - data_channel_is_socmed: int64
 - data_channel_is_tech: int64
 - data_channel_is_world: int64
-- kw_min_min: int64
+- kw_min_min: float64
 - kw_max_min: float64
 - kw_avg_min: float64
-- kw_min_max: int64
-- kw_max_max: int64
+- kw_min_max: float64
+- kw_max_max: float64
 - kw_avg_max: float64
 - kw_min_avg: float64
 - kw_max_avg: float64
