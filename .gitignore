@@ -10,6 +10,7 @@
 *.pyc
 **/__pycache__
 version.py
+venv
 
 # VS Code
 .vscode
