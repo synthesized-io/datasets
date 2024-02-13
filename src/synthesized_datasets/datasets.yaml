@@ -406,7 +406,6 @@ url: tabular/uci/creditcard_default.csv
 ---
 name: fire_peril
 schema:
-  'Unnamed: 0': int64
   crimeVar1: float64
   crimeVar2: float64
   crimeVar3: float64
@@ -468,7 +467,6 @@ name: healthcare
 schema:
   DOB: string
   NHS_number: string
-  'Unnamed: 0': int64
   city: string
   first_name: string
   gender: string
@@ -546,7 +544,6 @@ schema:
   SalesField6: int64
   SalesField7: string
   SalesField8: int64
-  'Unnamed: 0': int64
 tags:
 - geospatial
 url: tabular/templates/homesite-quote-conversion.csv
@@ -871,7 +868,6 @@ schema:
   Property Type: string
   Record Status - monthly file only: string
   Town/City: string
-  'Unnamed: 0': int64
 tags:
 - regression
 url: tabular/templates/price_paid_household.csv
@@ -1322,7 +1318,6 @@ schema:
   NVVar4: float64
   OrdCat: string
   Row_ID: int64
-  'Unnamed: 0': int64
   Var1: float64
   Var2: float64
   Var3: float64
