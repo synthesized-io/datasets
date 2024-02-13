@@ -9,6 +9,7 @@ import yaml as _yaml
 from pyspark import SparkFiles as _SparkFiles
 
 from ._dtypes import DType as _DType
+from ._dtypes import create_pyspark_schema as _create_pyspark_schema
 
 # _ROOT_GITHUB_URL = "https://raw.githubusercontent.com/synthesized-io/datasets/master/"
 _ROOT_GITHUB_URL = ""
@@ -92,15 +93,14 @@ class _Dataset:
         if spark is None:
             spark = _ps.SparkSession.builder.getOrCreate()
 
+        schema = _create_pyspark_schema(self._schema)
         spark.sparkContext.addFile(self.url)
         _, filename = _os.path.split(self.url)
         if self.url.endswith("parquet"):
-            df = spark.read.parquet(_SparkFiles.get(filename))
+            df = spark.read.parquet(_SparkFiles.get(filename), schema=schema)
         else:
             # CSV load is the default
-            df = spark.read.csv(
-                _SparkFiles.get(filename), header=True, inferSchema=True
-            )
+            df = spark.read.csv(_SparkFiles.get(filename), header=True, schema=schema)
         df.name = self.name
         return df
 
@@ -115,7 +115,7 @@ class _Dataset:
                 if self.url.startswith(_ROOT_GITHUB_URL)
                 else self.url
             ),
-            "schema": self._schema,
+            "schema": [{key: value.value} for key, value in self._schema.items()],
             "tags": [tag.value for tag in self.tags],
         }
 
@@ -124,7 +124,10 @@ class _Dataset:
         return _Dataset(
             name=d["name"],
             url=d["url"],
-            schema={col: _DType(dtype) for col, dtype in d["schema"].items()},
+            schema={
+                next(elem.keys().__iter__()): _DType(next(elem.values().__iter__()))
+                for elem in d["schema"]
+            },
             tags=[_Tag(tag) for tag in d["tags"]],
         )
 
