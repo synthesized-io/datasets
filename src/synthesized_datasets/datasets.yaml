@@ -695,7 +695,7 @@ name: noaa_isd_weather_additional_dtypes_small
 schema:
 - usaf: string
 - wban: int64
-- datetime: string
+- datetime: datetime64[ns]
 - latitude: float64
 - longitude: float64
 - elevation: float64
@@ -723,6 +723,38 @@ schema:
 tags:
 - time_series
 url: time-series/NoaaIsdWeather_added_dtypes_small.csv
+---
+name: noaa_isd_weather_additional_dtypes_100gb
+schema:
+- usaf: Int64
+- wban: int64
+- datetime: datetime64[ns]
+- latitude: float64
+- longitude: float64
+- elevation: float64
+- windAngle: float64
+- windSpeed: float64
+- temperature: float64
+- seaLvlPressure: float64
+- cloudCoverage: string
+- presentWeatherIndicator: float64
+- pastWeatherIndicator: float64
+- precipTime: float64
+- precipDepth: float64
+- snowDepth: float64
+- stationName: string
+- countryOrRegion: string
+- p_k: string
+- day: string
+- version: string
+- version_bool: boolean
+- timedelta: timedelta64[ns]
+- version_bool2: boolean
+- datetime2: datetime64[ns]
+- timedelta2: timedelta64[ns]
+tags:
+- time_series
+url: https://storage.googleapis.com/synthesized-datasets-public/noaa_100gb_dtypes_set.parquet
 ---
 name: noshowappointments
 schema:
