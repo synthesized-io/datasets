@@ -8,6 +8,7 @@ import pyspark.sql as _ps
 import yaml as _yaml
 from pyspark import SparkFiles as _SparkFiles
 
+from ._dtypes import _PD_DTYPE_MAP
 from ._dtypes import DType as _DType
 from ._dtypes import create_pyspark_schema as _create_pyspark_schema
 
@@ -39,6 +40,7 @@ class _Dataset:
         url: str,
         schema: _ty.Mapping[str, _DType],
         tags: _ty.Optional[_ty.List[_Tag]] = None,
+        date_format: _ty.Optional[str] = None,
     ):
         self._name = name
         self._url = (
@@ -48,6 +50,8 @@ class _Dataset:
         )
         self._tags: _ty.List[_Tag] = tags if tags is not None else []
         self._schema = schema
+        self._date_format = date_format
+
         _REGISTRIES[_Tag.ALL]._register(self)
         for tag in self._tags:
             _REGISTRIES[tag]._register(self)
@@ -72,17 +76,23 @@ class _Dataset:
             # CSV load is the default
             dtypes = {
                 col: (
-                    dtype.value
-                    if dtype not in [_DType.DATETIME, _DType.TIMEDELTA]
+                    _PD_DTYPE_MAP[dtype]
+                    if dtype
+                    not in [
+                        _DType.DATETIME,
+                        _DType.TIMEDELTA,
+                        _DType.DATE,
+                        _DType.TIME,
+                    ]
                     else "string"
                 )
                 for col, dtype in self._schema.items()
             }
             df = _pd.read_csv(self.url, dtype=dtypes)
             for col, dtype in self._schema.items():
-                if dtype is _DType.DATETIME:
+                if dtype is [_DType.DATETIME, _DType.DATE]:
                     df[col] = _pd.to_datetime(df[col], dayfirst=True)
-                if dtype is _DType.TIMEDELTA:
+                if dtype in [_DType.TIMEDELTA, _DType.TIME]:
                     df[col] = _pd.to_timedelta(df[col])
         df.attrs["name"] = self.name
         return df
@@ -105,6 +115,7 @@ class _Dataset:
                 header=True,
                 schema=schema,
                 enforceSchema=False,
+                dateFormat=self._date_format,
             )
         df.name = self.name
         return df
@@ -113,7 +124,7 @@ class _Dataset:
         return f"<Dataset: {self.url}>"
 
     def _to_dict(self):
-        return {
+        params = {
             "name": self.name,
             "url": (
                 self.url[len(_ROOT_GITHUB_URL) :]
@@ -123,12 +134,17 @@ class _Dataset:
             "schema": [{key: value.value} for key, value in self._schema.items()],
             "tags": [tag.value for tag in self.tags],
         }
+        if self._date_format is not None:
+            params["date_format"] = self._date_format
+
+        return params
 
     @classmethod
     def _from_dict(cls, d):
         return _Dataset(
             name=d["name"],
             url=d["url"],
+            date_format=d.get("date_format"),
             schema={
                 next(elem.keys().__iter__()): _DType(next(elem.values().__iter__()))
                 for elem in d["schema"]

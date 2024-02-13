@@ -7,16 +7,22 @@ class DType(str, Enum):
     """Class to define the internal dtypes that can be handled."""
 
     BOOL = "bool"
-    NULLABLE_BOOL = "boolean"
-    DATETIME = "datetime64[ns]"
+    NULLABLE_BOOL = "bool?"
+    DATETIME = "datetime"
     DATE = "date"
-    FLOAT = "float32"
-    DOUBLE = "float64"
-    INTEGER = "int32"
-    LONG = "int64"
-    NULLABLE_LONG = "Int64"
+    FLOAT = "float"
+    DOUBLE = "double"
+    INTEGER = "int"
+    LONG = "long"
+    NULLABLE_LONG = "long?"
     STRING = "string"
-    TIMEDELTA = "timedelta64[ns]"
+    TIMEDELTA = "timedelta"
+    TIME = "time"
+
+
+def create_pandas_schema(schema: dict[str, DType]) -> dict[str, str]:
+    """Creates a PySpark schema from a dictionary of column names and d"""
+    return {name: _PD_DTYPE_MAP[dtype] for name, dtype in schema.items()}
 
 
 def create_pyspark_schema(schema: dict[str, DType]) -> st.StructType:
@@ -27,6 +33,22 @@ def create_pyspark_schema(schema: dict[str, DType]) -> st.StructType:
             for name, dtype in schema.items()
         ]
     )
+
+
+_PD_DTYPE_MAP = {
+    DType.BOOL: "bool",
+    DType.NULLABLE_BOOL: "boolean",
+    DType.DATETIME: "datetime64[ns]",
+    DType.DATE: "datetime64[ns]",
+    DType.FLOAT: "float32",
+    DType.DOUBLE: "float64",
+    DType.INTEGER: "int32",
+    DType.LONG: "int64",
+    DType.NULLABLE_LONG: "Int64",
+    DType.STRING: "string",
+    DType.TIMEDELTA: "timedelta64[ns]",
+    DType.TIME: "timedelta64[ns]",
+}
 
 
 _PS_DTYPE_MAP = {
@@ -40,7 +62,8 @@ _PS_DTYPE_MAP = {
     DType.LONG: st.LongType(),
     DType.NULLABLE_LONG: st.FloatType(),
     DType.STRING: st.StringType(),
-    DType.TIMEDELTA: st.LongType(),
+    DType.TIMEDELTA: st.StringType(),
+    DType.TIME: st.DayTimeIntervalType(1, 3),
 }
 
 _PS_NULLABLE_MAP = {
@@ -54,5 +77,6 @@ _PS_NULLABLE_MAP = {
     DType.LONG: False,
     DType.NULLABLE_LONG: True,
     DType.STRING: True,
-    DType.TIMEDELTA: False,
+    DType.TIMEDELTA: True,
+    DType.TIME: True,
 }

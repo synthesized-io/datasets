@@ -1,19 +1,19 @@
 ---
 name: adult
 schema:
-- age: int64
+- age: long
 - workclass: string
-- fnlwgt: int64
+- fnlwgt: long
 - education: string
-- educational-num: int64
+- educational-num: long
 - marital-status: string
 - occupation: string
 - relationship: string
 - race: string
 - gender: string
-- capital-gain: int64
-- capital-loss: int64
-- hours-per-week: int64
+- capital-gain: long
+- capital-loss: long
+- hours-per-week: long
 - native-country: string
 - income: string
 tags:
@@ -21,60 +21,61 @@ tags:
 url: tabular/templates/adult.csv
 ---
 name: air_quality
+date_format: "dd/MM/yyyy"
 schema:
-- Date: datetime64[ns]
-- Time: timedelta64[ns]
-- CO(GT): float64
-- PT08.S1(CO): Int64
-- NMHC(GT): Int64
-- C6H6(GT): float64
-- PT08.S2(NMHC): Int64
-- NOx(GT): Int64
-- PT08.S3(NOx): Int64
-- NO2(GT): Int64
-- PT08.S4(NO2): Int64
-- PT08.S5(O3): Int64
-- T: float64
-- RH: float64
-- AH: float64
+- Date: date
+- Time: time
+- CO(GT): double
+- PT08.S1(CO): long?
+- NMHC(GT): long?
+- C6H6(GT): double
+- PT08.S2(NMHC): long?
+- NOx(GT): long?
+- PT08.S3(NOx): long?
+- NO2(GT): long?
+- PT08.S4(NO2): long?
+- PT08.S5(O3): long?
+- T: double
+- RH: double
+- AH: double
 tags:
 - time_series
 url: time-series/air-quality.csv
 ---
 name: atlas_higgs_detection
 schema:
-- EventId: int64
-- DER_mass_MMC: float64
-- DER_mass_transverse_met_lep: float64
-- DER_mass_vis: float64
-- DER_pt_h: float64
-- DER_deltaeta_jet_jet: float64
-- DER_mass_jet_jet: float64
-- DER_prodeta_jet_jet: float64
-- DER_deltar_tau_lep: float64
-- DER_pt_tot: float64
-- DER_sum_pt: float64
-- DER_pt_ratio_lep_tau: float64
-- DER_met_phi_centrality: float64
-- DER_lep_eta_centrality: float64
-- PRI_tau_pt: float64
-- PRI_tau_eta: float64
-- PRI_tau_phi: float64
-- PRI_lep_pt: float64
-- PRI_lep_eta: float64
-- PRI_lep_phi: float64
-- PRI_met: float64
-- PRI_met_phi: float64
-- PRI_met_sumet: float64
-- PRI_jet_num: int64
-- PRI_jet_leading_pt: float64
-- PRI_jet_leading_eta: float64
-- PRI_jet_leading_phi: float64
-- PRI_jet_subleading_pt: float64
-- PRI_jet_subleading_eta: float64
-- PRI_jet_subleading_phi: float64
-- PRI_jet_all_pt: float64
-- Weight: float64
+- EventId: long
+- DER_mass_MMC: double
+- DER_mass_transverse_met_lep: double
+- DER_mass_vis: double
+- DER_pt_h: double
+- DER_deltaeta_jet_jet: double
+- DER_mass_jet_jet: double
+- DER_prodeta_jet_jet: double
+- DER_deltar_tau_lep: double
+- DER_pt_tot: double
+- DER_sum_pt: double
+- DER_pt_ratio_lep_tau: double
+- DER_met_phi_centrality: double
+- DER_lep_eta_centrality: double
+- PRI_tau_pt: double
+- PRI_tau_eta: double
+- PRI_tau_phi: double
+- PRI_lep_pt: double
+- PRI_lep_eta: double
+- PRI_lep_phi: double
+- PRI_met: double
+- PRI_met_phi: double
+- PRI_met_sumet: double
+- PRI_jet_num: long
+- PRI_jet_leading_pt: double
+- PRI_jet_leading_eta: double
+- PRI_jet_leading_phi: double
+- PRI_jet_subleading_pt: double
+- PRI_jet_subleading_eta: double
+- PRI_jet_subleading_phi: double
+- PRI_jet_all_pt: double
+- Weight: double
 - Label: string
 tags:
 - binary_classification
@@ -82,27 +83,27 @@ url: tabular/templates/atlas_higgs_detection.csv
 ---
 name: autism
 schema:
-- A1_Score: int64
-- A2_Score: int64
-- A3_Score: int64
-- A4_Score: int64
-- A5_Score: int64
-- A6_Score: int64
-- A7_Score: int64
-- A8_Score: int64
-- A9_Score: int64
-- A10_Score: int64
-- age: float64
+- A1_Score: long
+- A2_Score: long
+- A3_Score: long
+- A4_Score: long
+- A5_Score: long
+- A6_Score: long
+- A7_Score: long
+- A8_Score: long
+- A9_Score: long
+- A10_Score: long
+- age: double
 - gender: string
 - ethnicity: string
 - jundice: string
 - austim: string
 - contry_of_res: string
 - used_app_before: string
-- result: float64
+- result: double
 - age_desc: string
 - relation: string
-- Class/ASD: int64
+- Class/ASD: long
 tags:
 - binary_classification
 - healthcare
@@ -110,21 +111,21 @@ url: tabular/health/autism.csv
 ---
 name: bank_marketing1
 schema:
-- age: int64
+- age: long
 - job: string
 - marital: string
 - education: string
 - default: string
-- balance: int64
+- balance: long
 - housing: string
 - loan: string
 - contact: string
-- day: int64
+- day: long
 - month: string
-- duration: int64
-- campaign: int64
-- pdays: int64
-- previous: int64
+- duration: long
+- campaign: long
+- pdays: long
+- previous: long
 - poutcome: string
 - y: string
 tags:
@@ -134,7 +135,7 @@ url: tabular/uci/bank_marketing1.csv
 ---
 name: bank_marketing2
 schema:
-- age: int64
+- age: long
 - job: string
 - marital: string
 - education: string
@@ -144,16 +145,16 @@ schema:
 - contact: string
 - month: string
 - day_of_week: string
-- duration: int64
-- campaign: int64
-- pdays: int64
-- previous: int64
+- duration: long
+- campaign: long
+- pdays: long
+- previous: long
 - poutcome: string
-- emp.var.rate: float64
-- cons.price.idx: float64
-- cons.conf.idx: float64
-- euribor3m: float64
-- nr.employed: float64
+- emp.var.rate: double
+- cons.price.idx: double
+- cons.conf.idx: double
+- euribor3m: double
+- nr.employed: double
 - y: string
 tags:
 - regression
@@ -162,21 +163,22 @@ url: tabular/uci/bank_marketing2.csv
 ---
 name: biased_data
 schema:
-- age: int64
+- age: long
 - gender: string
-- income: int64
+- income: long
 tags:
 - finance
 - regression
 url: tabular/biased/biased_data.csv
 ---
 name: biased_data_mixed_types
+date_format: yyyy-MM-dd
 schema:
-- x_nans: float64
-- age: Int64
+- x_nans: double
+- age: long?
 - gender: string
-- income: Int64
-- DOB: string
+- income: long?
+- DOB: date
 tags:
 - finance
 - regression
@@ -185,12 +187,12 @@ url: tabular/biased/biased_data_mixed_types.csv
 name: bitcoin_price
 schema:
 - Date: string
-- Open: float64
-- High: float64
-- Low: float64
-- Close: float64
-- Volume: Int64
-- Market Cap: int64
+- Open: double
+- High: double
+- Low: double
+- Close: double
+- Volume: long?
+- Market Cap: long
 tags:
 - finance
 - time_series
@@ -198,58 +200,58 @@ url: time-series/bitcoin_price.csv
 ---
 name: boston_housing_prices
 schema:
-- CRIM: float64
-- ZN: float64
-- INDUS: float64
-- CHAS: Int64
-- NOX: float64
-- RM: float64
-- AGE: float64
-- DIS: float64
-- RAD: int64
-- TAX: int64
-- PTRATIO: float64
-- B: float64
-- LSTAT: float64
-- MEDV: float64
+- CRIM: double
+- ZN: double
+- INDUS: double
+- CHAS: long?
+- NOX: double
+- RM: double
+- AGE: double
+- DIS: double
+- RAD: long
+- TAX: long
+- PTRATIO: double
+- B: double
+- LSTAT: double
+- MEDV: double
 tags:
 - regression
 url: tabular/templates/boston_housing_prices.csv
 ---
 name: breast_cancer
 schema:
-- id: int64
-- diagnosis: int64
-- radius_mean: float64
-- texture_mean: float64
-- perimeter_mean: float64
-- area_mean: float64
-- smoothness_mean: float64
-- compactness_mean: float64
-- concavity_mean: float64
-- concave points_mean: float64
-- symmetry_mean: float64
-- fractal_dimension_mean: float64
-- radius_se: float64
-- texture_se: float64
-- perimeter_se: float64
-- area_se: float64
-- smoothness_se: float64
-- compactness_se: float64
-- concavity_se: float64
-- concave points_se: float64
-- symmetry_se: float64
-- fractal_dimension_se: float64
-- radius_worst: float64
-- texture_worst: float64
-- perimeter_worst: float64
-- area_worst: float64
-- smoothness_worst: float64
-- compactness_worst: float64
-- concavity_worst: float64
-- concave points_worst: float64
-- symmetry_worst: float64
-- fractal_dimension_worst: float64
+- id: long
+- diagnosis: long
+- radius_mean: double
+- texture_mean: double
+- perimeter_mean: double
+- area_mean: double
+- smoothness_mean: double
+- compactness_mean: double
+- concavity_mean: double
+- concave points_mean: double
+- symmetry_mean: double
+- fractal_dimension_mean: double
+- radius_se: double
+- texture_se: double
+- perimeter_se: double
+- area_se: double
+- smoothness_se: double
+- compactness_se: double
+- concavity_se: double
+- concave points_se: double
+- symmetry_se: double
+- fractal_dimension_se: double
+- radius_worst: double
+- texture_worst: double
+- perimeter_worst: double
+- area_worst: double
+- smoothness_worst: double
+- compactness_worst: double
+- concavity_worst: double
+- concave points_worst: double
+- symmetry_worst: double
+- fractal_dimension_worst: double
 tags:
 - binary_classification
 - healthcare
@@ -258,7 +260,7 @@ url: tabular/health/breast_cancer.csv
 name: brent_oil_prices
 schema:
 - Date: string
-- Price: float64
+- Price: double
 tags:
 - finance
 - time_series
@@ -268,10 +270,10 @@ name: churn_prediction
 schema:
 - customerID: string
 - gender: string
-- SeniorCitizen: int64
+- SeniorCitizen: long
 - Partner: string
 - Dependents: string
-- tenure: int64
+- tenure: long
 - PhoneService: string
 - MultipleLines: string
 - InternetService: string
@@ -284,7 +286,7 @@ schema:
 - Contract: string
 - PaperlessBilling: string
 - PaymentMethod: string
-- MonthlyCharges: float64
+- MonthlyCharges: double
 - TotalCharges: string
 - Churn: string
 tags:
@@ -294,14 +296,14 @@ url: tabular/templates/churn_prediction.csv
 ---
 name: claim_prediction
 schema:
-- age: int64
-- sex: int64
-- bmi: float64
-- children: int64
-- smoker: int64
-- region: int64
-- charges: float64
-- insuranceclaim: int64
+- age: long
+- sex: long
+- bmi: double
+- children: long
+- smoker: long
+- region: long
+- charges: double
+- insuranceclaim: long
 tags:
 - insurance
 - binary_classification
@@ -309,9 +311,9 @@ url: tabular/templates/claim_prediction.csv
 ---
 name: compas
 schema:
-- PersonID: int64
-- AssessmentID: int64
-- CaseID: int64
+- PersonID: long
+- AssessmentID: long
+- CaseID: long
 - Agency: string
 - LastName: string
 - FirstName: string
@@ -327,8 +329,8 @@ schema:
 - MaritalStatus: string
 - ScreeningDate: string
 - RecSupervisionLevelText: string
-- RawScore: float64
-- DecileScore: int64
+- RawScore: double
+- DecileScore: long
 - ScoreText: string
 - AssessmentType: string
 tags:
@@ -337,17 +339,17 @@ url: tabular/biased/compas.csv
 ---
 name: credit
 schema:
-- SeriousDlqin2yrs: int64
-- RevolvingUtilizationOfUnsecuredLines: float64
-- age: int64
-- NumberOfTime30-59DaysPastDueNotWorse: int64
-- DebtRatio: float64
-- MonthlyIncome: Int64
-- NumberOfOpenCreditLinesAndLoans: int64
-- NumberOfTimes90DaysLate: int64
-- NumberRealEstateLoansOrLines: int64
-- NumberOfTime60-89DaysPastDueNotWorse: int64
-- NumberOfDependents: Int64
+- SeriousDlqin2yrs: long
+- RevolvingUtilizationOfUnsecuredLines: double
+- age: long
+- NumberOfTime30-59DaysPastDueNotWorse: long
+- DebtRatio: double
+- MonthlyIncome: long?
+- NumberOfOpenCreditLinesAndLoans: long
+- NumberOfTimes90DaysLate: long
+- NumberRealEstateLoansOrLines: long
+- NumberOfTime60-89DaysPastDueNotWorse: long
+- NumberOfDependents: long?
 tags:
 - credit
 - binary_classification
@@ -355,17 +357,17 @@ url: tabular/templates/credit.csv
 ---
 name: credit_with_categories
 schema:
-- SeriousDlqin2yrs: int64
-- RevolvingUtilizationOfUnsecuredLines: float64
-- age: int64
-- NumberOfTime30-59DaysPastDueNotWorse: int64
+- SeriousDlqin2yrs: long
+- RevolvingUtilizationOfUnsecuredLines: double
+- age: long
+- NumberOfTime30-59DaysPastDueNotWorse: long
 - effort: string
-- MonthlyIncome: Int64
-- NumberOfOpenCreditLinesAndLoans: int64
-- NumberOfTimes90DaysLate: int64
-- NumberRealEstateLoansOrLines: int64
-- NumberOfTime60-89DaysPastDueNotWorse: int64
-- NumberOfDependents: Int64
+- MonthlyIncome: long?
+- NumberOfOpenCreditLinesAndLoans: long
+- NumberOfTimes90DaysLate: long
+- NumberRealEstateLoansOrLines: long
+- NumberOfTime60-89DaysPastDueNotWorse: long
+- NumberOfDependents: long?
 tags:
 - credit
 - binary_classification
@@ -373,31 +375,31 @@ url: tabular/templates/credit_with_categoricals.csv
 ---
 name: creditcard_default
 schema:
-- ID: int64
-- LIMIT_BAL: int64
-- SEX: int64
-- EDUCATION: int64
-- MARRIAGE: int64
-- AGE: int64
-- PAY_1: int64
-- PAY_2: int64
-- PAY_3: int64
-- PAY_4: int64
-- PAY_5: int64
-- PAY_6: int64
-- BILL_AMT1: int64
-- BILL_AMT2: int64
-- BILL_AMT3: int64
-- BILL_AMT4: int64
-- BILL_AMT5: int64
-- BILL_AMT6: int64
-- PAY_AMT1: int64
-- PAY_AMT2: int64
-- PAY_AMT3: int64
-- PAY_AMT4: int64
-- PAY_AMT5: int64
-- PAY_AMT6: int64
-- default payment next month: int64
+- ID: long
+- LIMIT_BAL: long
+- SEX: long
+- EDUCATION: long
+- MARRIAGE: long
+- AGE: long
+- PAY_1: long
+- PAY_2: long
+- PAY_3: long
+- PAY_4: long
+- PAY_5: long
+- PAY_6: long
+- BILL_AMT1: long
+- BILL_AMT2: long
+- BILL_AMT3: long
+- BILL_AMT4: long
+- BILL_AMT5: long
+- BILL_AMT6: long
+- PAY_AMT1: long
+- PAY_AMT2: long
+- PAY_AMT3: long
+- PAY_AMT4: long
+- PAY_AMT5: long
+- PAY_AMT6: long
+- default payment next month: long
 tags:
 - binary_classification
 - finance
@@ -406,8 +408,8 @@ url: tabular/uci/creditcard_default.csv
 ---
 name: fire_peril
 schema:
-- id: int64
-- target: float64
+- id: long
+- target: double
 - var1: string
 - var2: string
 - var3: string
@@ -417,31 +419,31 @@ schema:
 - var7: string
 - var8: string
 - var9: string
-- var10: float64
-- var11: float64
-- var12: float64
-- var13: float64
-- var14: float64
-- var15: float64
-- var16: Int64
-- var17: float64
-- crimeVar1: float64
-- crimeVar2: float64
-- crimeVar3: float64
-- crimeVar4: float64
-- geodemVar1: float64
-- geodemVar2: float64
-- geodemVar3: float64
-- geodemVar4: float64
-- weatherVar2: float64
-- weatherVar3: float64
-- weatherVar4: float64
-- weatherVar5: float64
-- weatherVar6: float64
-- weatherVar136: float64
-- weatherVar137: float64
-- weatherVar138: float64
-- weatherVar139: float64
+- var10: double
+- var11: double
+- var12: double
+- var13: double
+- var14: double
+- var15: double
+- var16: long?
+- var17: double
+- crimeVar1: double
+- crimeVar2: double
+- crimeVar3: double
+- crimeVar4: double
+- geodemVar1: double
+- geodemVar2: double
+- geodemVar3: double
+- geodemVar4: double
+- weatherVar2: double
+- weatherVar3: double
+- weatherVar4: double
+- weatherVar5: double
+- weatherVar6: double
+- weatherVar136: double
+- weatherVar137: double
+- weatherVar138: double
+- weatherVar139: double
 tags:
 - binary_classification
 - insurance
@@ -449,14 +451,14 @@ url: tabular/templates/fire-peril.csv
 ---
 name: german_credit_data
 schema:
-- Age: int64
+- Age: long
 - Sex: string
-- Job: int64
+- Job: long
 - Housing: string
 - Saving accounts: string
 - Checking account: string
-- Credit amount: int64
-- Duration: int64
+- Credit amount: long
+- Duration: long
 - Purpose: string
 tags:
 - credit
@@ -468,18 +470,18 @@ schema:
 - gender: string
 - first_name: string
 - last_name: string
-- weight: int64
+- weight: long
 - NHS_number: string
 - DOB: string
-- house_number: Int64
+- house_number: long?
 - street: string
 - city: string
 - postcode: string
-- synchronous_tumour_indicator: float64
-- pathology_investigation_type: int64
-- lesion_size: float64
-- number_of_lesions: int64
-- outcome: int64
+- synchronous_tumour_indicator: double
+- pathology_investigation_type: long
+- lesion_size: double
+- number_of_lesions: long
+- outcome: long
 tags:
 - binary_classification
 - healthcare
@@ -487,61 +489,61 @@ url: tabular/health/healthcare.csv
 ---
 name: homesite_quote_conversion
 schema:
-- QuoteNumber: int64
+- QuoteNumber: long
 - Original_Quote_Date: string
-- QuoteConversion_Flag: int64
+- QuoteConversion_Flag: long
 - Field6: string
-- Field7: int64
-- Field8: float64
-- Field9: float64
+- Field7: long
+- Field8: double
+- Field9: double
 - Field10: string
-- Field11: float64
+- Field11: double
 - Field12: string
-- CoverageField1A: int64
-- CoverageField1B: int64
-- CoverageField2A: int64
-- CoverageField2B: int64
-- CoverageField3A: int64
-- CoverageField3B: int64
-- CoverageField4A: int64
-- CoverageField4B: int64
-- CoverageField5A: int64
-- SalesField1A: int64
-- SalesField1B: int64
-- SalesField2A: int64
-- SalesField2B: int64
-- SalesField3: int64
-- SalesField4: int64
-- SalesField5: int64
-- SalesField6: int64
+- CoverageField1A: long
+- CoverageField1B: long
+- CoverageField2A: long
+- CoverageField2B: long
+- CoverageField3A: long
+- CoverageField3B: long
+- CoverageField4A: long
+- CoverageField4B: long
+- CoverageField5A: long
+- SalesField1A: long
+- SalesField1B: long
+- SalesField2A: long
+- SalesField2B: long
+- SalesField3: long
+- SalesField4: long
+- SalesField5: long
+- SalesField6: long
 - SalesField7: string
-- SalesField8: int64
-- SalesField15: int64
-- PersonalField1: int64
-- PersonalField2: int64
-- PersonalField4A: int64
-- PersonalField4B: int64
-- PropertyField1A: int64
-- PropertyField1B: int64
-- PropertyField2A: int64
-- PropertyField2B: int64
+- SalesField8: long
+- SalesField15: long
+- PersonalField1: long
+- PersonalField2: long
+- PersonalField4A: long
+- PersonalField4B: long
+- PropertyField1A: long
+- PropertyField1B: long
+- PropertyField2A: long
+- PropertyField2B: long
 - PropertyField3: string
 - PropertyField4: string
 - PropertyField5: string
-- PropertyField6: int64
+- PropertyField6: long
 - PropertyField7: string
-- PropertyField8: int64
-- GeographicField1A: int64
-- GeographicField1B: int64
-- GeographicField2A: int64
-- GeographicField2B: int64
-- GeographicField3A: int64
-- GeographicField3B: int64
-- GeographicField4A: int64
-- GeographicField4B: int64
-- GeographicField5A: int64
-- GeographicField5B: int64
-- GeographicField62B: int64
+- PropertyField8: long
+- GeographicField1A: long
+- GeographicField1B: long
+- GeographicField2A: long
+- GeographicField2B: long
+- GeographicField3A: long
+- GeographicField3B: long
+- GeographicField4A: long
+- GeographicField4B: long
+- GeographicField5A: long
+- GeographicField5B: long
+- GeographicField62B: long
 - GeographicField63: string
 - GeographicField64: string
 tags:
@@ -551,30 +553,30 @@ url: tabular/templates/homesite-quote-conversion.csv
 name: household_power_consumption_small
 schema:
 - DateTime: string
-- Global_active_power: float64
-- Global_reactive_power: float64
-- Voltage: float64
-- Global_intensity: float64
-- Sub_metering_1: Int64
-- Sub_metering_2: Int64
-- Sub_metering_3: Int64
+- Global_active_power: double
+- Global_reactive_power: double
+- Voltage: double
+- Global_intensity: double
+- Sub_metering_1: long?
+- Sub_metering_2: long?
+- Sub_metering_3: long?
 tags:
 - time_series
 url: time-series/household_power_consumption_small.csv
 ---
 name: indian_liver_patient
 schema:
-- Age: int64
+- Age: long
 - Gender: string
-- TB: float64
-- DB: float64
-- Alkphos: int64
-- Sgpt: int64
-- Sgot: int64
-- TP: float64
-- ALB: float64
-- A/G: float64
-- target: int64
+- TB: double
+- DB: double
+- Alkphos: long
+- Sgpt: long
+- Sgot: long
+- TP: double
+- ALB: double
+- A/G: double
+- target: long
 tags:
 - binary_classification
 - healthcare
@@ -582,75 +584,75 @@ url: tabular/health/indian-liver-patient-dataset.csv
 ---
 name: life_insurance
 schema:
-- Id: int64
-- Product_Info_1: int64
+- Id: long
+- Product_Info_1: long
 - Product_Info_2: string
-- Product_Info_3: int64
-- Product_Info_4: float64
-- Product_Info_5: int64
-- Product_Info_6: int64
-- Product_Info_7: int64
-- Ins_Age: float64
-- Ht: float64
-- Wt: float64
-- BMI: float64
-- Employment_Info_1: float64
-- Employment_Info_2: int64
-- Employment_Info_3: int64
-- Employment_Info_4: float64
-- Employment_Info_5: int64
-- Employment_Info_6: float64
-- InsuredInfo_1: int64
-- InsuredInfo_2: int64
-- InsuredInfo_3: int64
-- InsuredInfo_4: int64
-- InsuredInfo_5: int64
-- InsuredInfo_6: int64
-- Family_Hist_1: int64
-- Family_Hist_2: float64
-- Family_Hist_3: float64
-- Family_Hist_4: float64
-- Family_Hist_5: float64
-- Medical_History_1: Int64
-- Medical_History_2: int64
-- Medical_History_3: int64
-- Medical_History_4: int64
-- Medical_History_5: int64
-- Medical_History_6: int64
-- Medical_History_7: int64
-- Medical_History_8: int64
-- Medical_Keyword_11: int64
-- Medical_Keyword_12: int64
-- Medical_Keyword_13: int64
-- Medical_Keyword_14: int64
-- Medical_Keyword_15: int64
-- Medical_Keyword_16: int64
-- Medical_Keyword_17: int64
-- Medical_Keyword_18: int64
-- Medical_Keyword_19: int64
-- Medical_Keyword_20: int64
-- Medical_Keyword_21: int64
-- Medical_Keyword_22: int64
-- Medical_Keyword_23: int64
-- Medical_Keyword_24: int64
-- Medical_Keyword_25: int64
-- Medical_Keyword_26: int64
-- Medical_Keyword_27: int64
-- Medical_Keyword_28: int64
-- Response: int64
+- Product_Info_3: long
+- Product_Info_4: double
+- Product_Info_5: long
+- Product_Info_6: long
+- Product_Info_7: long
+- Ins_Age: double
+- Ht: double
+- Wt: double
+- BMI: double
+- Employment_Info_1: double
+- Employment_Info_2: long
+- Employment_Info_3: long
+- Employment_Info_4: double
+- Employment_Info_5: long
+- Employment_Info_6: double
+- InsuredInfo_1: long
+- InsuredInfo_2: long
+- InsuredInfo_3: long
+- InsuredInfo_4: long
+- InsuredInfo_5: long
+- InsuredInfo_6: long
+- Family_Hist_1: long
+- Family_Hist_2: double
+- Family_Hist_3: double
+- Family_Hist_4: double
+- Family_Hist_5: double
+- Medical_History_1: long?
+- Medical_History_2: long
+- Medical_History_3: long
+- Medical_History_4: long
+- Medical_History_5: long
+- Medical_History_6: long
+- Medical_History_7: long
+- Medical_History_8: long
+- Medical_Keyword_11: long
+- Medical_Keyword_12: long
+- Medical_Keyword_13: long
+- Medical_Keyword_14: long
+- Medical_Keyword_15: long
+- Medical_Keyword_16: long
+- Medical_Keyword_17: long
+- Medical_Keyword_18: long
+- Medical_Keyword_19: long
+- Medical_Keyword_20: long
+- Medical_Keyword_21: long
+- Medical_Keyword_22: long
+- Medical_Keyword_23: long
+- Medical_Keyword_24: long
+- Medical_Keyword_25: long
+- Medical_Keyword_26: long
+- Medical_Keyword_27: long
+- Medical_Keyword_28: long
+- Response: long
 tags:
 - insurance
 url: tabular/templates/life-insurance.csv
 ---
 name: mock_medical_data
 schema:
-- unique_patient_id: int64
+- unique_patient_id: long
 - first_name: string
 - last_name: string
 - gender: string
 - date: string
 - treatment: string
-- measurement: float64
+- measurement: double
 - hospital: string
 - note: string
 tags:
@@ -661,32 +663,32 @@ url: time-series/mock_medical_data.csv
 name: noaa_isd_weather_additional_dtypes_medium
 schema:
 - usaf: string
-- wban: int64
+- wban: long
 - datetime: string
-- latitude: float64
-- longitude: float64
-- elevation: float64
-- windAngle: Int64
-- windSpeed: float64
-- temperature: float64
-- seaLvlPressure: float64
+- latitude: double
+- longitude: double
+- elevation: double
+- windAngle: long?
+- windSpeed: double
+- temperature: double
+- seaLvlPressure: double
 - cloudCoverage: string
-- presentWeatherIndicator: Int64
-- pastWeatherIndicator: Int64
-- precipTime: Int64
-- precipDepth: Int64
-- snowDepth: Int64
+- presentWeatherIndicator: double
+- pastWeatherIndicator: double
+- precipTime: long?
+- precipDepth: long?
+- snowDepth: long?
 - stationName: string
 - countryOrRegion: string
 - p_k: string
-- year: int64
-- day: int64
+- year: long
+- day: long
 - version: string
 - version_bool: bool
-- timedelta: string
-- version_bool2: boolean
+- timedelta: timedelta
+- version_bool2: bool?
 - datetime2: string
-- timedelta2: string
+- timedelta2: timedelta
 tags:
 - time_series
 url: time-series/NoaaIsdWeather_added_dtypes_medium.csv
@@ -694,83 +696,83 @@ url: time-series/NoaaIsdWeather_added_dtypes_medium.csv
 name: noaa_isd_weather_additional_dtypes_small
 schema:
 - usaf: string
-- wban: int64
-- datetime: datetime64[ns]
-- latitude: float64
-- longitude: float64
-- elevation: float64
-- windAngle: float64
-- windSpeed: float64
-- temperature: float64
-- seaLvlPressure: float64
+- wban: long
+- datetime: datetime
+- latitude: double
+- longitude: double
+- elevation: double
+- windAngle: double
+- windSpeed: double
+- temperature: double
+- seaLvlPressure: double
 - cloudCoverage: string
-- presentWeatherIndicator: Int64
-- pastWeatherIndicator: Int64
-- precipTime: Int64
-- precipDepth: Int64
-- snowDepth: Int64
+- presentWeatherIndicator: double
+- pastWeatherIndicator: double
+- precipTime: long?
+- precipDepth: long?
+- snowDepth: long?
 - stationName: string
 - countryOrRegion: string
 - p_k: string
-- year: int64
-- day: int64
+- year: long
+- day: long
 - version: string
 - version_bool: bool
-- timedelta: string
-- version_bool2: boolean
-- datetime2: string
-- timedelta2: string
+- timedelta: timedelta
+- version_bool2: bool?
+- datetime2: datetime
+- timedelta2: timedelta
 tags:
 - time_series
 url: time-series/NoaaIsdWeather_added_dtypes_small.csv
 ---
 name: noaa_isd_weather_additional_dtypes_100gb
 schema:
-- usaf: Int64
-- wban: int64
-- datetime: datetime64[ns]
-- latitude: float64
-- longitude: float64
-- elevation: float64
-- windAngle: float64
-- windSpeed: float64
-- temperature: float64
-- seaLvlPressure: float64
+- usaf: string
+- wban: long
+- datetime: datetime
+- latitude: double
+- longitude: double
+- elevation: double
+- windAngle: double
+- windSpeed: double
+- temperature: double
+- seaLvlPressure: double
 - cloudCoverage: string
-- presentWeatherIndicator: float64
-- pastWeatherIndicator: float64
-- precipTime: float64
-- precipDepth: float64
-- snowDepth: float64
+- presentWeatherIndicator: double
+- pastWeatherIndicator: double
+- precipTime: double
+- precipDepth: double
+- snowDepth: double
 - stationName: string
 - countryOrRegion: string
 - p_k: string
 - day: string
 - version: string
-- version_bool: boolean
-- timedelta: timedelta64[ns]
-- version_bool2: boolean
-- datetime2: datetime64[ns]
-- timedelta2: timedelta64[ns]
+- version_bool: bool
+- timedelta: timedelta
+- version_bool2: bool?
+- datetime2: datetime
+- timedelta2: timedelta
 tags:
 - time_series
 url: https://storage.googleapis.com/synthesized-datasets-public/noaa_100gb_dtypes_set.parquet
 ---
 name: noshowappointments
 schema:
-- PatientId: float64
-- AppointmentID: int64
+- PatientId: double
+- AppointmentID: long
 - Gender: string
 - ScheduledDay: string
 - AppointmentDay: string
-- Age: int64
+- Age: long
 - Neighbourhood: string
-- Scholarship: int64
-- Hipertension: int64
-- Diabetes: int64
-- Alcoholism: int64
-- Handcap: int64
-- SMS_received: int64
+- Scholarship: long
+- Hipertension: long
+- Diabetes: long
+- Alcoholism: long
+- Handcap: long
+- SMS_received: long
 - No-show: string
 tags:
 - healthcare
@@ -779,13 +781,13 @@ url: tabular/templates/noshowappointments.csv
 ---
 name: occupancy_data
 schema:
-- date: datetime64[ns]
-- Temperature: float64
-- Humidity: float64
-- Light: float64
-- CO2: float64
-- HumidityRatio: float64
-- Occupancy: int64
+- date: datetime
+- Temperature: double
+- Humidity: double
+- Light: double
+- CO2: double
+- HumidityRatio: double
+- Occupancy: long
 tags:
 - time_series
 url: time-series/occupancy-data.csv
@@ -793,66 +795,66 @@ url: time-series/occupancy-data.csv
 name: onlinenews_popularity
 schema:
 - url: string
-- timedelta: float64
-- n_tokens_title: float64
-- n_tokens_content: float64
-- n_unique_tokens: float64
-- n_non_stop_words: float64
-- n_non_stop_unique_tokens: float64
-- num_hrefs: int64
-- num_self_hrefs: int64
-- num_imgs: int64
-- num_videos: int64
-- average_token_length: float64
-- num_keywords: int64
-- data_channel_is_lifestyle: int64
-- data_channel_is_entertainment: int64
-- data_channel_is_bus: int64
-- data_channel_is_socmed: int64
-- data_channel_is_tech: int64
-- data_channel_is_world: int64
-- kw_min_min: float64
-- kw_max_min: float64
-- kw_avg_min: float64
-- kw_min_max: float64
-- kw_max_max: float64
-- kw_avg_max: float64
-- kw_min_avg: float64
-- kw_max_avg: float64
-- kw_avg_avg: float64
-- self_reference_min_shares: float64
-- self_reference_max_shares: float64
-- self_reference_avg_sharess: float64
-- weekday_is_monday: int64
-- weekday_is_tuesday: int64
-- weekday_is_wednesday: int64
-- weekday_is_thursday: int64
-- weekday_is_friday: int64
-- weekday_is_saturday: int64
-- weekday_is_sunday: int64
-- is_weekend: int64
-- LDA_00: float64
-- LDA_01: float64
-- LDA_02: float64
-- LDA_03: float64
-- LDA_04: float64
-- global_subjectivity: float64
-- global_sentiment_polarity: float64
-- global_rate_positive_words: float64
-- global_rate_negative_words: float64
-- rate_positive_words: float64
-- rate_negative_words: float64
-- avg_positive_polarity: float64
-- min_positive_polarity: float64
-- max_positive_polarity: float64
-- avg_negative_polarity: float64
-- min_negative_polarity: float64
-- max_negative_polarity: float64
-- title_subjectivity: float64
-- title_sentiment_polarity: float64
-- abs_title_subjectivity: float64
-- abs_title_sentiment_polarity: float64
-- shares: int64
+- timedelta: double
+- n_tokens_title: double
+- n_tokens_content: double
+- n_unique_tokens: double
+- n_non_stop_words: double
+- n_non_stop_unique_tokens: double
+- num_hrefs: long
+- num_self_hrefs: long
+- num_imgs: long
+- num_videos: long
+- average_token_length: double
+- num_keywords: long
+- data_channel_is_lifestyle: long
+- data_channel_is_entertainment: long
+- data_channel_is_bus: long
+- data_channel_is_socmed: long
+- data_channel_is_tech: long
+- data_channel_is_world: long
+- kw_min_min: double
+- kw_max_min: double
+- kw_avg_min: double
+- kw_min_max: double
+- kw_max_max: double
+- kw_avg_max: double
+- kw_min_avg: double
+- kw_max_avg: double
+- kw_avg_avg: double
+- self_reference_min_shares: double
+- self_reference_max_shares: double
+- self_reference_avg_sharess: double
+- weekday_is_monday: long
+- weekday_is_tuesday: long
+- weekday_is_wednesday: long
+- weekday_is_thursday: long
+- weekday_is_friday: long
+- weekday_is_saturday: long
+- weekday_is_sunday: long
+- is_weekend: long
+- LDA_00: double
+- LDA_01: double
+- LDA_02: double
+- LDA_03: double
+- LDA_04: double
+- global_subjectivity: double
+- global_sentiment_polarity: double
+- global_rate_positive_words: double
+- global_rate_negative_words: double
+- rate_positive_words: double
+- rate_negative_words: double
+- avg_positive_polarity: double
+- min_positive_polarity: double
+- max_positive_polarity: double
+- avg_negative_polarity: double
+- min_negative_polarity: double
+- max_negative_polarity: double
+- title_subjectivity: double
+- title_sentiment_polarity: double
+- abs_title_subjectivity: double
+- abs_title_sentiment_polarity: double
+- shares: long
 tags:
 - regression
 - time_series
@@ -861,36 +863,36 @@ url: tabular/uci/onlinenews_popularity.csv
 name: parkinsons
 schema:
 - name: string
-- MDVP:Fo(Hz): float64
-- MDVP:Fhi(Hz): float64
-- MDVP:Flo(Hz): float64
-- MDVP:Jitter(%): float64
-- MDVP:Jitter(Abs): float64
-- MDVP:RAP: float64
-- MDVP:PPQ: float64
-- Jitter:DDP: float64
-- MDVP:Shimmer: float64
-- MDVP:Shimmer(dB): float64
-- Shimmer:APQ3: float64
-- Shimmer:APQ5: float64
-- MDVP:APQ: float64
-- Shimmer:DDA: float64
-- NHR: float64
-- HNR: float64
-- status: int64
-- RPDE: float64
-- DFA: float64
-- spread1: float64
-- spread2: float64
-- D2: float64
-- PPE: float64
+- MDVP:Fo(Hz): double
+- MDVP:Fhi(Hz): double
+- MDVP:Flo(Hz): double
+- MDVP:Jitter(%): double
+- MDVP:Jitter(Abs): double
+- MDVP:RAP: double
+- MDVP:PPQ: double
+- Jitter:DDP: double
+- MDVP:Shimmer: double
+- MDVP:Shimmer(dB): double
+- Shimmer:APQ3: double
+- Shimmer:APQ5: double
+- MDVP:APQ: double
+- Shimmer:DDA: double
+- NHR: double
+- HNR: double
+- status: long
+- RPDE: double
+- DFA: double
+- spread1: double
+- spread2: double
+- D2: double
+- PPE: double
 tags:
 - healthcare
 url: tabular/health/parkinsons.csv
 ---
 name: price_paid_household
 schema:
-- Price: int64
+- Price: long
 - Date of Transfer: string
 - Property Type: string
 - Old/New: string
@@ -908,7 +910,7 @@ name: retail_data_transactions
 schema:
 - customer_id: string
 - trans_date: string
-- tran_amount: int64
+- tran_amount: long
 tags:
 - insurance
 url: tabular/insurance/retailer_data_transactions.csv
@@ -916,11 +918,11 @@ url: tabular/insurance/retailer_data_transactions.csv
 name: s_and_p_500_5yr
 schema:
 - date: string
-- open: float64
-- high: float64
-- low: float64
-- close: float64
-- volume: int64
+- open: double
+- high: double
+- low: double
+- close: double
+- volume: long
 - Name: string
 tags:
 - finance
@@ -929,44 +931,44 @@ url: time-series/sandp500_5yr.csv
 ---
 name: sales_pipeline
 schema:
-- Opportunity Number: int64
+- Opportunity Number: long
 - Supplies Subgroup: string
 - Supplies Group: string
 - Region: string
 - Route To Market: string
-- Elapsed Days In Sales Stage: int64
+- Elapsed Days In Sales Stage: long
 - Opportunity Result: string
-- Sales Stage Change Count: int64
-- Total Days Identified Through Closing: int64
-- Total Days Identified Through Qualified: int64
-- Opportunity Amount USD: int64
-- Client Size By Revenue: int64
-- Client Size By Employee Count: int64
-- Revenue From Client Past Two Years: int64
+- Sales Stage Change Count: long
+- Total Days Identified Through Closing: long
+- Total Days Identified Through Qualified: long
+- Opportunity Amount USD: long
+- Client Size By Revenue: long
+- Client Size By Employee Count: long
+- Revenue From Client Past Two Years: long
 - Competitor Type: string
-- Ratio Days Identified To Total Days: float64
-- Ratio Days Validated To Total Days: float64
-- Ratio Days Qualified To Total Days: float64
-- Deal Size Category: int64
+- Ratio Days Identified To Total Days: double
+- Ratio Days Validated To Total Days: double
+- Ratio Days Qualified To Total Days: double
+- Deal Size Category: long
 tags:
 - regression
 url: tabular/templates/sales_pipeline.csv
 ---
 name: segmentation_analysis
 schema:
-- age: int64
+- age: long
 - workclass: string
-- fnlwgt: int64
+- fnlwgt: long
 - education: string
-- education.num: int64
+- education.num: long
 - marital.status: string
 - occupation: string
 - relationship: string
 - race: string
 - sex: string
-- capital.gain: int64
-- capital.loss: int64
-- hours.per.week: int64
+- capital.gain: long
+- capital.loss: long
+- hours.per.week: long
 - native.country: string
 - income: string
 tags:
@@ -975,14 +977,14 @@ url: tabular/templates/segmentation_analysis.csv
 ---
 name: simple_fraud
 schema:
-- step: int64
+- step: long
 - customer: string
 - age: string
 - gender: string
 - merchant: string
 - category: string
-- amount: float64
-- fraud: int64
+- amount: double
+- fraud: long
 tags:
 - fraud
 - binary_classification
@@ -990,13 +992,13 @@ url: time-series/fraud-time-series.csv
 ---
 name: simple_fraud_5gb
 schema:
-- step: float32
-- age: int64
-- gender: int64
-- merchant: int64
-- category: int64
-- amount: float32
-- fraud: int64
+- step: float
+- age: long
+- gender: long
+- merchant: long
+- category: long
+- amount: float
+- fraud: long
 tags:
 - fraud
 - binary_classification
@@ -1004,13 +1006,13 @@ url: https://storage.googleapis.com/synthesized-datasets-public/simple_fraud_5GB
 ---
 name: sweden_motor_insurance
 schema:
-- Kilometres: int64
-- Zone: int64
-- Bonus: int64
-- Make: int64
-- Insured: float64
-- Claims: int64
-- Payment: int64
+- Kilometres: long
+- Zone: long
+- Bonus: long
+- Make: long
+- Insured: double
+- Claims: long
+- Payment: long
 tags:
 - regression
 - insurance
@@ -1020,10 +1022,10 @@ name: telecom_churn
 schema:
 - customerID: string
 - gender: string
-- SeniorCitizen: int64
+- SeniorCitizen: long
 - Partner: string
 - Dependents: string
-- tenure: int64
+- tenure: long
 - PhoneService: string
 - MultipleLines: string
 - InternetService: string
@@ -1036,7 +1038,7 @@ schema:
 - Contract: string
 - PaperlessBilling: string
 - PaymentMethod: string
-- MonthlyCharges: float64
+- MonthlyCharges: double
 - TotalCharges: string
 - Churn: string
 tags:
@@ -1046,97 +1048,97 @@ url: tabular/templates/telecom-churn.csv
 ---
 name: telecom_churn_large
 schema:
-- rev_Mean: float64
-- mou_Mean: float64
-- totmrc_Mean: float64
-- da_Mean: float64
-- ovrmou_Mean: float64
-- ovrrev_Mean: float64
-- vceovr_Mean: float64
-- datovr_Mean: float64
-- roam_Mean: float64
-- change_mou: float64
-- change_rev: float64
-- drop_vce_Mean: float64
-- drop_dat_Mean: float64
-- blck_vce_Mean: float64
-- blck_dat_Mean: float64
-- unan_vce_Mean: float64
-- unan_dat_Mean: float64
-- plcd_vce_Mean: float64
-- plcd_dat_Mean: float64
-- recv_vce_Mean: float64
-- recv_sms_Mean: float64
-- comp_vce_Mean: float64
-- comp_dat_Mean: float64
-- custcare_Mean: float64
-- ccrndmou_Mean: float64
-- cc_mou_Mean: float64
-- inonemin_Mean: float64
-- threeway_Mean: float64
-- mou_cvce_Mean: float64
-- mou_cdat_Mean: float64
-- mou_rvce_Mean: float64
-- owylis_vce_Mean: float64
-- mouowylisv_Mean: float64
-- iwylis_vce_Mean: float64
-- mouiwylisv_Mean: float64
-- peak_vce_Mean: float64
-- peak_dat_Mean: float64
-- mou_peav_Mean: float64
-- mou_pead_Mean: float64
-- opk_vce_Mean: float64
-- opk_dat_Mean: float64
-- mou_opkv_Mean: float64
-- mou_opkd_Mean: float64
-- drop_blk_Mean: float64
-- attempt_Mean: float64
-- complete_Mean: float64
-- callfwdv_Mean: float64
-- callwait_Mean: float64
-- churn: int64
-- months: int64
-- uniqsubs: int64
-- actvsubs: int64
+- rev_Mean: double
+- mou_Mean: double
+- totmrc_Mean: double
+- da_Mean: double
+- ovrmou_Mean: double
+- ovrrev_Mean: double
+- vceovr_Mean: double
+- datovr_Mean: double
+- roam_Mean: double
+- change_mou: double
+- change_rev: double
+- drop_vce_Mean: double
+- drop_dat_Mean: double
+- blck_vce_Mean: double
+- blck_dat_Mean: double
+- unan_vce_Mean: double
+- unan_dat_Mean: double
+- plcd_vce_Mean: double
+- plcd_dat_Mean: double
+- recv_vce_Mean: double
+- recv_sms_Mean: double
+- comp_vce_Mean: double
+- comp_dat_Mean: double
+- custcare_Mean: double
+- ccrndmou_Mean: double
+- cc_mou_Mean: double
+- inonemin_Mean: double
+- threeway_Mean: double
+- mou_cvce_Mean: double
+- mou_cdat_Mean: double
+- mou_rvce_Mean: double
+- owylis_vce_Mean: double
+- mouowylisv_Mean: double
+- iwylis_vce_Mean: double
+- mouiwylisv_Mean: double
+- peak_vce_Mean: double
+- peak_dat_Mean: double
+- mou_peav_Mean: double
+- mou_pead_Mean: double
+- opk_vce_Mean: double
+- opk_dat_Mean: double
+- mou_opkv_Mean: double
+- mou_opkd_Mean: double
+- drop_blk_Mean: double
+- attempt_Mean: double
+- complete_Mean: double
+- callfwdv_Mean: double
+- callwait_Mean: double
+- churn: long
+- months: long
+- uniqsubs: long
+- actvsubs: long
 - new_cell: string
 - crclscod: string
 - asl_flag: string
-- totcalls: int64
-- totmou: float64
-- totrev: float64
-- adjrev: float64
-- adjmou: float64
-- adjqty: int64
-- avgrev: float64
-- avgmou: float64
-- avgqty: float64
-- avg3mou: int64
-- avg3qty: int64
-- avg3rev: int64
-- avg6mou: Int64
-- avg6qty: Int64
-- avg6rev: Int64
+- totcalls: long
+- totmou: double
+- totrev: double
+- adjrev: double
+- adjmou: double
+- adjqty: long
+- avgrev: double
+- avgmou: double
+- avgqty: double
+- avg3mou: long
+- avg3qty: long
+- avg3rev: long
+- avg6mou: long?
+- avg6qty: long?
+- avg6rev: long?
 - prizm_social_one: string
 - area: string
 - dualband: string
 - refurb_new: string
-- hnd_price: float64
-- phones: Int64
-- models: Int64
+- hnd_price: double
+- phones: long?
+- models: long?
 - hnd_webcap: string
-- truck: Int64
-- rv: Int64
+- truck: long?
+- rv: long?
 - ownrent: string
-- lor: Int64
+- lor: long?
 - dwlltype: string
 - marital: string
-- adults: Int64
+- adults: long?
 - infobase: string
-- income: Int64
-- numbcars: Int64
+- income: long?
+- numbcars: long?
 - HHstatin: string
 - dwllsize: string
-- forgntvl: Int64
+- forgntvl: long?
 - ethnic: string
 - kid0_2: string
 - kid3_5: string
@@ -1144,8 +1146,8 @@ schema:
 - kid11_15: string
 - kid16_17: string
 - creditcd: string
-- eqpdays: Int64
-- Customer_ID: int64
+- eqpdays: long?
+- Customer_ID: long
 tags:
 - churn
 - binary_classification
@@ -1154,24 +1156,24 @@ url: tabular/templates/telecom-churn-large.csv
 name: time_series_basic
 schema:
 - InvoiceDate: string
-- UnitPrice: float64
-- CustomerID: Int64
+- UnitPrice: double
+- CustomerID: long?
 tags:
 - time_series
 url: time-series/time_series_basic.csv
 ---
 name: titanic
 schema:
-- PassengerId: int64
-- Survived: int64
-- Pclass: int64
+- PassengerId: long
+- Survived: long
+- Pclass: long
 - Name: string
 - Sex: string
-- Age: float64
-- SibSp: int64
-- Parch: int64
+- Age: double
+- SibSp: long
+- Parch: long
 - Ticket: string
-- Fare: float64
+- Fare: double
 - Cabin: string
 - Embarked: string
 tags:
@@ -1180,34 +1182,34 @@ url: tabular/templates/titanic.csv
 ---
 name: transactions
 schema:
-- trans_id: int64
-- account_id: int64
+- trans_id: long
+- account_id: long
 - date: string
 - type: string
-- operation: Int64
-- amount: float64
-- balance: float64
+- operation: long?
+- amount: double
+- balance: double
 - k_symbol: string
 - bank: string
-- account: Int64
-- mean_income: float64
+- account: long?
+- mean_income: double
 tags:
 - time_series
 url: time-series/transactions.csv
 ---
 name: transactions_sample_10k
 schema:
-- index: int64
-- trans_id: int64
-- account_id: int64
+- index: long
+- trans_id: long
+- account_id: long
 - date: string
 - type: string
-- operation: Int64
-- amount: float64
-- balance: float64
+- operation: long?
+- amount: double
+- balance: double
 - k_symbol: string
 - bank: string
-- account: Int64
+- account: long?
 - mean_income: string
 tags:
 - time_series
@@ -1215,15 +1217,15 @@ url: time-series/transactions_sample_10k.csv
 ---
 name: uk_insurance_claims_1
 schema:
-- age: int64
-- sex: int64
-- bmi: float64
-- steps: int64
-- children: int64
-- smoker: int64
-- region: int64
-- charges: float64
-- insuranceclaim: int64
+- age: long
+- sex: long
+- bmi: double
+- steps: long
+- children: long
+- smoker: long
+- region: long
+- charges: double
+- insuranceclaim: long
 tags:
 - binary_classification
 - insurance
@@ -1231,14 +1233,14 @@ url: tabular/insurance/uk_insurance_claims_1.csv
 ---
 name: uk_insurance_claims_2
 schema:
-- age: int64
-- sex: int64
-- bmi: float64
-- children: int64
-- smoker: int64
-- region: int64
-- charges: float64
-- insuranceclaim: int64
+- age: long
+- sex: long
+- bmi: double
+- children: long
+- smoker: long
+- region: long
+- charges: double
+- insuranceclaim: long
 tags:
 - binary_classification
 - insurance
@@ -1247,12 +1249,12 @@ url: tabular/insurance/uk_insurance_claims_2.csv
 name: uk_land_register_transactions
 schema:
 - Account Customer: string
-- FR: Int64
-- DFL: Int64
-- TP: Int64
-- DLG: Int64
-- Total: Int64
-- date: datetime64[ns]
+- FR: long?
+- DFL: long?
+- TP: long?
+- DLG: long?
+- Total: long?
+- date: datetime
 tags:
 - regression
 - insurance
@@ -1280,12 +1282,12 @@ url: tabular/geolocation_data/UK_libraries.csv
 ---
 name: uk_open_pubs
 schema:
-- Value1: int64
+- Value1: long
 - Value2: string
 - Value3: string
 - Value4: string
-- Value5: int64
-- Value6: int64
+- Value5: long
+- Value6: long
 - Value7: string
 - Value8: string
 - Value9: string
@@ -1295,8 +1297,8 @@ url: tabular/geolocation_data/UK_open_pubs.csv
 ---
 name: uk_schools_list
 schema:
-- DFE Code: int64
-- Previous DFE Code: Int64
+- DFE Code: long
+- Previous DFE Code: long?
 - School Name: string
 - Executive headteacher: string
 - Headteacher: string
@@ -1308,7 +1310,7 @@ schema:
 - Website: string
 - Telephone: string
 - Fax: string
-- NOR: Int64
+- NOR: long?
 - Status: string
 - Type: string
 tags:
@@ -1319,9 +1321,9 @@ name: us_insurance_premiums
 schema:
 - Type of Insurer: string
 - Company Name: string
-- Year: int64
-- Assets: int64
-- Liabilities: int64
+- Year: long
+- Assets: long
+- Liabilities: long
 - Premium Written: string
 tags:
 - regression
@@ -1330,11 +1332,11 @@ url: tabular/insurance/us_insurance_premiums.csv
 ---
 name: vehicle_insurance
 schema:
-- Row_ID: int64
-- Household_ID: int64
-- Vehicle: int64
-- Calendar_Year: int64
-- Model_Year: int64
+- Row_ID: long
+- Household_ID: long
+- Vehicle: long
+- Calendar_Year: long
+- Model_Year: long
 - Blind_Make: string
 - Blind_Model: string
 - Blind_Submodel: string
@@ -1345,53 +1347,53 @@ schema:
 - Cat5: string
 - Cat6: string
 - OrdCat: string
-- Var1: float64
-- Var2: float64
-- Var3: float64
-- Var4: float64
-- Var5: float64
+- Var1: double
+- Var2: double
+- Var3: double
+- Var4: double
+- Var5: double
 - NVCat: string
-- NVVar1: float64
-- NVVar2: float64
-- NVVar3: float64
-- NVVar4: float64
-- Claim_Amount: float64
+- NVVar1: double
+- NVVar2: double
+- NVVar3: double
+- NVVar4: double
+- Claim_Amount: double
 tags:
 - insurance
 url: tabular/templates/vehicle-insurance.csv
 ---
 name: wine_quality-red
 schema:
-- fixed acidity: float64
-- volatile acidity: float64
-- citric acid: float64
-- residual sugar: float64
-- chlorides: float64
-- free sulfur dioxide: float64
-- total sulfur dioxide: float64
-- density: float64
-- pH: float64
-- sulphates: float64
-- alcohol: float64
-- quality: int64
+- fixed acidity: double
+- volatile acidity: double
+- citric acid: double
+- residual sugar: double
+- chlorides: double
+- free sulfur dioxide: double
+- total sulfur dioxide: double
+- density: double
+- pH: double
+- sulphates: double
+- alcohol: double
+- quality: long
 tags:
 - regression
 url: tabular/uci/wine_quality-red.csv
 ---
 name: wine_quality-white
 schema:
-- fixed acidity: float64
-- volatile acidity: float64
-- citric acid: float64
-- residual sugar: float64
-- chlorides: float64
-- free sulfur dioxide: float64
-- total sulfur dioxide: float64
-- density: float64
-- pH: float64
-- sulphates: float64
-- alcohol: float64
-- quality: int64
+- fixed acidity: double
+- volatile acidity: double
+- citric acid: double
+- residual sugar: double
+- chlorides: double
+- free sulfur dioxide: double
+- total sulfur dioxide: double
+- density: double
+- pH: double
+- sulphates: double
+- alcohol: double
+- quality: long
 tags:
 - regression
 url: tabular/uci/wine_quality-white.csv
