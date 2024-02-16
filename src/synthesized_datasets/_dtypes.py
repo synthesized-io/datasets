@@ -60,7 +60,7 @@ _PS_DTYPE_MAP = {
     DType.DOUBLE: st.DoubleType(),
     DType.INTEGER: st.IntegerType(),
     DType.LONG: st.LongType(),
-    DType.NULLABLE_LONG: st.FloatType(),
+    DType.NULLABLE_LONG: st.LongType,
     DType.STRING: st.StringType(),
     DType.TIMEDELTA: st.StringType(),
     DType.TIME: st.DayTimeIntervalType(1, 3),
