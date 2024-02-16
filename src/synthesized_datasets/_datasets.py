@@ -12,8 +12,7 @@ from ._dtypes import _PD_DTYPE_MAP
 from ._dtypes import DType as _DType
 from ._dtypes import create_pyspark_schema as _create_pyspark_schema
 
-# _ROOT_GITHUB_URL = "https://raw.githubusercontent.com/synthesized-io/datasets/master/"
-_ROOT_GITHUB_URL = ""
+_ROOT_GITHUB_URL = "https://raw.githubusercontent.com/synthesized-io/datasets/master/"
 
 
 class _Tag(_Enum):
