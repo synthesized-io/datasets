@@ -26,15 +26,15 @@ schema:
 - Date: date
 - Time: time
 - CO(GT): double
-- PT08.S1(CO): long?
-- NMHC(GT): long?
+- PT08.S1(CO): double
+- NMHC(GT): double
 - C6H6(GT): double
-- PT08.S2(NMHC): long?
-- NOx(GT): long?
-- PT08.S3(NOx): long?
-- NO2(GT): long?
-- PT08.S4(NO2): long?
-- PT08.S5(O3): long?
+- PT08.S2(NMHC): double
+- NOx(GT): double
+- PT08.S3(NOx): double
+- NO2(GT): double
+- PT08.S4(NO2): double
+- PT08.S5(O3): double
 - T: double
 - RH: double
 - AH: double
@@ -175,9 +175,9 @@ name: biased_data_mixed_types
 date_format: yyyy-MM-dd
 schema:
 - x_nans: double
-- age: long?
+- age: double
 - gender: string
-- income: long?
+- income: double
 - DOB: date
 tags:
 - finance
@@ -191,7 +191,7 @@ schema:
 - High: double
 - Low: double
 - Close: double
-- Volume: long?
+- Volume: double
 - Market Cap: long
 tags:
 - finance
@@ -344,12 +344,12 @@ schema:
 - age: long
 - NumberOfTime30-59DaysPastDueNotWorse: long
 - DebtRatio: double
-- MonthlyIncome: long?
+- MonthlyIncome: double
 - NumberOfOpenCreditLinesAndLoans: long
 - NumberOfTimes90DaysLate: long
 - NumberRealEstateLoansOrLines: long
 - NumberOfTime60-89DaysPastDueNotWorse: long
-- NumberOfDependents: long?
+- NumberOfDependents: double
 tags:
 - credit
 - binary_classification
@@ -362,12 +362,12 @@ schema:
 - age: long
 - NumberOfTime30-59DaysPastDueNotWorse: long
 - effort: string
-- MonthlyIncome: long?
+- MonthlyIncome: double
 - NumberOfOpenCreditLinesAndLoans: long
 - NumberOfTimes90DaysLate: long
 - NumberRealEstateLoansOrLines: long
 - NumberOfTime60-89DaysPastDueNotWorse: long
-- NumberOfDependents: long?
+- NumberOfDependents: double
 tags:
 - credit
 - binary_classification
@@ -473,7 +473,7 @@ schema:
 - weight: long
 - NHS_number: string
 - DOB: string
-- house_number: long?
+- house_number: double
 - street: string
 - city: string
 - postcode: string
@@ -557,9 +557,9 @@ schema:
 - Global_reactive_power: double
 - Voltage: double
 - Global_intensity: double
-- Sub_metering_1: long?
-- Sub_metering_2: long?
-- Sub_metering_3: long?
+- Sub_metering_1: double
+- Sub_metering_2: double
+- Sub_metering_3: double
 tags:
 - time_series
 url: time-series/household_power_consumption_small.csv
@@ -668,16 +668,16 @@ schema:
 - latitude: double
 - longitude: double
 - elevation: double
-- windAngle: long?
+- windAngle: double
 - windSpeed: double
 - temperature: double
 - seaLvlPressure: double
 - cloudCoverage: string
 - presentWeatherIndicator: double
 - pastWeatherIndicator: double
-- precipTime: long?
-- precipDepth: long?
-- snowDepth: long?
+- precipTime: double
+- precipDepth: double
+- snowDepth: double
 - stationName: string
 - countryOrRegion: string
 - p_k: string
@@ -708,9 +708,9 @@ schema:
 - cloudCoverage: string
 - presentWeatherIndicator: double
 - pastWeatherIndicator: double
-- precipTime: long?
-- precipDepth: long?
-- snowDepth: long?
+- precipTime: double
+- precipDepth: double
+- snowDepth: double
 - stationName: string
 - countryOrRegion: string
 - p_k: string
@@ -801,18 +801,18 @@ schema:
 - n_unique_tokens: double
 - n_non_stop_words: double
 - n_non_stop_unique_tokens: double
-- num_hrefs: long
-- num_self_hrefs: long
-- num_imgs: long
-- num_videos: long
+- num_hrefs: double
+- num_self_hrefs: double
+- num_imgs: double
+- num_videos: double
 - average_token_length: double
-- num_keywords: long
-- data_channel_is_lifestyle: long
-- data_channel_is_entertainment: long
-- data_channel_is_bus: long
-- data_channel_is_socmed: long
-- data_channel_is_tech: long
-- data_channel_is_world: long
+- num_keywords: double
+- data_channel_is_lifestyle: double
+- data_channel_is_entertainment: double
+- data_channel_is_bus: double
+- data_channel_is_socmed: double
+- data_channel_is_tech: double
+- data_channel_is_world: double
 - kw_min_min: double
 - kw_max_min: double
 - kw_avg_min: double
@@ -825,14 +825,14 @@ schema:
 - self_reference_min_shares: double
 - self_reference_max_shares: double
 - self_reference_avg_sharess: double
-- weekday_is_monday: long
-- weekday_is_tuesday: long
-- weekday_is_wednesday: long
-- weekday_is_thursday: long
-- weekday_is_friday: long
-- weekday_is_saturday: long
-- weekday_is_sunday: long
-- is_weekend: long
+- weekday_is_monday: double 
+- weekday_is_tuesday: double 
+- weekday_is_wednesday: double 
+- weekday_is_thursday: double 
+- weekday_is_friday: double 
+- weekday_is_saturday: double 
+- weekday_is_sunday: double 
+- is_weekend: double 
 - LDA_00: double
 - LDA_01: double
 - LDA_02: double
@@ -1186,12 +1186,12 @@ schema:
 - account_id: long
 - date: string
 - type: string
-- operation: long?
+- operation: double
 - amount: double
 - balance: double
 - k_symbol: string
 - bank: string
-- account: long?
+- account: double
 - mean_income: double
 tags:
 - time_series
@@ -1204,12 +1204,12 @@ schema:
 - account_id: long
 - date: string
 - type: string
-- operation: long?
+- operation: double
 - amount: double
 - balance: double
 - k_symbol: string
 - bank: string
-- account: long?
+- account: double
 - mean_income: string
 tags:
 - time_series

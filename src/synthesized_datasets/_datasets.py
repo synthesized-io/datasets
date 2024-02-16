@@ -145,7 +145,7 @@ class _Dataset:
             url=d["url"],
             date_format=d.get("date_format"),
             schema={
-                next(elem.keys().__iter__()): _DType(next(elem.values().__iter__()))
+                next(iter(elem.keys())): _DType(next(iter(elem.values())))
                 for elem in d["schema"]
             },
             tags=[_Tag(tag) for tag in d["tags"]],
