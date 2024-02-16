@@ -1,0 +1,1399 @@
+---
+name: adult
+schema:
+- age: long
+- workclass: string
+- fnlwgt: long
+- education: string
+- educational-num: long
+- marital-status: string
+- occupation: string
+- relationship: string
+- race: string
+- gender: string
+- capital-gain: long
+- capital-loss: long
+- hours-per-week: long
+- native-country: string
+- income: string
+tags:
+- regression
+url: tabular/templates/adult.csv
+---
+name: air_quality
+date_format: "dd/MM/yyyy"
+schema:
+- Date: date
+- Time: time
+- CO(GT): double
+- PT08.S1(CO): double
+- NMHC(GT): double
+- C6H6(GT): double
+- PT08.S2(NMHC): double
+- NOx(GT): double
+- PT08.S3(NOx): double
+- NO2(GT): double
+- PT08.S4(NO2): double
+- PT08.S5(O3): double
+- T: double
+- RH: double
+- AH: double
+tags:
+- time_series
+url: time-series/air-quality.csv
+---
+name: atlas_higgs_detection
+schema:
+- EventId: long
+- DER_mass_MMC: double
+- DER_mass_transverse_met_lep: double
+- DER_mass_vis: double
+- DER_pt_h: double
+- DER_deltaeta_jet_jet: double
+- DER_mass_jet_jet: double
+- DER_prodeta_jet_jet: double
+- DER_deltar_tau_lep: double
+- DER_pt_tot: double
+- DER_sum_pt: double
+- DER_pt_ratio_lep_tau: double
+- DER_met_phi_centrality: double
+- DER_lep_eta_centrality: double
+- PRI_tau_pt: double
+- PRI_tau_eta: double
+- PRI_tau_phi: double
+- PRI_lep_pt: double
+- PRI_lep_eta: double
+- PRI_lep_phi: double
+- PRI_met: double
+- PRI_met_phi: double
+- PRI_met_sumet: double
+- PRI_jet_num: long
+- PRI_jet_leading_pt: double
+- PRI_jet_leading_eta: double
+- PRI_jet_leading_phi: double
+- PRI_jet_subleading_pt: double
+- PRI_jet_subleading_eta: double
+- PRI_jet_subleading_phi: double
+- PRI_jet_all_pt: double
+- Weight: double
+- Label: string
+tags:
+- binary_classification
+url: tabular/templates/atlas_higgs_detection.csv
+---
+name: autism
+schema:
+- A1_Score: long
+- A2_Score: long
+- A3_Score: long
+- A4_Score: long
+- A5_Score: long
+- A6_Score: long
+- A7_Score: long
+- A8_Score: long
+- A9_Score: long
+- A10_Score: long
+- age: double
+- gender: string
+- ethnicity: string
+- jundice: string
+- austim: string
+- contry_of_res: string
+- used_app_before: string
+- result: double
+- age_desc: string
+- relation: string
+- Class/ASD: long
+tags:
+- binary_classification
+- healthcare
+url: tabular/health/autism.csv
+---
+name: bank_marketing1
+schema:
+- age: long
+- job: string
+- marital: string
+- education: string
+- default: string
+- balance: long
+- housing: string
+- loan: string
+- contact: string
+- day: long
+- month: string
+- duration: long
+- campaign: long
+- pdays: long
+- previous: long
+- poutcome: string
+- y: string
+tags:
+- regression
+- finance
+url: tabular/uci/bank_marketing1.csv
+---
+name: bank_marketing2
+schema:
+- age: long
+- job: string
+- marital: string
+- education: string
+- default: string
+- housing: string
+- loan: string
+- contact: string
+- month: string
+- day_of_week: string
+- duration: long
+- campaign: long
+- pdays: long
+- previous: long
+- poutcome: string
+- emp.var.rate: double
+- cons.price.idx: double
+- cons.conf.idx: double
+- euribor3m: double
+- nr.employed: double
+- y: string
+tags:
+- regression
+- finance
+url: tabular/uci/bank_marketing2.csv
+---
+name: biased_data
+schema:
+- age: long
+- gender: string
+- income: long
+tags:
+- finance
+- regression
+url: tabular/biased/biased_data.csv
+---
+name: biased_data_mixed_types
+date_format: yyyy-MM-dd
+schema:
+- x_nans: double
+- age: double
+- gender: string
+- income: double
+- DOB: date
+tags:
+- finance
+- regression
+url: tabular/biased/biased_data_mixed_types.csv
+---
+name: bitcoin_price
+schema:
+- Date: string
+- Open: double
+- High: double
+- Low: double
+- Close: double
+- Volume: double
+- Market Cap: long
+tags:
+- finance
+- time_series
+url: time-series/bitcoin_price.csv
+---
+name: boston_housing_prices
+schema:
+- CRIM: double
+- ZN: double
+- INDUS: double
+- CHAS: long?
+- NOX: double
+- RM: double
+- AGE: double
+- DIS: double
+- RAD: long
+- TAX: long
+- PTRATIO: double
+- B: double
+- LSTAT: double
+- MEDV: double
+tags:
+- regression
+url: tabular/templates/boston_housing_prices.csv
+---
+name: breast_cancer
+schema:
+- id: long
+- diagnosis: long
+- radius_mean: double
+- texture_mean: double
+- perimeter_mean: double
+- area_mean: double
+- smoothness_mean: double
+- compactness_mean: double
+- concavity_mean: double
+- concave points_mean: double
+- symmetry_mean: double
+- fractal_dimension_mean: double
+- radius_se: double
+- texture_se: double
+- perimeter_se: double
+- area_se: double
+- smoothness_se: double
+- compactness_se: double
+- concavity_se: double
+- concave points_se: double
+- symmetry_se: double
+- fractal_dimension_se: double
+- radius_worst: double
+- texture_worst: double
+- perimeter_worst: double
+- area_worst: double
+- smoothness_worst: double
+- compactness_worst: double
+- concavity_worst: double
+- concave points_worst: double
+- symmetry_worst: double
+- fractal_dimension_worst: double
+tags:
+- binary_classification
+- healthcare
+url: tabular/health/breast_cancer.csv
+---
+name: brent_oil_prices
+schema:
+- Date: string
+- Price: double
+tags:
+- finance
+- time_series
+url: time-series/brent-oil-prices.csv
+---
+name: churn_prediction
+schema:
+- customerID: string
+- gender: string
+- SeniorCitizen: long
+- Partner: string
+- Dependents: string
+- tenure: long
+- PhoneService: string
+- MultipleLines: string
+- InternetService: string
+- OnlineSecurity: string
+- OnlineBackup: string
+- DeviceProtection: string
+- TechSupport: string
+- StreamingTV: string
+- StreamingMovies: string
+- Contract: string
+- PaperlessBilling: string
+- PaymentMethod: string
+- MonthlyCharges: double
+- TotalCharges: string
+- Churn: string
+tags:
+- churn
+- binary_classification
+url: tabular/templates/churn_prediction.csv
+---
+name: claim_prediction
+schema:
+- age: long
+- sex: long
+- bmi: double
+- children: long
+- smoker: long
+- region: long
+- charges: double
+- insuranceclaim: long
+tags:
+- insurance
+- binary_classification
+url: tabular/templates/claim_prediction.csv
+---
+name: compas
+schema:
+- PersonID: long
+- AssessmentID: long
+- CaseID: long
+- Agency: string
+- LastName: string
+- FirstName: string
+- MiddleName: string
+- Sex: string
+- Ethnicity: string
+- DateOfBirth: string
+- ScaleSet: string
+- AssessmentReason: string
+- Language: string
+- LegalStatus: string
+- CustodyStatus: string
+- MaritalStatus: string
+- ScreeningDate: string
+- RecSupervisionLevelText: string
+- RawScore: double
+- DecileScore: long
+- ScoreText: string
+- AssessmentType: string
+tags:
+- regression
+url: tabular/biased/compas.csv
+---
+name: credit
+schema:
+- SeriousDlqin2yrs: long
+- RevolvingUtilizationOfUnsecuredLines: double
+- age: long
+- NumberOfTime30-59DaysPastDueNotWorse: long
+- DebtRatio: double
+- MonthlyIncome: double
+- NumberOfOpenCreditLinesAndLoans: long
+- NumberOfTimes90DaysLate: long
+- NumberRealEstateLoansOrLines: long
+- NumberOfTime60-89DaysPastDueNotWorse: long
+- NumberOfDependents: double
+tags:
+- credit
+- binary_classification
+url: tabular/templates/credit.csv
+---
+name: credit_with_categories
+schema:
+- SeriousDlqin2yrs: long
+- RevolvingUtilizationOfUnsecuredLines: double
+- age: long
+- NumberOfTime30-59DaysPastDueNotWorse: long
+- effort: string
+- MonthlyIncome: double
+- NumberOfOpenCreditLinesAndLoans: long
+- NumberOfTimes90DaysLate: long
+- NumberRealEstateLoansOrLines: long
+- NumberOfTime60-89DaysPastDueNotWorse: long
+- NumberOfDependents: double
+tags:
+- credit
+- binary_classification
+url: tabular/templates/credit_with_categoricals.csv
+---
+name: creditcard_default
+schema:
+- ID: long
+- LIMIT_BAL: long
+- SEX: long
+- EDUCATION: long
+- MARRIAGE: long
+- AGE: long
+- PAY_1: long
+- PAY_2: long
+- PAY_3: long
+- PAY_4: long
+- PAY_5: long
+- PAY_6: long
+- BILL_AMT1: long
+- BILL_AMT2: long
+- BILL_AMT3: long
+- BILL_AMT4: long
+- BILL_AMT5: long
+- BILL_AMT6: long
+- PAY_AMT1: long
+- PAY_AMT2: long
+- PAY_AMT3: long
+- PAY_AMT4: long
+- PAY_AMT5: long
+- PAY_AMT6: long
+- default payment next month: long
+tags:
+- binary_classification
+- finance
+- insurance
+url: tabular/uci/creditcard_default.csv
+---
+name: fire_peril
+schema:
+- id: long
+- target: double
+- var1: string
+- var2: string
+- var3: string
+- var4: string
+- var5: string
+- var6: string
+- var7: string
+- var8: string
+- var9: string
+- var10: double
+- var11: double
+- var12: double
+- var13: double
+- var14: double
+- var15: double
+- var16: long?
+- var17: double
+- crimeVar1: double
+- crimeVar2: double
+- crimeVar3: double
+- crimeVar4: double
+- geodemVar1: double
+- geodemVar2: double
+- geodemVar3: double
+- geodemVar4: double
+- weatherVar2: double
+- weatherVar3: double
+- weatherVar4: double
+- weatherVar5: double
+- weatherVar6: double
+- weatherVar136: double
+- weatherVar137: double
+- weatherVar138: double
+- weatherVar139: double
+tags:
+- binary_classification
+- insurance
+url: tabular/templates/fire-peril.csv
+---
+name: german_credit_data
+schema:
+- Age: long
+- Sex: string
+- Job: long
+- Housing: string
+- Saving accounts: string
+- Checking account: string
+- Credit amount: long
+- Duration: long
+- Purpose: string
+tags:
+- credit
+- regression
+url: tabular/templates/german_credit_data.csv
+---
+name: healthcare
+schema:
+- gender: string
+- first_name: string
+- last_name: string
+- weight: long
+- NHS_number: string
+- DOB: string
+- house_number: double
+- street: string
+- city: string
+- postcode: string
+- synchronous_tumour_indicator: double
+- pathology_investigation_type: long
+- lesion_size: double
+- number_of_lesions: long
+- outcome: long
+tags:
+- binary_classification
+- healthcare
+url: tabular/health/healthcare.csv
+---
+name: homesite_quote_conversion
+schema:
+- QuoteNumber: long
+- Original_Quote_Date: string
+- QuoteConversion_Flag: long
+- Field6: string
+- Field7: long
+- Field8: double
+- Field9: double
+- Field10: string
+- Field11: double
+- Field12: string
+- CoverageField1A: long
+- CoverageField1B: long
+- CoverageField2A: long
+- CoverageField2B: long
+- CoverageField3A: long
+- CoverageField3B: long
+- CoverageField4A: long
+- CoverageField4B: long
+- CoverageField5A: long
+- SalesField1A: long
+- SalesField1B: long
+- SalesField2A: long
+- SalesField2B: long
+- SalesField3: long
+- SalesField4: long
+- SalesField5: long
+- SalesField6: long
+- SalesField7: string
+- SalesField8: long
+- SalesField15: long
+- PersonalField1: long
+- PersonalField2: long
+- PersonalField4A: long
+- PersonalField4B: long
+- PropertyField1A: long
+- PropertyField1B: long
+- PropertyField2A: long
+- PropertyField2B: long
+- PropertyField3: string
+- PropertyField4: string
+- PropertyField5: string
+- PropertyField6: long
+- PropertyField7: string
+- PropertyField8: long
+- GeographicField1A: long
+- GeographicField1B: long
+- GeographicField2A: long
+- GeographicField2B: long
+- GeographicField3A: long
+- GeographicField3B: long
+- GeographicField4A: long
+- GeographicField4B: long
+- GeographicField5A: long
+- GeographicField5B: long
+- GeographicField62B: long
+- GeographicField63: string
+- GeographicField64: string
+tags:
+- geospatial
+url: tabular/templates/homesite-quote-conversion.csv
+---
+name: household_power_consumption_small
+schema:
+- DateTime: string
+- Global_active_power: double
+- Global_reactive_power: double
+- Voltage: double
+- Global_intensity: double
+- Sub_metering_1: double
+- Sub_metering_2: double
+- Sub_metering_3: double
+tags:
+- time_series
+url: time-series/household_power_consumption_small.csv
+---
+name: indian_liver_patient
+schema:
+- Age: long
+- Gender: string
+- TB: double
+- DB: double
+- Alkphos: long
+- Sgpt: long
+- Sgot: long
+- TP: double
+- ALB: double
+- A/G: double
+- target: long
+tags:
+- binary_classification
+- healthcare
+url: tabular/health/indian-liver-patient-dataset.csv
+---
+name: life_insurance
+schema:
+- Id: long
+- Product_Info_1: long
+- Product_Info_2: string
+- Product_Info_3: long
+- Product_Info_4: double
+- Product_Info_5: long
+- Product_Info_6: long
+- Product_Info_7: long
+- Ins_Age: double
+- Ht: double
+- Wt: double
+- BMI: double
+- Employment_Info_1: double
+- Employment_Info_2: long
+- Employment_Info_3: long
+- Employment_Info_4: double
+- Employment_Info_5: long
+- Employment_Info_6: double
+- InsuredInfo_1: long
+- InsuredInfo_2: long
+- InsuredInfo_3: long
+- InsuredInfo_4: long
+- InsuredInfo_5: long
+- InsuredInfo_6: long
+- Family_Hist_1: long
+- Family_Hist_2: double
+- Family_Hist_3: double
+- Family_Hist_4: double
+- Family_Hist_5: double
+- Medical_History_1: long?
+- Medical_History_2: long
+- Medical_History_3: long
+- Medical_History_4: long
+- Medical_History_5: long
+- Medical_History_6: long
+- Medical_History_7: long
+- Medical_History_8: long
+- Medical_Keyword_11: long
+- Medical_Keyword_12: long
+- Medical_Keyword_13: long
+- Medical_Keyword_14: long
+- Medical_Keyword_15: long
+- Medical_Keyword_16: long
+- Medical_Keyword_17: long
+- Medical_Keyword_18: long
+- Medical_Keyword_19: long
+- Medical_Keyword_20: long
+- Medical_Keyword_21: long
+- Medical_Keyword_22: long
+- Medical_Keyword_23: long
+- Medical_Keyword_24: long
+- Medical_Keyword_25: long
+- Medical_Keyword_26: long
+- Medical_Keyword_27: long
+- Medical_Keyword_28: long
+- Response: long
+tags:
+- insurance
+url: tabular/templates/life-insurance.csv
+---
+name: mock_medical_data
+schema:
+- unique_patient_id: long
+- first_name: string
+- last_name: string
+- gender: string
+- date: string
+- treatment: string
+- measurement: double
+- hospital: string
+- note: string
+tags:
+- healthcare
+- time_series
+url: time-series/mock_medical_data.csv
+---
+name: noaa_isd_weather_additional_dtypes_medium
+schema:
+- usaf: string
+- wban: long
+- datetime: string
+- latitude: double
+- longitude: double
+- elevation: double
+- windAngle: double
+- windSpeed: double
+- temperature: double
+- seaLvlPressure: double
+- cloudCoverage: string
+- presentWeatherIndicator: double
+- pastWeatherIndicator: double
+- precipTime: double
+- precipDepth: double
+- snowDepth: double
+- stationName: string
+- countryOrRegion: string
+- p_k: string
+- year: long
+- day: long
+- version: string
+- version_bool: bool
+- timedelta: timedelta
+- version_bool2: bool?
+- datetime2: string
+- timedelta2: timedelta
+tags:
+- time_series
+url: time-series/NoaaIsdWeather_added_dtypes_medium.csv
+---
+name: noaa_isd_weather_additional_dtypes_small
+schema:
+- usaf: string
+- wban: long
+- datetime: datetime
+- latitude: double
+- longitude: double
+- elevation: double
+- windAngle: double
+- windSpeed: double
+- temperature: double
+- seaLvlPressure: double
+- cloudCoverage: string
+- presentWeatherIndicator: double
+- pastWeatherIndicator: double
+- precipTime: double
+- precipDepth: double
+- snowDepth: double
+- stationName: string
+- countryOrRegion: string
+- p_k: string
+- year: long
+- day: long
+- version: string
+- version_bool: bool
+- timedelta: timedelta
+- version_bool2: bool?
+- datetime2: datetime
+- timedelta2: timedelta
+tags:
+- time_series
+url: time-series/NoaaIsdWeather_added_dtypes_small.csv
+---
+name: noaa_isd_weather_additional_dtypes_100gb
+schema:
+- usaf: string
+- wban: long
+- datetime: datetime
+- latitude: double
+- longitude: double
+- elevation: double
+- windAngle: double
+- windSpeed: double
+- temperature: double
+- seaLvlPressure: double
+- cloudCoverage: string
+- presentWeatherIndicator: double
+- pastWeatherIndicator: double
+- precipTime: double
+- precipDepth: double
+- snowDepth: double
+- stationName: string
+- countryOrRegion: string
+- p_k: string
+- day: string
+- version: string
+- version_bool: bool
+- timedelta: timedelta
+- version_bool2: bool?
+- datetime2: datetime
+- timedelta2: timedelta
+tags:
+- time_series
+url: https://storage.googleapis.com/synthesized-datasets-public/noaa_100gb_dtypes_set.parquet
+---
+name: noshowappointments
+schema:
+- PatientId: double
+- AppointmentID: long
+- Gender: string
+- ScheduledDay: string
+- AppointmentDay: string
+- Age: long
+- Neighbourhood: string
+- Scholarship: long
+- Hipertension: long
+- Diabetes: long
+- Alcoholism: long
+- Handcap: long
+- SMS_received: long
+- No-show: string
+tags:
+- healthcare
+- binary_classification
+url: tabular/templates/noshowappointments.csv
+---
+name: occupancy_data
+schema:
+- date: datetime
+- Temperature: double
+- Humidity: double
+- Light: double
+- CO2: double
+- HumidityRatio: double
+- Occupancy: long
+tags:
+- time_series
+url: time-series/occupancy-data.csv
+---
+name: onlinenews_popularity
+schema:
+- url: string
+- timedelta: double
+- n_tokens_title: double
+- n_tokens_content: double
+- n_unique_tokens: double
+- n_non_stop_words: double
+- n_non_stop_unique_tokens: double
+- num_hrefs: double
+- num_self_hrefs: double
+- num_imgs: double
+- num_videos: double
+- average_token_length: double
+- num_keywords: double
+- data_channel_is_lifestyle: double
+- data_channel_is_entertainment: double
+- data_channel_is_bus: double
+- data_channel_is_socmed: double
+- data_channel_is_tech: double
+- data_channel_is_world: double
+- kw_min_min: double
+- kw_max_min: double
+- kw_avg_min: double
+- kw_min_max: double
+- kw_max_max: double
+- kw_avg_max: double
+- kw_min_avg: double
+- kw_max_avg: double
+- kw_avg_avg: double
+- self_reference_min_shares: double
+- self_reference_max_shares: double
+- self_reference_avg_sharess: double
+- weekday_is_monday: double 
+- weekday_is_tuesday: double 
+- weekday_is_wednesday: double 
+- weekday_is_thursday: double 
+- weekday_is_friday: double 
+- weekday_is_saturday: double 
+- weekday_is_sunday: double 
+- is_weekend: double 
+- LDA_00: double
+- LDA_01: double
+- LDA_02: double
+- LDA_03: double
+- LDA_04: double
+- global_subjectivity: double
+- global_sentiment_polarity: double
+- global_rate_positive_words: double
+- global_rate_negative_words: double
+- rate_positive_words: double
+- rate_negative_words: double
+- avg_positive_polarity: double
+- min_positive_polarity: double
+- max_positive_polarity: double
+- avg_negative_polarity: double
+- min_negative_polarity: double
+- max_negative_polarity: double
+- title_subjectivity: double
+- title_sentiment_polarity: double
+- abs_title_subjectivity: double
+- abs_title_sentiment_polarity: double
+- shares: long
+tags:
+- regression
+- time_series
+url: tabular/uci/onlinenews_popularity.csv
+---
+name: parkinsons
+schema:
+- name: string
+- MDVP:Fo(Hz): double
+- MDVP:Fhi(Hz): double
+- MDVP:Flo(Hz): double
+- MDVP:Jitter(%): double
+- MDVP:Jitter(Abs): double
+- MDVP:RAP: double
+- MDVP:PPQ: double
+- Jitter:DDP: double
+- MDVP:Shimmer: double
+- MDVP:Shimmer(dB): double
+- Shimmer:APQ3: double
+- Shimmer:APQ5: double
+- MDVP:APQ: double
+- Shimmer:DDA: double
+- NHR: double
+- HNR: double
+- status: long
+- RPDE: double
+- DFA: double
+- spread1: double
+- spread2: double
+- D2: double
+- PPE: double
+tags:
+- healthcare
+url: tabular/health/parkinsons.csv
+---
+name: price_paid_household
+schema:
+- Price: long
+- Date of Transfer: string
+- Property Type: string
+- Old/New: string
+- Duration: string
+- Town/City: string
+- District: string
+- County: string
+- PPDCategory Type: string
+- Record Status - monthly file only: string
+tags:
+- regression
+url: tabular/templates/price_paid_household.csv
+---
+name: retail_data_transactions
+schema:
+- customer_id: string
+- trans_date: string
+- tran_amount: long
+tags:
+- insurance
+url: tabular/insurance/retailer_data_transactions.csv
+---
+name: s_and_p_500_5yr
+schema:
+- date: string
+- open: double
+- high: double
+- low: double
+- close: double
+- volume: long
+- Name: string
+tags:
+- finance
+- time_series
+url: time-series/sandp500_5yr.csv
+---
+name: sales_pipeline
+schema:
+- Opportunity Number: long
+- Supplies Subgroup: string
+- Supplies Group: string
+- Region: string
+- Route To Market: string
+- Elapsed Days In Sales Stage: long
+- Opportunity Result: string
+- Sales Stage Change Count: long
+- Total Days Identified Through Closing: long
+- Total Days Identified Through Qualified: long
+- Opportunity Amount USD: long
+- Client Size By Revenue: long
+- Client Size By Employee Count: long
+- Revenue From Client Past Two Years: long
+- Competitor Type: string
+- Ratio Days Identified To Total Days: double
+- Ratio Days Validated To Total Days: double
+- Ratio Days Qualified To Total Days: double
+- Deal Size Category: long
+tags:
+- regression
+url: tabular/templates/sales_pipeline.csv
+---
+name: segmentation_analysis
+schema:
+- age: long
+- workclass: string
+- fnlwgt: long
+- education: string
+- education.num: long
+- marital.status: string
+- occupation: string
+- relationship: string
+- race: string
+- sex: string
+- capital.gain: long
+- capital.loss: long
+- hours.per.week: long
+- native.country: string
+- income: string
+tags:
+- binary_classification
+url: tabular/templates/segmentation_analysis.csv
+---
+name: simple_fraud
+schema:
+- step: long
+- customer: string
+- age: string
+- gender: string
+- merchant: string
+- category: string
+- amount: double
+- fraud: long
+tags:
+- fraud
+- binary_classification
+url: time-series/fraud-time-series.csv
+---
+name: simple_fraud_5gb
+schema:
+- step: float
+- age: long
+- gender: long
+- merchant: long
+- category: long
+- amount: float
+- fraud: long
+tags:
+- fraud
+- binary_classification
+url: https://storage.googleapis.com/synthesized-datasets-public/simple_fraud_5GB.parquet
+---
+name: sweden_motor_insurance
+schema:
+- Kilometres: long
+- Zone: long
+- Bonus: long
+- Make: long
+- Insured: double
+- Claims: long
+- Payment: long
+tags:
+- regression
+- insurance
+url: tabular/insurance/sweden_motor_insurance.csv
+---
+name: telecom_churn
+schema:
+- customerID: string
+- gender: string
+- SeniorCitizen: long
+- Partner: string
+- Dependents: string
+- tenure: long
+- PhoneService: string
+- MultipleLines: string
+- InternetService: string
+- OnlineSecurity: string
+- OnlineBackup: string
+- DeviceProtection: string
+- TechSupport: string
+- StreamingTV: string
+- StreamingMovies: string
+- Contract: string
+- PaperlessBilling: string
+- PaymentMethod: string
+- MonthlyCharges: double
+- TotalCharges: string
+- Churn: string
+tags:
+- churn
+- binary_classification
+url: tabular/templates/telecom-churn.csv
+---
+name: telecom_churn_large
+schema:
+- rev_Mean: double
+- mou_Mean: double
+- totmrc_Mean: double
+- da_Mean: double
+- ovrmou_Mean: double
+- ovrrev_Mean: double
+- vceovr_Mean: double
+- datovr_Mean: double
+- roam_Mean: double
+- change_mou: double
+- change_rev: double
+- drop_vce_Mean: double
+- drop_dat_Mean: double
+- blck_vce_Mean: double
+- blck_dat_Mean: double
+- unan_vce_Mean: double
+- unan_dat_Mean: double
+- plcd_vce_Mean: double
+- plcd_dat_Mean: double
+- recv_vce_Mean: double
+- recv_sms_Mean: double
+- comp_vce_Mean: double
+- comp_dat_Mean: double
+- custcare_Mean: double
+- ccrndmou_Mean: double
+- cc_mou_Mean: double
+- inonemin_Mean: double
+- threeway_Mean: double
+- mou_cvce_Mean: double
+- mou_cdat_Mean: double
+- mou_rvce_Mean: double
+- owylis_vce_Mean: double
+- mouowylisv_Mean: double
+- iwylis_vce_Mean: double
+- mouiwylisv_Mean: double
+- peak_vce_Mean: double
+- peak_dat_Mean: double
+- mou_peav_Mean: double
+- mou_pead_Mean: double
+- opk_vce_Mean: double
+- opk_dat_Mean: double
+- mou_opkv_Mean: double
+- mou_opkd_Mean: double
+- drop_blk_Mean: double
+- attempt_Mean: double
+- complete_Mean: double
+- callfwdv_Mean: double
+- callwait_Mean: double
+- churn: long
+- months: long
+- uniqsubs: long
+- actvsubs: long
+- new_cell: string
+- crclscod: string
+- asl_flag: string
+- totcalls: long
+- totmou: double
+- totrev: double
+- adjrev: double
+- adjmou: double
+- adjqty: long
+- avgrev: double
+- avgmou: double
+- avgqty: double
+- avg3mou: long
+- avg3qty: long
+- avg3rev: long
+- avg6mou: long?
+- avg6qty: long?
+- avg6rev: long?
+- prizm_social_one: string
+- area: string
+- dualband: string
+- refurb_new: string
+- hnd_price: double
+- phones: long?
+- models: long?
+- hnd_webcap: string
+- truck: long?
+- rv: long?
+- ownrent: string
+- lor: long?
+- dwlltype: string
+- marital: string
+- adults: long?
+- infobase: string
+- income: long?
+- numbcars: long?
+- HHstatin: string
+- dwllsize: string
+- forgntvl: long?
+- ethnic: string
+- kid0_2: string
+- kid3_5: string
+- kid6_10: string
+- kid11_15: string
+- kid16_17: string
+- creditcd: string
+- eqpdays: long?
+- Customer_ID: long
+tags:
+- churn
+- binary_classification
+url: tabular/templates/telecom-churn-large.csv
+---
+name: time_series_basic
+schema:
+- InvoiceDate: string
+- UnitPrice: double
+- CustomerID: long?
+tags:
+- time_series
+url: time-series/time_series_basic.csv
+---
+name: titanic
+schema:
+- PassengerId: long
+- Survived: long
+- Pclass: long
+- Name: string
+- Sex: string
+- Age: double
+- SibSp: long
+- Parch: long
+- Ticket: string
+- Fare: double
+- Cabin: string
+- Embarked: string
+tags:
+- regression
+url: tabular/templates/titanic.csv
+---
+name: transactions
+schema:
+- trans_id: long
+- account_id: long
+- date: string
+- type: string
+- operation: double
+- amount: double
+- balance: double
+- k_symbol: string
+- bank: string
+- account: double
+- mean_income: double
+tags:
+- time_series
+url: time-series/transactions.csv
+---
+name: transactions_sample_10k
+schema:
+- index: long
+- trans_id: long
+- account_id: long
+- date: string
+- type: string
+- operation: double
+- amount: double
+- balance: double
+- k_symbol: string
+- bank: string
+- account: double
+- mean_income: string
+tags:
+- time_series
+url: time-series/transactions_sample_10k.csv
+---
+name: uk_insurance_claims_1
+schema:
+- age: long
+- sex: long
+- bmi: double
+- steps: long
+- children: long
+- smoker: long
+- region: long
+- charges: double
+- insuranceclaim: long
+tags:
+- binary_classification
+- insurance
+url: tabular/insurance/uk_insurance_claims_1.csv
+---
+name: uk_insurance_claims_2
+schema:
+- age: long
+- sex: long
+- bmi: double
+- children: long
+- smoker: long
+- region: long
+- charges: double
+- insuranceclaim: long
+tags:
+- binary_classification
+- insurance
+url: tabular/insurance/uk_insurance_claims_2.csv
+---
+name: uk_land_register_transactions
+schema:
+- Account Customer: string
+- FR: long?
+- DFL: long?
+- TP: long?
+- DLG: long?
+- Total: long?
+- date: datetime
+tags:
+- regression
+- insurance
+url: tabular/insurance/uk_land_register_transactions.csv
+---
+name: uk_libraries
+schema:
+- ID: string
+- ' "IDENTIFIER"': string
+- ' "SECTOR"': string
+- ' "INSTITUTION_TYPE"': string
+- ' "COUNTY"': string
+- ' "TITLE"': string
+- ' "STREET ADDRESS"': string
+- ' "LOCALITY"': string
+- ' "TOWN"': string
+- ' "POSTCODE"': string
+- ' "COUNTRY"': string
+- ' "EMAIL"': string
+- ' "PHONE"': string
+- ' "WEBSITE"': string
+tags:
+- geospatial
+url: tabular/geolocation_data/UK_libraries.csv
+---
+name: uk_open_pubs
+schema:
+- Value1: long
+- Value2: string
+- Value3: string
+- Value4: string
+- Value5: long
+- Value6: long
+- Value7: string
+- Value8: string
+- Value9: string
+tags:
+- geospatial
+url: tabular/geolocation_data/UK_open_pubs.csv
+---
+name: uk_schools_list
+schema:
+- DFE Code: long
+- Previous DFE Code: long?
+- School Name: string
+- Executive headteacher: string
+- Headteacher: string
+- Address 1: string
+- Address 2: string
+- Address 3: string
+- Post Code: string
+- School Wards: string
+- Website: string
+- Telephone: string
+- Fax: string
+- NOR: long?
+- Status: string
+- Type: string
+tags:
+- geospatial
+url: tabular/geolocation_data/UK_schools_list.csv
+---
+name: us_insurance_premiums
+schema:
+- Type of Insurer: string
+- Company Name: string
+- Year: long
+- Assets: long
+- Liabilities: long
+- Premium Written: string
+tags:
+- regression
+- insurance
+url: tabular/insurance/us_insurance_premiums.csv
+---
+name: vehicle_insurance
+schema:
+- Row_ID: long
+- Household_ID: long
+- Vehicle: long
+- Calendar_Year: long
+- Model_Year: long
+- Blind_Make: string
+- Blind_Model: string
+- Blind_Submodel: string
+- Cat1: string
+- Cat2: string
+- Cat3: string
+- Cat4: string
+- Cat5: string
+- Cat6: string
+- OrdCat: string
+- Var1: double
+- Var2: double
+- Var3: double
+- Var4: double
+- Var5: double
+- NVCat: string
+- NVVar1: double
+- NVVar2: double
+- NVVar3: double
+- NVVar4: double
+- Claim_Amount: double
+tags:
+- insurance
+url: tabular/templates/vehicle-insurance.csv
+---
+name: wine_quality-red
+schema:
+- fixed acidity: double
+- volatile acidity: double
+- citric acid: double
+- residual sugar: double
+- chlorides: double
+- free sulfur dioxide: double
+- total sulfur dioxide: double
+- density: double
+- pH: double
+- sulphates: double
+- alcohol: double
+- quality: long
+tags:
+- regression
+url: tabular/uci/wine_quality-red.csv
+---
+name: wine_quality-white
+schema:
+- fixed acidity: double
+- volatile acidity: double
+- citric acid: double
+- residual sugar: double
+- chlorides: double
+- free sulfur dioxide: double
+- total sulfur dioxide: double
+- density: double
+- pH: double
+- sulphates: double
+- alcohol: double
+- quality: long
+tags:
+- regression
+url: tabular/uci/wine_quality-white.csv
