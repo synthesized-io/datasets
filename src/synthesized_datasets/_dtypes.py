@@ -1,4 +1,5 @@
 from enum import Enum
+from typing import Dict
 
 import pyspark.sql.types as st
 
@@ -20,12 +21,12 @@ class DType(str, Enum):
     TIME = "time"
 
 
-def create_pandas_schema(schema: dict[str, DType]) -> dict[str, str]:
+def create_pandas_schema(schema: Dict[str, DType]) -> Dict[str, str]:
     """Creates a PySpark schema from a dictionary of column names and d"""
     return {name: _PD_DTYPE_MAP[dtype] for name, dtype in schema.items()}
 
 
-def create_pyspark_schema(schema: dict[str, DType]) -> st.StructType:
+def create_pyspark_schema(schema: Dict[str, DType]) -> st.StructType:
     """Creates a PySpark schema from a dictionary of column names and d"""
     return st.StructType(
         [
