@@ -87,7 +87,10 @@ class _Dataset:
             df = _pd.read_csv(self.url, dtype=dtypes)
             for col, dtype in self._schema.items():
                 if dtype in [_DType.DATETIME, _DType.DATE]:
-                    df[col] = _pd.to_datetime(df[col], dayfirst=True)
+                    try:
+                        df[col] = _pd.to_datetime(df[col])
+                    except ValueError:
+                        df[col] = _pd.to_datetime(df[col], dayfirst=True)
                 if dtype in [_DType.TIMEDELTA, _DType.TIME]:
                     df[col] = _pd.to_timedelta(df[col])
         df.attrs["name"] = self.name
